@@ -1,0 +1,765 @@
+/* =========================================================
+   HOME COLLECTION SECTION
+========================================================= */
+
+.home-collection-section {
+	width: 100%;
+	padding: 55px 0;
+
+	background:
+		linear-gradient(
+			180deg,
+			#ffffff 0%,
+			#f6fcff 100%
+		);
+
+	overflow: hidden;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.home-collection-container {
+	width: 90%;
+	max-width: 1200px;
+
+	margin: 0 auto;
+
+	display: grid;
+
+	grid-template-columns:
+		1.1fr
+		0.9fr;
+
+	align-items: center;
+
+	gap: 65px;
+}
+
+
+/* =========================================================
+   LEFT CONTENT
+========================================================= */
+
+.home-collection-content {
+	max-width: 590px;
+}
+
+
+/* =========================================================
+   LABEL
+========================================================= */
+
+.home-collection-label {
+	display: inline-flex;
+
+	align-items: center;
+
+	gap: 8px;
+
+	padding: 7px 13px;
+
+	margin-bottom: 14px;
+
+	border:
+		1px solid
+		#ccecf6;
+
+	border-radius: 999px;
+
+	background: #ecfaff;
+
+	color: #0788bd;
+
+	font-size: 9px;
+
+	font-weight: 800;
+
+	letter-spacing: 0.8px;
+}
+
+.home-collection-label svg {
+	font-size: 11px;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.home-collection-content h2 {
+	margin: 0;
+
+	max-width: 570px;
+
+	font-size:
+		clamp(
+			32px,
+			3.5vw,
+			47px
+		);
+
+	line-height: 1.04;
+
+	letter-spacing: -1.7px;
+
+	font-weight: 800;
+
+	color: #123e63;
+}
+
+.home-collection-content h2 span {
+	color: #078bc1;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.home-collection-description {
+	max-width: 500px;
+
+	margin: 15px 0 22px;
+
+	font-size: 13px;
+
+	line-height: 1.65;
+
+	color: #688093;
+}
+
+
+/* =========================================================
+   FEATURES
+========================================================= */
+
+.home-collection-features {
+	display: flex;
+
+	align-items: center;
+
+	gap: 30px;
+
+	margin-bottom: 23px;
+}
+
+.home-collection-feature {
+	display: flex;
+
+	align-items: center;
+
+	gap: 9px;
+}
+
+
+/* CHECK ICON */
+
+.feature-check {
+	width: 31px;
+	height: 31px;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	flex-shrink: 0;
+
+	border-radius: 9px;
+
+	background: #e7f8fd;
+
+	color: #0788bd;
+}
+
+.feature-check svg {
+	font-size: 11px;
+}
+
+
+/* FEATURE TEXT */
+
+.home-collection-feature div:last-child {
+	display: flex;
+
+	flex-direction: column;
+}
+
+.home-collection-feature strong {
+	font-size: 10px;
+
+	line-height: 1.2;
+
+	color: #16476a;
+}
+
+.home-collection-feature span {
+	margin-top: 3px;
+
+	font-size: 8px;
+
+	color: #8396a5;
+}
+
+
+/* =========================================================
+   BOOK BUTTON
+========================================================= */
+
+.home-collection-button {
+	height: 42px;
+
+	padding:
+		0 17px;
+
+	display: inline-flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	gap: 9px;
+
+	border: none;
+
+	border-radius: 9px;
+
+	background:
+		linear-gradient(
+			135deg,
+			#079bd0,
+			#087db5
+		);
+
+	color: #ffffff;
+
+	font-size: 10px;
+
+	font-weight: 700;
+
+	cursor: pointer;
+
+	box-shadow:
+		0 8px 20px
+		rgba(
+			8,
+			136,
+			189,
+			0.22
+		);
+
+	transition:
+		transform 0.25s ease,
+		box-shadow 0.25s ease;
+}
+
+.home-collection-button:hover {
+	transform:
+		translateY(-2px);
+
+	box-shadow:
+		0 12px 25px
+		rgba(
+			8,
+			136,
+			189,
+			0.3
+		);
+}
+
+.home-collection-button svg {
+	font-size: 9px;
+
+	transition:
+		transform 0.25s ease;
+}
+
+.home-collection-button:hover svg {
+	transform:
+		translateX(3px);
+}
+
+
+/* =========================================================
+   RIGHT SERVICE CARD
+========================================================= */
+
+.home-collection-service-card {
+	position: relative;
+
+	width: 100%;
+
+	padding: 26px;
+
+	border:
+		1px solid
+		#d8eef6;
+
+	border-radius: 20px;
+
+	background:
+		linear-gradient(
+			145deg,
+			#edfaff,
+			#ffffff
+		);
+
+	box-shadow:
+		0 15px 40px
+		rgba(
+			24,
+			82,
+			111,
+			0.09
+		);
+
+	overflow: hidden;
+}
+
+
+/* DECORATIVE CIRCLE */
+
+.home-collection-service-card::before {
+	content: "";
+
+	position: absolute;
+
+	width: 170px;
+	height: 170px;
+
+	top: -105px;
+	right: -70px;
+
+	border-radius: 50%;
+
+	background:
+		rgba(
+			7,
+			139,
+			193,
+			0.07
+		);
+}
+
+.home-collection-service-card::after {
+	content: "";
+
+	position: absolute;
+
+	width: 90px;
+	height: 90px;
+
+	bottom: -50px;
+	left: -45px;
+
+	border-radius: 50%;
+
+	background:
+		rgba(
+			7,
+			139,
+			193,
+			0.05
+		);
+}
+
+
+/* =========================================================
+   CARD TOP
+========================================================= */
+
+.service-card-top {
+	position: relative;
+
+	z-index: 1;
+
+	display: flex;
+
+	align-items: center;
+
+	gap: 13px;
+
+	margin-bottom: 15px;
+}
+
+
+/* =========================================================
+   SERVICE ICON
+========================================================= */
+
+.service-icon {
+	width: 46px;
+	height: 46px;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	flex-shrink: 0;
+
+	border-radius: 13px;
+
+	background:
+		linear-gradient(
+			135deg,
+			#079bd0,
+			#087db5
+		);
+
+	color: #ffffff;
+
+	box-shadow:
+		0 8px 18px
+		rgba(
+			7,
+			139,
+			193,
+			0.2
+		);
+}
+
+.service-icon svg {
+	font-size: 17px;
+}
+
+
+/* =========================================================
+   CARD HEADING
+========================================================= */
+
+.service-card-heading {
+	display: flex;
+
+	flex-direction: column;
+}
+
+.service-card-heading > span {
+	font-size: 7px;
+
+	font-weight: 800;
+
+	letter-spacing: 1px;
+
+	color: #6f9aae;
+}
+
+.service-card-heading h3 {
+	margin: 3px 0 0;
+
+	font-size: 21px;
+
+	line-height: 1.1;
+
+	color: #123e63;
+
+	font-weight: 800;
+}
+
+
+/* =========================================================
+   CARD TEXT
+========================================================= */
+
+.service-card-text {
+	position: relative;
+
+	z-index: 1;
+
+	padding-bottom: 16px;
+
+	border-bottom:
+		1px solid
+		#dceef4;
+}
+
+.service-card-text p {
+	margin: 0;
+
+	font-size: 10px;
+
+	line-height: 1.5;
+
+	color: #718798;
+}
+
+
+/* =========================================================
+   SERVICE ITEMS
+========================================================= */
+
+.service-card-items {
+	position: relative;
+
+	z-index: 1;
+
+	display: flex;
+
+	flex-direction: column;
+
+	gap: 10px;
+
+	padding: 17px 0;
+}
+
+
+/* ITEM */
+
+.service-item {
+	display: flex;
+
+	align-items: center;
+
+	gap: 10px;
+}
+
+
+/* ITEM ICON */
+
+.service-item-icon {
+	width: 31px;
+	height: 31px;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	flex-shrink: 0;
+
+	border-radius: 9px;
+
+	background: #ffffff;
+
+	color: #0788bd;
+
+	border:
+		1px solid
+		#e1f1f6;
+
+	box-shadow:
+		0 3px 8px
+		rgba(
+			20,
+			80,
+			110,
+			0.04
+		);
+}
+
+.service-item-icon svg {
+	font-size: 11px;
+}
+
+
+/* ITEM TEXT */
+
+.service-item div:last-child {
+	display: flex;
+
+	flex-direction: column;
+}
+
+.service-item strong {
+	font-size: 9px;
+
+	color: #17486b;
+}
+
+.service-item span {
+	margin-top: 2px;
+
+	font-size: 8px;
+
+	color: #8194a2;
+}
+
+
+/* =========================================================
+   CARD BOTTOM
+========================================================= */
+
+.service-card-bottom {
+	position: relative;
+
+	z-index: 1;
+
+	padding-top: 13px;
+
+	border-top:
+		1px solid
+		#dceef4;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: space-between;
+}
+
+
+/* TRUSTED */
+
+.trusted-service {
+	display: flex;
+
+	align-items: center;
+
+	gap: 6px;
+
+	color: #0788bd;
+
+	font-size: 8px;
+
+	font-weight: 700;
+}
+
+.trusted-service svg {
+	font-size: 10px;
+}
+
+
+/* STATUS */
+
+.service-status {
+	display: flex;
+
+	align-items: center;
+
+	gap: 5px;
+
+	font-size: 8px;
+
+	font-weight: 700;
+
+	color: #4d8192;
+}
+
+.service-status > span {
+	width: 6px;
+	height: 6px;
+
+	border-radius: 50%;
+
+	background: #25a36f;
+
+	box-shadow:
+		0 0 0 4px
+		rgba(
+			37,
+			163,
+			111,
+			0.1
+		);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 950px) {
+
+	.home-collection-container {
+		grid-template-columns: 1fr;
+
+		gap: 35px;
+	}
+
+	.home-collection-content {
+		max-width: 650px;
+	}
+
+	.home-collection-service-card {
+		max-width: 620px;
+	}
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+	.home-collection-section {
+		padding: 40px 0;
+	}
+
+	.home-collection-container {
+		width: 88%;
+
+		gap: 28px;
+	}
+
+	.home-collection-content h2 {
+		font-size: 32px;
+
+		letter-spacing: -1px;
+	}
+
+	.home-collection-description {
+		font-size: 11px;
+
+		line-height: 1.6;
+	}
+
+	.home-collection-features {
+		flex-direction: column;
+
+		align-items: flex-start;
+
+		gap: 12px;
+	}
+
+	.home-collection-button {
+		width: 100%;
+	}
+
+	.home-collection-service-card {
+		padding: 21px;
+
+		border-radius: 16px;
+	}
+
+	.service-card-heading h3 {
+		font-size: 19px;
+	}
+
+	.service-card-bottom {
+		flex-wrap: wrap;
+
+		gap: 10px;
+	}
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+	.home-collection-content h2 {
+		font-size: 29px;
+	}
+
+	.home-collection-service-card {
+		padding: 18px;
+	}
+
+	.service-icon {
+		width: 42px;
+		height: 42px;
+	}
+
+	.service-card-heading h3 {
+		font-size: 18px;
+	}
+}

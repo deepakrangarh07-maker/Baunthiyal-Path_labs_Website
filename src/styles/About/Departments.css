@@ -1,0 +1,1067 @@
+/* =========================================================
+   DEPARTMENTS SECTION
+   Baunthiyal Path Labs & Imaging Centre
+========================================================= */
+
+.department-section {
+	width: 100%;
+
+	padding: 35px 0;
+
+	background: #f7fbfd;
+
+	overflow: hidden;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.department-container {
+	width: min(1120px, calc(100% - 40px));
+
+	margin: 0 auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.department-header {
+	max-width: 650px;
+
+	margin: 0 auto 32px;
+
+	text-align: center;
+
+	opacity: 0;
+
+	animation:
+		departmentHeaderReveal 0.8s
+		cubic-bezier(0.22, 1, 0.36, 1)
+		forwards;
+}
+
+
+/* =========================================================
+   TAG
+========================================================= */
+
+.department-tag {
+	position: relative;
+
+	display: inline-flex;
+
+	align-items: center;
+
+	padding-left: 28px;
+
+	margin-bottom: 10px;
+
+	color: #087fbd;
+
+	font-size: 0.68rem;
+
+	font-weight: 800;
+
+	letter-spacing: 1.5px;
+
+	text-transform: uppercase;
+}
+
+
+.department-tag::before {
+	content: "";
+
+	position: absolute;
+
+	left: 0;
+
+	width: 20px;
+
+	height: 2px;
+
+	border-radius: 20px;
+
+	background: #087fbd;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.department-header h2 {
+	margin: 0;
+
+	color: #123b57;
+
+	font-size: clamp(1.8rem, 3vw, 2.4rem);
+
+	font-weight: 800;
+
+	line-height: 1.15;
+
+	letter-spacing: -0.5px;
+}
+
+
+.department-header h2 span {
+	display: block;
+
+	color: #087fbd;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.department-header p {
+	max-width: 590px;
+
+	margin: 12px auto 0;
+
+	color: #718694;
+
+	font-size: 0.8rem;
+
+	line-height: 1.65;
+}
+
+
+/* =========================================================
+   SLIDER
+========================================================= */
+
+.department-slider {
+	display: flex;
+
+	align-items: center;
+
+	gap: 14px;
+
+	width: 100%;
+}
+
+
+/* =========================================================
+   WINDOW
+========================================================= */
+
+.department-window {
+	flex: 1;
+
+	width: 100%;
+
+	overflow: hidden;
+
+	border-radius: 18px;
+}
+
+
+/* =========================================================
+   TRACK
+========================================================= */
+
+.department-track {
+	display: flex;
+
+	width: 100%;
+
+	transition:
+		transform 0.75s
+		cubic-bezier(0.22, 1, 0.36, 1);
+
+	will-change: transform;
+}
+
+
+/* =========================================================
+   SLIDE
+========================================================= */
+
+.department-slide {
+	flex: 0 0 100%;
+
+	width: 100%;
+
+	box-sizing: border-box;
+
+	padding: 6px;
+}
+
+
+/* =========================================================
+   CARD GRID
+========================================================= */
+
+.department-slide-grid {
+	display: grid;
+
+	grid-template-columns:
+		repeat(3, minmax(0, 1fr));
+
+	gap: 14px;
+
+	width: 100%;
+}
+
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.department-card {
+	position: relative;
+
+	width: 100%;
+
+	overflow: hidden;
+
+	border: 1px solid #e1edf1;
+
+	border-radius: 16px;
+
+	background: #ffffff;
+
+	box-shadow:
+		0 7px 22px rgba(18, 59, 87, 0.055);
+
+	opacity: 0;
+
+	animation:
+		departmentCardReveal 0.7s
+		cubic-bezier(0.22, 1, 0.36, 1)
+		0.15s forwards;
+
+	transition:
+		transform 0.4s
+		cubic-bezier(0.22, 1, 0.36, 1),
+
+		box-shadow 0.4s ease,
+
+		border-color 0.4s ease;
+}
+
+
+/* =========================================================
+   CARD HOVER
+========================================================= */
+
+.department-card:hover {
+	transform: translateY(-6px);
+
+	border-color: #c8e5ef;
+
+	box-shadow:
+		0 18px 38px rgba(18, 59, 87, 0.11);
+}
+
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.department-image {
+	position: relative;
+
+	width: 100%;
+
+	height: 205px;
+
+	overflow: hidden;
+
+	background: #edf7fa;
+}
+
+
+.department-image img {
+	display: block;
+
+	width: 100%;
+
+	height: 100%;
+
+	object-fit: cover;
+
+	object-position: center;
+
+	transition:
+		transform 0.7s
+		cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+/* =========================================================
+   IMAGE ZOOM
+========================================================= */
+
+.department-card:hover
+.department-image img {
+	transform: scale(1.055);
+}
+
+
+/* =========================================================
+   IMAGE OVERLAY
+========================================================= */
+
+.department-image::after {
+	content: "";
+
+	position: absolute;
+
+	inset: 0;
+
+	pointer-events: none;
+
+	background:
+		linear-gradient(
+			to top,
+			rgba(7, 55, 79, 0.17),
+			transparent 55%
+		);
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.department-content {
+	position: relative;
+
+	padding: 16px 16px 17px;
+}
+
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.department-icon {
+	position: absolute;
+
+	top: -18px;
+
+	right: 15px;
+
+	width: 36px;
+
+	height: 36px;
+
+	display: grid;
+
+	place-items: center;
+
+	border-radius: 10px;
+
+	color: #087fbd;
+
+	background: #ffffff;
+
+	box-shadow:
+		0 6px 16px rgba(18, 59, 87, 0.13);
+
+	font-size: 0.78rem;
+
+	transition:
+		transform 0.35s
+		cubic-bezier(0.22, 1, 0.36, 1),
+
+		box-shadow 0.35s ease;
+}
+
+
+.department-card:hover
+.department-icon {
+	transform:
+		scale(1.08)
+		rotate(-3deg);
+
+	box-shadow:
+		0 9px 20px rgba(18, 59, 87, 0.18);
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.department-content h3 {
+	margin: 3px 0 0;
+
+	color: #123b57;
+
+	font-size: 0.95rem;
+
+	font-weight: 800;
+
+	line-height: 1.3;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.department-content p {
+	min-height: 45px;
+
+	margin: 7px 0 12px;
+
+	color: #8999a2;
+
+	font-size: 0.63rem;
+
+	line-height: 1.6;
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.department-btn {
+	display: inline-flex;
+
+	align-items: center;
+
+	gap: 6px;
+
+	padding: 0;
+
+	border: 0;
+
+	color: #087fbd;
+
+	background: transparent;
+
+	font-size: 0.67rem;
+
+	font-weight: 700;
+
+	cursor: pointer;
+
+	transition:
+		color 0.3s ease,
+
+		transform 0.3s ease;
+}
+
+
+.department-btn svg {
+	font-size: 0.58rem;
+
+	transition:
+		transform 0.3s
+		cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+.department-btn:hover {
+	color: #075f8d;
+
+	transform: translateY(-1px);
+}
+
+
+.department-btn:hover svg {
+	transform: translateX(4px);
+}
+
+
+/* =========================================================
+   ARROWS
+========================================================= */
+
+.department-arrow {
+	flex-shrink: 0;
+
+	width: 38px;
+
+	height: 38px;
+
+	display: grid;
+
+	place-items: center;
+
+	padding: 0;
+
+	border: 1px solid #dcebf0;
+
+	border-radius: 50%;
+
+	color: #087fbd;
+
+	background: #ffffff;
+
+	font-size: 0.75rem;
+
+	cursor: pointer;
+
+	box-shadow:
+		0 6px 18px rgba(18, 59, 87, 0.07);
+
+	transition:
+		transform 0.3s
+		cubic-bezier(0.22, 1, 0.36, 1),
+
+		background 0.3s ease,
+
+		color 0.3s ease,
+
+		box-shadow 0.3s ease,
+
+		border-color 0.3s ease;
+}
+
+
+/* =========================================================
+   ARROW HOVER
+========================================================= */
+
+.department-arrow:hover {
+	transform: translateY(-2px);
+
+	color: #ffffff;
+
+	background: #087fbd;
+
+	border-color: #087fbd;
+
+	box-shadow:
+		0 9px 22px rgba(8, 127, 189, 0.20);
+}
+
+
+/* =========================================================
+   ARROW ACTIVE
+========================================================= */
+
+.department-arrow:active {
+	transform: scale(0.93);
+}
+
+
+/* =========================================================
+   ARROW FOCUS
+========================================================= */
+
+.department-arrow:focus-visible {
+	outline: 3px solid rgba(8, 127, 189, 0.18);
+
+	outline-offset: 3px;
+}
+
+
+/* =========================================================
+   DOTS
+========================================================= */
+
+.department-dots {
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	gap: 6px;
+
+	margin-top: 16px;
+}
+
+
+/* =========================================================
+   DOT
+========================================================= */
+
+.department-dots button {
+	width: 6px;
+
+	height: 6px;
+
+	padding: 0;
+
+	border: 0;
+
+	border-radius: 20px;
+
+	background: #cddfe6;
+
+	cursor: pointer;
+
+	transition:
+		width 0.35s
+		cubic-bezier(0.22, 1, 0.36, 1),
+
+		background 0.35s ease,
+
+		transform 0.3s ease;
+}
+
+
+/* =========================================================
+   ACTIVE DOT
+========================================================= */
+
+.department-dots button.active {
+	width: 20px;
+
+	background: #087fbd;
+}
+
+
+/* =========================================================
+   DOT HOVER
+========================================================= */
+
+.department-dots button:hover {
+	transform: scale(1.2);
+}
+
+
+/* =========================================================
+   DOT FOCUS
+========================================================= */
+
+.department-dots button:focus-visible {
+	outline: 2px solid #087fbd;
+
+	outline-offset: 3px;
+}
+
+
+/* =========================================================
+   HEADER ANIMATION
+========================================================= */
+
+@keyframes departmentHeaderReveal {
+
+	from {
+		opacity: 0;
+
+		transform:
+			translateY(25px)
+			scale(0.98);
+	}
+
+	to {
+		opacity: 1;
+
+		transform:
+			translateY(0)
+			scale(1);
+	}
+}
+
+
+/* =========================================================
+   CARD ANIMATION
+========================================================= */
+
+@keyframes departmentCardReveal {
+
+	from {
+		opacity: 0;
+
+		transform:
+			translateY(22px)
+			scale(0.97);
+	}
+
+	to {
+		opacity: 1;
+
+		transform:
+			translateY(0)
+			scale(1);
+	}
+}
+
+
+/* =========================================================
+   LARGE TABLET
+========================================================= */
+
+@media (max-width: 1200px) {
+
+	.department-container {
+		width:
+			min(
+				1050px,
+				calc(100% - 40px)
+			);
+	}
+
+
+	.department-slide-grid {
+		gap: 12px;
+	}
+
+
+	.department-image {
+		height: 200px;
+	}
+}
+
+
+/* =========================================================
+   TABLET
+   TWO CARDS
+========================================================= */
+
+@media (max-width: 900px) {
+
+	.department-section {
+		padding: 30px 0;
+	}
+
+
+	.department-container {
+		width:
+			min(
+				760px,
+				calc(100% - 35px)
+			);
+	}
+
+
+	.department-slide-grid {
+		grid-template-columns:
+			repeat(
+				2,
+				minmax(0, 1fr)
+			);
+
+		gap: 12px;
+	}
+
+
+	.department-image {
+		height: 190px;
+	}
+
+
+	.department-content {
+		padding: 14px 15px 16px;
+	}
+
+
+	.department-content h3 {
+		font-size: 0.9rem;
+	}
+
+
+	.department-content p {
+		font-size: 0.61rem;
+
+		min-height: 44px;
+	}
+
+
+	.department-arrow {
+		width: 35px;
+
+		height: 35px;
+	}
+}
+
+
+/* =========================================================
+   MOBILE
+   ONE CARD
+========================================================= */
+
+@media (max-width: 650px) {
+
+	.department-section {
+		padding: 30px 0;
+	}
+
+
+	.department-container {
+		width:
+			calc(100% - 28px);
+	}
+
+
+	/* -----------------------------------------
+	   HEADER
+	----------------------------------------- */
+
+	.department-header {
+		margin-bottom: 24px;
+	}
+
+
+	.department-tag {
+		padding-left: 26px;
+
+		margin-bottom: 8px;
+
+		font-size: 0.6rem;
+
+		letter-spacing: 1.3px;
+	}
+
+
+	.department-tag::before {
+		width: 19px;
+	}
+
+
+	.department-header h2 {
+		font-size: 1.65rem;
+
+		line-height: 1.18;
+	}
+
+
+	.department-header h2 span {
+		display: inline;
+
+		margin-left: 4px;
+	}
+
+
+	.department-header p {
+		margin-top: 9px;
+
+		font-size: 0.72rem;
+
+		line-height: 1.6;
+	}
+
+
+	/* -----------------------------------------
+	   SLIDER
+	----------------------------------------- */
+
+	.department-slider {
+		gap: 7px;
+	}
+
+
+	.department-slide {
+		padding: 4px;
+	}
+
+
+	/* -----------------------------------------
+	   ONE CARD
+	----------------------------------------- */
+
+	.department-slide-grid {
+		grid-template-columns: 1fr;
+
+		gap: 0;
+	}
+
+
+	/* -----------------------------------------
+	   IMAGE
+	----------------------------------------- */
+
+	.department-image {
+		height: 225px;
+	}
+
+
+	/* -----------------------------------------
+	   CONTENT
+	----------------------------------------- */
+
+	.department-content {
+		padding: 14px 15px 16px;
+	}
+
+
+	.department-content h3 {
+		font-size: 0.9rem;
+	}
+
+
+	.department-content p {
+		margin-top: 6px;
+
+		margin-bottom: 11px;
+
+		font-size: 0.61rem;
+
+		min-height: auto;
+	}
+
+
+	/* -----------------------------------------
+	   ICON
+	----------------------------------------- */
+
+	.department-icon {
+		top: -17px;
+
+		right: 11px;
+
+		width: 32px;
+
+		height: 32px;
+
+		border-radius: 9px;
+
+		font-size: 0.68rem;
+	}
+
+
+	/* -----------------------------------------
+	   BUTTON
+	----------------------------------------- */
+
+	.department-btn {
+		font-size: 0.64rem;
+	}
+
+
+	/* -----------------------------------------
+	   ARROWS
+	----------------------------------------- */
+
+	.department-arrow {
+		width: 30px;
+
+		height: 30px;
+
+		font-size: 0.62rem;
+	}
+
+
+	/* -----------------------------------------
+	   DOTS
+	----------------------------------------- */
+
+	.department-dots {
+		margin-top: 13px;
+	}
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+	.department-section {
+		padding: 30px 0;
+	}
+
+
+	.department-container {
+		width:
+			calc(100% - 24px);
+	}
+
+
+	.department-header h2 {
+		font-size: 1.5rem;
+	}
+
+
+	.department-header p {
+		font-size: 0.68rem;
+	}
+
+
+	.department-image {
+		height: 205px;
+	}
+
+
+	.department-content {
+		padding: 13px 14px 15px;
+	}
+
+
+	.department-content h3 {
+		font-size: 0.86rem;
+	}
+
+
+	.department-content p {
+		font-size: 0.59rem;
+	}
+
+
+	.department-arrow {
+		width: 28px;
+
+		height: 28px;
+
+		font-size: 0.58rem;
+	}
+}
+
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 330px) {
+
+	.department-container {
+		width:
+			calc(100% - 20px);
+	}
+
+
+	.department-slider {
+		gap: 5px;
+	}
+
+
+	.department-image {
+		height: 190px;
+	}
+
+
+	.department-arrow {
+		width: 26px;
+
+		height: 26px;
+	}
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+	.department-header {
+		animation: none;
+
+		opacity: 1;
+	}
+
+
+	.department-card {
+		animation: none;
+
+		opacity: 1;
+	}
+
+
+	.department-track,
+	.department-card,
+	.department-image img,
+	.department-icon,
+	.department-btn,
+	.department-btn svg,
+	.department-arrow,
+	.department-dots button {
+		transition: none;
+	}
+}

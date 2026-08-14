@@ -1,0 +1,1056 @@
+/* =========================================================
+   WHO WE ARE SECTION
+   Baunthiyal Path Labs
+========================================================= */
+
+.who-section {
+	width: 100%;
+
+	padding: 40px 0;
+
+	background: #ffffff;
+
+	overflow: hidden;
+}
+
+
+.who-container {
+	width: min(1180px, calc(100% - 40px));
+
+	margin: 0 auto;
+}
+
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.who-grid {
+	display: grid;
+
+	grid-template-columns:
+		minmax(0, 0.9fr)
+		minmax(0, 1.1fr);
+
+	gap: 60px;
+
+	align-items: center;
+}
+
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.who-image {
+	position: relative;
+
+	border-radius: 20px;
+
+	animation:
+		whoImageReveal 0.9s
+		cubic-bezier(0.22, 1, 0.36, 1)
+		both;
+}
+
+
+.who-image img {
+	display: block;
+
+	width: 100%;
+
+	height: 390px;
+
+	object-fit: cover;
+
+	border-radius: 20px;
+
+	box-shadow:
+		0 18px 45px rgba(18, 59, 87, 0.12);
+
+	transition:
+		transform 0.7s
+		cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+.who-image:hover img {
+	transform: scale(1.025);
+}
+
+
+/* =========================================================
+   EXPERIENCE CARD
+========================================================= */
+
+.who-experience {
+	position: absolute;
+
+	left: -18px;
+
+	bottom: 25px;
+
+	display: flex;
+
+	flex-direction: column;
+
+	padding: 14px 18px;
+
+	min-width: 125px;
+
+	border-radius: 13px;
+
+	background: #ffffff;
+
+	box-shadow:
+		0 12px 35px rgba(18, 59, 87, 0.15);
+
+	animation:
+		whoExperienceFloat 4s
+		ease-in-out infinite;
+}
+
+
+.who-experience strong {
+	color: #087fbd;
+
+	font-size: 1.65rem;
+
+	line-height: 1;
+}
+
+
+.who-experience span {
+	margin-top: 5px;
+
+	color: #718694;
+
+	font-size: 0.65rem;
+
+	font-weight: 600;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.who-content {
+	animation:
+		whoContentReveal 0.9s
+		cubic-bezier(0.22, 1, 0.36, 1)
+		0.12s both;
+}
+
+
+/* =========================================================
+   SECTION TAG
+========================================================= */
+
+.who-tag {
+	position: relative;
+
+	display: inline-flex;
+
+	align-items: center;
+
+	margin-bottom: 12px;
+
+	padding-left: 30px;
+
+	color: #087fbd;
+
+	font-size: 0.7rem;
+
+	font-weight: 800;
+
+	letter-spacing: 1.4px;
+
+	text-transform: uppercase;
+}
+
+
+.who-tag::before {
+	content: "";
+
+	position: absolute;
+
+	left: 0;
+
+	width: 22px;
+
+	height: 2px;
+
+	border-radius: 10px;
+
+	background: #087fbd;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.who-content h2 {
+	margin: 0;
+
+	color: #123b57;
+
+	font-size: clamp(1.8rem, 3vw, 2.5rem);
+
+	font-weight: 800;
+
+	line-height: 1.15;
+
+	letter-spacing: -0.6px;
+}
+
+
+.who-content h2 span {
+	color: #087fbd;
+}
+
+
+/* =========================================================
+   PARAGRAPH
+========================================================= */
+
+.who-content > p {
+	margin: 16px 0 0;
+
+	color: #718694;
+
+	font-size: 0.9rem;
+
+	line-height: 1.7;
+}
+
+
+/* =========================================================
+   FEATURES
+========================================================= */
+
+.who-features {
+	display: grid;
+
+	grid-template-columns: repeat(2, 1fr);
+
+	gap: 11px 20px;
+
+	margin-top: 23px;
+}
+
+
+.who-feature {
+	display: flex;
+
+	align-items: center;
+
+	gap: 8px;
+
+	color: #536d7a;
+
+	font-size: 0.76rem;
+
+	font-weight: 600;
+
+	transition:
+		transform 0.3s ease,
+		color 0.3s ease;
+}
+
+
+.who-feature svg {
+	flex-shrink: 0;
+
+	color: #087fbd;
+
+	font-size: 0.82rem;
+}
+
+
+.who-feature:hover {
+	color: #087fbd;
+
+	transform: translateX(4px);
+}
+
+
+/* =========================================================
+   DESKTOP STAT CARDS
+========================================================= */
+
+.who-cards {
+	display: grid;
+
+	grid-template-columns: repeat(3, 1fr);
+
+	gap: 12px;
+
+	margin-top: 24px;
+}
+
+
+.who-card {
+	position: relative;
+
+	min-height: 76px;
+
+	display: flex;
+
+	align-items: center;
+
+	gap: 10px;
+
+	padding: 12px;
+
+	border: 1px solid #e3eef3;
+
+	border-radius: 13px;
+
+	background: #ffffff;
+
+	box-shadow:
+		0 5px 18px rgba(18, 59, 87, 0.05);
+
+	overflow: hidden;
+
+	transition:
+		transform 0.35s ease,
+		box-shadow 0.35s ease,
+		border-color 0.35s ease;
+}
+
+
+/* top animation line */
+
+.who-card::before {
+	content: "";
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 3px;
+
+	background: #087fbd;
+
+	transform: scaleX(0);
+
+	transform-origin: left;
+
+	transition:
+		transform 0.4s
+		cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+.who-card:hover {
+	transform: translateY(-5px);
+
+	border-color: #c8e7f3;
+
+	box-shadow:
+		0 14px 30px rgba(18, 59, 87, 0.11);
+}
+
+
+.who-card:hover::before {
+	transform: scaleX(1);
+}
+
+
+/* =========================================================
+   CARD ICON
+========================================================= */
+
+.who-card-icon {
+	width: 38px;
+
+	height: 38px;
+
+	flex-shrink: 0;
+
+	display: grid;
+
+	place-items: center;
+
+	border-radius: 10px;
+
+	color: #087fbd;
+
+	background: #eaf7fd;
+
+	font-size: 0.85rem;
+
+	transition:
+		transform 0.3s ease,
+		background 0.3s ease;
+}
+
+
+.who-card:hover .who-card-icon {
+	transform: scale(1.08);
+
+	background: #dff3fb;
+}
+
+
+/* =========================================================
+   CARD TEXT
+========================================================= */
+
+.who-card h3 {
+	margin: 0;
+
+	color: #087fbd;
+
+	font-size: 1.05rem;
+
+	line-height: 1;
+}
+
+
+.who-card p {
+	margin: 4px 0 0;
+
+	color: #718694;
+
+	font-size: 0.63rem;
+}
+
+
+/* =========================================================
+   MOBILE SLIDER
+========================================================= */
+
+.who-mobile-slider {
+	display: none;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+	.who-section {
+		padding: 60px 0;
+	}
+
+
+	.who-grid {
+		grid-template-columns: 1fr;
+
+		gap: 40px;
+	}
+
+
+	.who-image {
+		max-width: 650px;
+
+		margin: 0 auto;
+
+		width: 100%;
+	}
+
+
+	.who-content {
+		max-width: 700px;
+
+		margin: 0 auto;
+	}
+
+
+	.who-image img {
+		height: 350px;
+	}
+
+
+	.who-experience {
+		left: 15px;
+	}
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+	.who-section {
+		padding: 48px 0;
+	}
+
+
+	.who-container {
+		width: min(100% - 28px, 500px);
+	}
+
+
+	/* -----------------------------------------
+	   IMAGE
+	----------------------------------------- */
+
+	.who-image {
+		border-radius: 16px;
+	}
+
+
+	.who-image img {
+		height: 255px;
+
+		border-radius: 16px;
+
+		box-shadow:
+			0 12px 30px rgba(18, 59, 87, 0.10);
+	}
+
+
+	.who-experience {
+		left: 12px;
+
+		bottom: 14px;
+
+		min-width: 105px;
+
+		padding: 10px 13px;
+
+		border-radius: 10px;
+	}
+
+
+	.who-experience strong {
+		font-size: 1.3rem;
+	}
+
+
+	.who-experience span {
+		font-size: 0.58rem;
+	}
+
+
+	/* -----------------------------------------
+	   CONTENT
+	----------------------------------------- */
+
+	.who-grid {
+		gap: 30px;
+	}
+
+
+	.who-tag {
+		margin-bottom: 9px;
+
+		font-size: 0.62rem;
+
+		letter-spacing: 1.2px;
+	}
+
+
+	.who-tag::before {
+		width: 20px;
+	}
+
+
+	.who-tag {
+		padding-left: 27px;
+	}
+
+
+	.who-content h2 {
+		font-size: 1.65rem;
+
+		line-height: 1.18;
+	}
+
+
+	.who-content > p {
+		margin-top: 13px;
+
+		font-size: 0.78rem;
+
+		line-height: 1.65;
+	}
+
+
+	/* -----------------------------------------
+	   FEATURES
+	----------------------------------------- */
+
+	.who-features {
+		grid-template-columns: 1fr;
+
+		gap: 9px;
+
+		margin-top: 19px;
+	}
+
+
+	.who-feature {
+		font-size: 0.7rem;
+
+		gap: 8px;
+	}
+
+
+	.who-feature svg {
+		font-size: 0.76rem;
+	}
+
+
+	/* -----------------------------------------
+	   HIDE DESKTOP CARDS
+	----------------------------------------- */
+
+	.who-cards {
+		display: none;
+	}
+
+
+	/* -----------------------------------------
+	   MOBILE SLIDER
+	----------------------------------------- */
+
+	.who-mobile-slider {
+		display: block;
+
+		width: 100%;
+
+		margin-top: 20px;
+
+		opacity: 0;
+
+		transform:
+			translateY(25px)
+			scale(0.98);
+
+		animation:
+			whoSliderReveal 0.8s
+			cubic-bezier(0.22, 1, 0.36, 1)
+			0.2s forwards;
+	}
+
+
+	.who-slider-window {
+		width: 100%;
+
+		overflow: hidden;
+
+		border-radius: 17px;
+
+		touch-action: pan-y;
+	}
+
+
+	.who-slider-track {
+		display: flex;
+
+		width: 100%;
+
+		transition:
+			transform 0.7s
+			cubic-bezier(0.22, 1, 0.36, 1);
+
+		will-change: transform;
+	}
+
+
+	/* -----------------------------------------
+	   MOBILE CARD
+	----------------------------------------- */
+
+	.who-mobile-card {
+		position: relative;
+
+		min-width: 100%;
+
+		box-sizing: border-box;
+
+		display: flex;
+
+		align-items: center;
+
+		gap: 14px;
+
+		padding: 16px;
+
+		border: 1px solid rgba(8, 127, 189, 0.10);
+
+		border-radius: 17px;
+
+		background:
+			linear-gradient(
+				135deg,
+				#ffffff 0%,
+				#f6fcfe 100%
+			);
+
+		box-shadow:
+			0 8px 25px rgba(20, 66, 91, 0.08);
+
+		overflow: hidden;
+
+		transition:
+			transform 0.35s ease,
+			box-shadow 0.35s ease;
+	}
+
+
+	/* soft circle */
+
+	.who-mobile-card::before {
+		content: "";
+
+		position: absolute;
+
+		right: -50px;
+
+		top: -55px;
+
+		width: 130px;
+
+		height: 130px;
+
+		border-radius: 50%;
+
+		background:
+			rgba(8, 127, 189, 0.05);
+	}
+
+
+	/* bottom accent */
+
+	.who-mobile-card::after {
+		content: "";
+
+		position: absolute;
+
+		left: 17px;
+
+		bottom: 0;
+
+		width: 34px;
+
+		height: 3px;
+
+		border-radius: 10px 10px 0 0;
+
+		background: #087fbd;
+	}
+
+
+	/* -----------------------------------------
+	   MOBILE ICON
+	----------------------------------------- */
+
+	.who-mobile-icon {
+		position: relative;
+
+		z-index: 1;
+
+		width: 50px;
+
+		height: 50px;
+
+		flex: 0 0 50px;
+
+		display: grid;
+
+		place-items: center;
+
+		border-radius: 14px;
+
+		color: #087fbd;
+
+		background:
+			linear-gradient(
+				145deg,
+				#edfaff,
+				#e0f5fc
+			);
+
+		font-size: 0.95rem;
+
+		box-shadow:
+			0 5px 15px rgba(8, 127, 189, 0.08);
+
+		animation:
+			whoIconFloat 4s ease-in-out infinite;
+	}
+
+
+	/* -----------------------------------------
+	   MOBILE CONTENT
+	----------------------------------------- */
+
+	.who-mobile-content {
+		position: relative;
+
+		z-index: 1;
+
+		flex: 1;
+
+		min-width: 0;
+	}
+
+
+	.who-mobile-content span {
+		display: block;
+
+		margin-bottom: 3px;
+
+		color: #718694;
+
+		font-size: 0.62rem;
+
+		font-weight: 700;
+
+		letter-spacing: 0.3px;
+
+		text-transform: uppercase;
+	}
+
+
+	.who-mobile-content h3 {
+		margin: 0;
+
+		color: #087fbd;
+
+		font-size: 1.45rem;
+
+		font-weight: 800;
+
+		line-height: 1;
+	}
+
+
+	.who-mobile-content p {
+		margin: 5px 0 0;
+
+		color: #8798a2;
+
+		font-size: 0.62rem;
+
+		line-height: 1.35;
+	}
+
+
+	/* -----------------------------------------
+	   DOTS
+	----------------------------------------- */
+
+	.who-slider-dots {
+		display: flex;
+
+		align-items: center;
+
+		justify-content: center;
+
+		gap: 6px;
+
+		margin-top: 11px;
+	}
+
+
+	.who-slider-dots button {
+		width: 6px;
+
+		height: 6px;
+
+		padding: 0;
+
+		border: 0;
+
+		border-radius: 50%;
+
+		background: #cbdde5;
+
+		cursor: pointer;
+
+		transition:
+			width 0.35s ease,
+			background 0.35s ease,
+			transform 0.35s ease;
+	}
+
+
+	.who-slider-dots button.active {
+		width: 20px;
+
+		border-radius: 20px;
+
+		background: #087fbd;
+	}
+
+
+	.who-slider-dots button:hover {
+		transform: scale(1.2);
+	}
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+	.who-container {
+		width: calc(100% - 24px);
+	}
+
+
+	.who-image img {
+		height: 230px;
+	}
+
+
+	.who-content h2 {
+		font-size: 1.5rem;
+	}
+
+
+	.who-mobile-card {
+		padding: 14px;
+
+		gap: 11px;
+
+		border-radius: 15px;
+	}
+
+
+	.who-mobile-icon {
+		width: 45px;
+
+		height: 45px;
+
+		flex-basis: 45px;
+
+		border-radius: 12px;
+	}
+
+
+	.who-mobile-content h3 {
+		font-size: 1.3rem;
+	}
+}
+
+
+/* =========================================================
+   ANIMATIONS
+========================================================= */
+
+@keyframes whoImageReveal {
+
+	from {
+		opacity: 0;
+
+		transform:
+			translateY(30px)
+			scale(0.97);
+	}
+
+	to {
+		opacity: 1;
+
+		transform:
+			translateY(0)
+			scale(1);
+	}
+}
+
+
+@keyframes whoContentReveal {
+
+	from {
+		opacity: 0;
+
+		transform:
+			translateY(30px)
+			scale(0.98);
+	}
+
+	to {
+		opacity: 1;
+
+		transform:
+			translateY(0)
+			scale(1);
+	}
+}
+
+
+@keyframes whoSliderReveal {
+
+	from {
+		opacity: 0;
+
+		transform:
+			translateY(25px)
+			scale(0.98);
+	}
+
+	to {
+		opacity: 1;
+
+		transform:
+			translateY(0)
+			scale(1);
+	}
+}
+
+
+@keyframes whoExperienceFloat {
+
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-4px);
+	}
+}
+
+
+@keyframes whoIconFloat {
+
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-2px);
+	}
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+	.who-image,
+	.who-content,
+	.who-mobile-slider,
+	.who-experience,
+	.who-mobile-icon {
+		animation: none !important;
+	}
+
+	.who-image img,
+	.who-card,
+	.who-feature,
+	.who-slider-track {
+		transition: none !important;
+	}
+}

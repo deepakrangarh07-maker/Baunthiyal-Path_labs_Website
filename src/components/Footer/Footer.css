@@ -1,0 +1,594 @@
+/*=====================================
+  GOOGLE FONT / RESET
+======================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Poppins",sans-serif;
+}
+
+/*=====================================
+ FOOTER
+======================================*/
+
+.footer{
+    margin-top: 70px;
+    background: #0057B8;
+    color: #fff;
+}
+
+/*=====================================
+ CTA STRIP (replaces trust strip)
+======================================*/
+
+.trust-strip{
+    width: 100%;
+    background: #F4F9FF;
+    border-bottom: 1px solid #dce8f8;
+}
+
+.trust-container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.cta-text h3{
+    color: #022B5A;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.cta-text p{
+    color: #4a5c73;
+    font-size: 14px;
+    max-width: 480px;
+}
+
+.call-now-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg,#10B981,#059669);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 22px;
+    border-radius: 40px;
+    white-space: nowrap;
+    box-shadow: 0 8px 18px rgba(16,185,129,.3);
+    transition: .3s;
+}
+
+.call-now-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 12px 22px rgba(16,185,129,.4);
+}
+
+/*=====================================
+ TOP FOOTER
+======================================*/
+
+.footer-top{
+    max-width: 1400px;
+    margin: auto;
+    padding: 50px 5%;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    gap: 40px;
+}
+
+.brand-name{
+    font-size: 19px;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.footer-certificates{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.footer-certificates img{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 6px;
+    padding: 3px 6px;
+}
+
+.footer-logo p{
+    color: #E7F0FF;
+    line-height: 1.75;
+    font-size: 14px;
+}
+
+/*=====================================
+ LINKS
+======================================*/
+
+.footer-links h3,
+.footer-social h3{
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.link-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.link-grid ul{
+    list-style: none;
+}
+
+.link-grid li{
+    margin-bottom: 11px;
+}
+
+.link-grid a{
+    color: #E7F0FF;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.link-grid a:hover{
+    color: #fff;
+    padding-left: 6px;
+}
+
+/*=====================================
+ SOCIAL ICONS
+======================================*/
+
+.social-icons{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 22px;
+}
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 17px;
+    transition: .3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+.social-icons a:hover{
+    transform: translateY(-5px) scale(1.05);
+}
+
+.social-icons a:nth-child(1){color:#1877F2;}
+.social-icons a:nth-child(2){color:#000;}
+.social-icons a:nth-child(3){color:#0A66C2;}
+.social-icons a:nth-child(4){color:#FF0000;}
+.social-icons a:nth-child(5){color:#E4405F;}
+
+/*=====================================
+ DOWNLOAD APP
+======================================*/
+
+.footer-social h4{
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.store-btns{
+    display: flex;
+    gap: 12px;
+}
+
+.store-btns img{
+    width: 130px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.store-btns img:hover{
+    transform: scale(1.05);
+}
+
+/*=====================================
+ FOOTER TITLE UNDERLINE
+======================================*/
+
+.footer h3{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.footer a{
+    transition: .3s;
+}
+
+.footer a:hover{
+    color: #ffffff;
+}
+
+/*=====================================
+ COPYRIGHT
+======================================*/
+
+.term{
+    width: 100%;
+    background: #022B5A;
+    padding: 14px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.term span{
+    color: #fff;
+    font-size: 13px;
+}
+
+.term a{
+    text-decoration: none;
+    color: #D9E9FF;
+    font-size: 13px;
+}
+
+.term a:hover{
+    color: #fff;
+}
+
+/*=====================================
+ FLOATING BUTTONS (desktop)
+======================================*/
+
+.whatsapp-btn{
+    position: fixed;
+    bottom: 120px;
+    left: 25px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #25D366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+    z-index: 999;
+    transition: .3s;
+}
+
+.whatsapp-btn:hover{
+    transform: scale(1.1);
+}
+
+.callback-btn{
+    position: fixed;
+    left: 25px;
+    bottom: 190px;
+    width: 58px;
+    height: 58px;
+    border: none;
+    border-radius: 50%;
+    background: #0b74e5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+    z-index: 999;
+    transition: .3s;
+}
+
+.callback-btn:hover{
+    transform: scale(1.1);
+    background: #0057b8;
+}
+
+.callback-popup{
+    position: fixed;
+    left: 95px;
+    bottom: 175px;
+    width: 320px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.2);
+    animation: popup .3s ease;
+    z-index: 999;
+}
+
+.callback-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.callback-header h3{
+    color: #0057b8;
+    font-size: 17px;
+}
+
+.close-btn{
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.callback-popup p{
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.callback-popup input{
+    width: 100%;
+    height: 44px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 14px;
+}
+
+.submit-btn{
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    background: #10b981;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.submit-btn:hover{
+    background: #059669;
+}
+
+@keyframes popup{
+    from{ opacity: 0; transform: translateY(30px); }
+    to{ opacity: 1; transform: translateY(0); }
+}
+
+/*=====================================
+ MOBILE STICKY TAB BAR
+======================================*/
+
+.mobile-tabbar{
+    display: none; /* shown only on mobile */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid #e4e9f0;
+    box-shadow: 0 -6px 20px rgba(0,0,0,.06);
+    z-index: 1000;
+    padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.tab-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px 0 8px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #0057B8;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tab-item svg{
+    font-size: 19px;
+}
+
+.tab-item:active{
+    background: #F4F9FF;
+}
+
+/*=====================================
+ TABLET
+======================================*/
+
+@media(max-width:992px){
+
+.footer-top{
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.footer-logo{
+    grid-column: 1/3;
+}
+
+.term{
+    justify-content: center;
+    text-align: center;
+}
+
+}
+
+/*=====================================
+ MOBILE
+======================================*/
+
+@media(max-width:768px){
+
+/* Hide desktop-only floating buttons, tabbar takes over */
+.desktop-only{
+    display: none;
+}
+
+.mobile-tabbar{
+    display: flex;
+}
+
+/* Leave room so page content isn't hidden behind the tab bar */
+.footer{
+    margin-top: 50px;
+    padding-bottom: 64px;
+}
+
+.trust-container{
+    flex-direction: column;
+    text-align: center;
+}
+
+.cta-text p{
+    max-width: none;
+}
+
+.call-now-btn{
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-top{
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-logo{
+    grid-column: auto;
+}
+
+.footer-certificates{
+    justify-content: center;
+}
+
+/* keep 2 columns for Important Links on mobile */
+.link-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 14px;
+    text-align: left;
+}
+
+.footer-links{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.social-icons{
+    justify-content: center;
+}
+
+.store-btns{
+    justify-content: center;
+}
+
+.term{
+    flex-direction: column;
+}
+
+}
+
+/*=====================================
+ SMALL MOBILE
+======================================*/
+
+@media(max-width:480px){
+
+.footer-top{
+    padding: 32px 16px;
+}
+
+.brand-name{
+    font-size: 17px;
+}
+
+.footer-logo p{
+    font-size: 13px;
+}
+
+.footer-certificates img{
+    height: 34px;
+}
+
+.social-icons a{
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+}
+
+.store-btns{
+    flex-direction: column;
+    align-items: center;
+}
+
+.store-btns img{
+    width: 160px;
+}
+
+.term span,
+.term a{
+    font-size: 12px;
+}
+
+.link-grid{
+    gap: 10px;
+}
+
+.tab-item{
+    font-size: 10px;
+}
+
+.tab-item svg{
+    font-size: 17px;
+}
+
+}
+
+/*=====================================
+ ANIMATIONS
+======================================*/
+
+.footer-top>div{
+    transition: .35s ease;
+}
+
+.footer-top>div:hover{
+    transform: translateY(-4px);
+}
+
+.store-btns img:hover{
+    transform: translateY(-3px);
+}

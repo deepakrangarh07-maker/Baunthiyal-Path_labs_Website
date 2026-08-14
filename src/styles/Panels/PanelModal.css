@@ -1,0 +1,195 @@
+/* ==========================================================
+   PANEL MODAL
+========================================================== */
+
+.pmodal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    backdrop-filter:blur(4px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+    animation:pmodalFade .3s ease;
+}
+
+.pmodal-container{
+    width:500px;
+    max-width:92%;
+    background:#fff;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 25px 60px rgba(0,0,0,.18);
+    animation:pmodalZoom .35s ease;
+}
+
+/* ============================= */
+
+.pmodal-header{
+    background:#0A5EB0;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 24px;
+}
+
+.pmodal-title{
+    margin:0;
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+.pmodal-close{
+    border:none;
+    background:none;
+    color:#fff;
+    font-size:28px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.pmodal-close:hover{
+    transform:rotate(90deg);
+}
+
+/* ============================= */
+
+.pmodal-body{
+    padding:25px;
+    max-height:420px;
+    overflow-y:auto;
+}
+
+/* Scrollbar */
+
+.pmodal-body::-webkit-scrollbar{
+    width:6px;
+}
+
+.pmodal-body::-webkit-scrollbar-thumb{
+    background:#0A5EB0;
+    border-radius:10px;
+}
+
+/* ============================= */
+
+.pmodal-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.pmodal-item{
+    padding:14px 16px;
+    margin-bottom:12px;
+    border-radius:12px;
+    border:1px solid #E8EEF8;
+    background:#F8FBFF;
+    color:#163A6C;
+    font-size:.95rem;
+    font-weight:500;
+    transition:.3s;
+}
+
+.pmodal-item:hover{
+    background:#EAF5FF;
+    border-color:#0A5EB0;
+    transform:translateX(4px);
+}
+
+.pmodal-item:last-child{
+    margin-bottom:0;
+}
+
+/* ============================= */
+
+@keyframes pmodalFade{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+@keyframes pmodalZoom{
+
+from{
+transform:scale(.9);
+opacity:0;
+}
+
+to{
+transform:scale(1);
+opacity:1;
+}
+
+}
+
+/* =============================
+   Tablet
+============================= */
+
+@media(max-width:768px){
+
+.pmodal-container{
+    width:95%;
+}
+
+.pmodal-header{
+    padding:16px 18px;
+}
+
+.pmodal-title{
+    font-size:1.1rem;
+}
+
+.pmodal-body{
+    padding:20px;
+    max-height:60vh;
+}
+
+.pmodal-item{
+    font-size:.9rem;
+    padding:12px 14px;
+}
+
+}
+
+/* =============================
+   Small Mobile
+============================= */
+
+@media(max-width:480px){
+
+.pmodal-container{
+    border-radius:18px;
+}
+
+.pmodal-header{
+    padding:15px;
+}
+
+.pmodal-title{
+    font-size:1rem;
+}
+
+.pmodal-close{
+    font-size:24px;
+}
+
+.pmodal-body{
+    padding:16px;
+}
+
+.pmodal-item{
+    font-size:.85rem;
+    padding:11px 12px;
+}
+
+}

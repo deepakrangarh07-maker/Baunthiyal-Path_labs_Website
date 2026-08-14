@@ -1,0 +1,996 @@
+/* =========================================================
+   EXPERTS SECTION
+========================================================= */
+
+.experts-section {
+	width: 100%;
+	padding: 70px 20px;
+	background: #f7fbfd;
+	overflow: hidden;
+}
+
+.experts-container {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.experts-header {
+	text-align: center;
+	max-width: 720px;
+	margin: 0 auto 38px;
+}
+
+.experts-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+
+	margin-bottom: 10px;
+
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+
+	color: #087fc1;
+}
+
+.experts-tag::before,
+.experts-tag::after {
+	content: "";
+	width: 22px;
+	height: 2px;
+	background: #0796d2;
+	border-radius: 10px;
+}
+
+.experts-header h2 {
+	margin: 0;
+
+	font-size: clamp(28px, 4vw, 42px);
+	line-height: 1.15;
+	font-weight: 800;
+
+	color: #073b68;
+}
+
+.experts-header h2 span {
+	display: inline;
+	margin-left: 8px;
+	color: #0788c8;
+}
+
+.experts-header p {
+	max-width: 650px;
+	margin: 15px auto 0;
+
+	font-size: 14px;
+	line-height: 1.7;
+	color: #71879a;
+}
+
+/* =========================================================
+   SLIDER
+========================================================= */
+
+.experts-slider {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+}
+
+.experts-window {
+	width: 100%;
+	overflow: hidden;
+}
+
+.experts-track {
+	display: flex;
+	width: 100%;
+
+	transition:
+		transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+	will-change: transform;
+}
+
+.expert-slide {
+	flex: 0 0 100%;
+	width: 100%;
+	min-width: 100%;
+}
+
+.expert-slide-grid {
+	width: 100%;
+
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+
+	gap: 22px;
+}
+
+/* =========================================================
+   EXPERT CARD
+========================================================= */
+
+.expert-card {
+	position: relative;
+
+	width: 100%;
+	padding: 0;
+
+	border: 0;
+	border-radius: 18px;
+
+	background: #ffffff;
+
+	overflow: hidden;
+
+	text-align: left;
+	cursor: pointer;
+
+	box-shadow: 0 8px 25px rgba(20, 75, 110, 0.08);
+
+	transition:
+		transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+		box-shadow 0.4s ease;
+
+	appearance: none;
+}
+
+.expert-card:hover {
+	transform: translateY(-7px);
+
+	box-shadow:
+		0 18px 40px rgba(20, 75, 110, 0.15),
+		0 5px 12px rgba(20, 75, 110, 0.06);
+}
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.expert-image {
+	position: relative;
+
+	width: 100%;
+	height: 250px;
+
+	overflow: hidden;
+
+	background: #eaf3f8;
+}
+
+.expert-image img {
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+
+	transition:
+		transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.expert-card:hover .expert-image img {
+	transform: scale(1.045);
+}
+
+/* =========================================================
+   DOCTOR ICON
+========================================================= */
+
+.expert-icon {
+	position: absolute;
+
+	right: 14px;
+	bottom: 14px;
+
+	width: 42px;
+	height: 42px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 12px;
+
+	background: #ffffff;
+	color: #087bc0;
+
+	font-size: 18px;
+
+	box-shadow: 0 7px 18px rgba(0, 80, 130, 0.18);
+}
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.expert-content {
+	padding: 18px 20px 20px;
+}
+
+.expert-content h3 {
+	margin: 0 0 5px;
+
+	font-size: 18px;
+	font-weight: 800;
+
+	color: #073b68;
+}
+
+.expert-designation {
+	display: block;
+
+	margin-bottom: 7px;
+
+	font-size: 13px;
+	font-weight: 700;
+
+	color: #0788c8;
+}
+
+.expert-content p {
+	margin: 0 0 12px;
+
+	font-size: 12px;
+	line-height: 1.5;
+
+	color: #8193a1;
+}
+
+.expert-view-profile {
+	display: inline-flex;
+	align-items: center;
+
+	font-size: 12px;
+	font-weight: 800;
+
+	color: #087fc1;
+
+	transition:
+		transform 0.3s ease,
+		color 0.3s ease;
+}
+
+.expert-card:hover .expert-view-profile {
+	transform: translateX(4px);
+	color: #006ca8;
+}
+
+/* =========================================================
+   SLIDER ARROWS
+========================================================= */
+
+.experts-arrow {
+	flex: 0 0 auto;
+
+	width: 42px;
+	height: 42px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: 1px solid #e1edf3;
+	border-radius: 50%;
+
+	background: #ffffff;
+	color: #087fc1;
+
+	cursor: pointer;
+
+	box-shadow: 0 7px 20px rgba(30, 90, 120, 0.10);
+
+	z-index: 5;
+
+	transition:
+		transform 0.3s ease,
+		background 0.3s ease,
+		color 0.3s ease,
+		box-shadow 0.3s ease;
+}
+
+.experts-prev {
+	margin-right: 18px;
+}
+
+.experts-next {
+	margin-left: 18px;
+}
+
+.experts-arrow:hover {
+	transform: translateY(-2px);
+
+	background: #087fc1;
+	color: #ffffff;
+
+	box-shadow: 0 10px 25px rgba(8, 127, 193, 0.25);
+}
+
+.experts-arrow:active {
+	transform: scale(0.94);
+}
+
+/* =========================================================
+   DOTS
+========================================================= */
+
+.experts-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	gap: 6px;
+
+	margin-top: 25px;
+}
+
+.experts-dots button {
+	width: 7px;
+	height: 7px;
+
+	padding: 0;
+
+	border: 0;
+	border-radius: 50%;
+
+	background: #c9dfe9;
+
+	cursor: pointer;
+
+	transition:
+		width 0.35s ease,
+		background 0.35s ease,
+		transform 0.35s ease;
+}
+
+.experts-dots button.active {
+	width: 20px;
+	border-radius: 10px;
+
+	background: #0788c8;
+}
+
+.experts-dots button:hover {
+	transform: scale(1.2);
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+	.experts-section {
+		padding: 55px 18px;
+	}
+
+	.expert-slide-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 18px;
+	}
+
+	.expert-image {
+		height: 220px;
+	}
+
+	.expert-content {
+		padding: 16px 17px 18px;
+	}
+
+	.expert-content h3 {
+		font-size: 16px;
+	}
+
+	.experts-arrow {
+		width: 38px;
+		height: 38px;
+	}
+
+	.experts-prev {
+		margin-right: 12px;
+	}
+
+	.experts-next {
+		margin-left: 12px;
+	}
+}
+
+/* =========================================================
+   MOBILE
+   SAME CARD STYLE AS DEPARTMENT
+========================================================= */
+
+@media (max-width: 650px) {
+	.experts-section {
+		padding: 42px 0 48px;
+	}
+
+	.experts-container {
+		width: 100%;
+	}
+
+	/* -------------------------
+	   HEADER
+	------------------------- */
+
+	.experts-header {
+		width: calc(100% - 32px);
+
+		margin: 0 auto 28px;
+	}
+
+	.experts-tag {
+		font-size: 9px;
+		letter-spacing: 1.3px;
+
+		margin-bottom: 8px;
+	}
+
+	.experts-tag::before,
+	.experts-tag::after {
+		width: 16px;
+		height: 2px;
+	}
+
+	.experts-header h2 {
+		font-size: 25px;
+		line-height: 1.12;
+	}
+
+	.experts-header h2 span {
+		display: block;
+		margin: 0;
+	}
+
+	.experts-header p {
+		margin-top: 10px;
+
+		font-size: 10px;
+		line-height: 1.55;
+
+		max-width: 350px;
+	}
+
+	/* -------------------------
+	   SLIDER
+	------------------------- */
+
+	.experts-slider {
+		width: 100%;
+
+		display: grid;
+
+		grid-template-columns: 40px minmax(0, 1fr) 40px;
+
+		align-items: center;
+
+		column-gap: 4px;
+	}
+
+	.experts-window {
+		width: 100%;
+		min-width: 0;
+	}
+
+	/* -------------------------
+	   ONE CARD PER SLIDE
+	------------------------- */
+
+	.expert-slide-grid {
+		display: block;
+
+		width: 100%;
+	}
+
+	.expert-slide {
+		width: 100%;
+	}
+
+	/* -------------------------
+	   CARD
+	   SAME WIDTH FEEL AS
+	   DEPARTMENT CARD
+	------------------------- */
+
+	.expert-card {
+		display: block;
+
+		width: calc(100% - 16px);
+		max-width: 365px;
+
+		margin: 0 auto;
+
+		border-radius: 15px;
+
+		box-shadow:
+			0 6px 18px rgba(20, 75, 110, 0.09);
+
+		overflow: hidden;
+	}
+
+	.expert-card:hover {
+		transform: translateY(-3px);
+
+		box-shadow:
+			0 12px 25px rgba(20, 75, 110, 0.13);
+	}
+
+	/* -------------------------
+	   LARGE DEPARTMENT-STYLE
+	   IMAGE
+	------------------------- */
+
+	.expert-image {
+		width: 100%;
+		height: 172px;
+
+		border-radius: 0;
+	}
+
+	.expert-image img {
+		width: 100%;
+		height: 100%;
+
+		object-fit: cover;
+	}
+
+	/* -------------------------
+	   ICON
+	------------------------- */
+
+	.expert-icon {
+		right: 12px;
+		bottom: 10px;
+
+		width: 36px;
+		height: 36px;
+
+		border-radius: 10px;
+
+		font-size: 15px;
+	}
+
+	/* -------------------------
+	   CONTENT
+	------------------------- */
+
+	.expert-content {
+		min-height: 105px;
+
+		padding: 14px 14px 15px;
+	}
+
+	.expert-content h3 {
+		margin-bottom: 4px;
+
+		font-size: 14px;
+		line-height: 1.3;
+
+		font-weight: 800;
+	}
+
+	.expert-designation {
+		margin-bottom: 5px;
+
+		font-size: 10px;
+	}
+
+	.expert-content p {
+		margin-bottom: 8px;
+
+		font-size: 9px;
+	}
+
+	.expert-view-profile {
+		font-size: 9px;
+	}
+
+	/* -------------------------
+	   ARROWS
+	------------------------- */
+
+	.experts-arrow {
+		width: 28px;
+		height: 28px;
+
+		padding: 0;
+
+		font-size: 9px;
+
+		box-shadow:
+			0 5px 14px rgba(30, 90, 120, 0.10);
+	}
+
+	.experts-prev {
+		margin-right: 0;
+	}
+
+	.experts-next {
+		margin-left: 0;
+	}
+
+	/* -------------------------
+	   DOTS
+	------------------------- */
+
+	.experts-dots {
+		margin-top: 16px;
+
+		gap: 5px;
+	}
+
+	.experts-dots button {
+		width: 6px;
+		height: 6px;
+	}
+
+	.experts-dots button.active {
+		width: 16px;
+	}
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+	.experts-header {
+		width: calc(100% - 24px);
+	}
+
+	.experts-header h2 {
+		font-size: 23px;
+	}
+
+	.experts-header p {
+		font-size: 9px;
+	}
+
+	.experts-slider {
+		grid-template-columns: 34px minmax(0, 1fr) 34px;
+	}
+
+	.expert-card {
+		width: calc(100% - 12px);
+	}
+
+	.expert-image {
+		height: 160px;
+	}
+
+	.expert-content {
+		min-height: 100px;
+		padding: 13px;
+	}
+
+	.expert-content h3 {
+		font-size: 13px;
+	}
+}
+
+/* =========================================================
+   DOCTOR MODAL
+========================================================= */
+
+.doctor-modal-overlay {
+	position: fixed;
+	inset: 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 20px;
+
+	background: rgba(5, 34, 53, 0.68);
+
+	backdrop-filter: blur(5px);
+
+	z-index: 9999;
+
+	animation: modalFade 0.3s ease;
+}
+
+.doctor-modal {
+	position: relative;
+
+	width: min(850px, 100%);
+
+	display: grid;
+	grid-template-columns: 320px 1fr;
+
+	background: #ffffff;
+
+	border-radius: 20px;
+
+	overflow: hidden;
+
+	box-shadow: 0 30px 80px rgba(0, 30, 60, 0.25);
+
+	animation: modalUp 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.doctor-modal-close {
+	position: absolute;
+
+	top: 14px;
+	right: 14px;
+
+	width: 34px;
+	height: 34px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	border-radius: 50%;
+
+	background: rgba(255, 255, 255, 0.95);
+	color: #087fc1;
+
+	cursor: pointer;
+
+	z-index: 5;
+
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+
+	transition: 0.3s ease;
+}
+
+.doctor-modal-close:hover {
+	background: #087fc1;
+	color: #ffffff;
+	transform: rotate(90deg);
+}
+
+.doctor-modal-image {
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+}
+
+.doctor-modal-image img {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.doctor-modal-content {
+	padding: 40px;
+}
+
+.doctor-modal-tag {
+	display: inline-block;
+
+	margin-bottom: 10px;
+
+	font-size: 10px;
+	font-weight: 800;
+	letter-spacing: 1px;
+
+	color: #087fc1;
+}
+
+.doctor-modal-content h2 {
+	margin: 0 0 5px;
+
+	font-size: 30px;
+	color: #073b68;
+}
+
+.doctor-modal-content h3 {
+	margin: 0 0 8px;
+
+	font-size: 15px;
+	color: #0788c8;
+}
+
+.doctor-modal-experience {
+	font-size: 13px;
+	font-weight: 700;
+	color: #71879a;
+}
+
+.doctor-modal-description {
+	margin: 20px 0;
+
+	font-size: 13px;
+	line-height: 1.7;
+	color: #647b8b;
+}
+
+.doctor-modal-info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+
+	margin-bottom: 22px;
+}
+
+.doctor-info-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	padding: 12px;
+
+	border-radius: 10px;
+
+	background: #f5fafc;
+}
+
+.doctor-info-icon {
+	width: 32px;
+	height: 32px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 8px;
+
+	background: #e5f4fb;
+	color: #087fc1;
+}
+
+.doctor-info-item span {
+	display: block;
+
+	font-size: 9px;
+	color: #8295a1;
+}
+
+.doctor-info-item strong {
+	display: block;
+
+	margin-top: 3px;
+
+	font-size: 11px;
+	color: #073b68;
+}
+
+.doctor-appointment-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+
+	padding: 12px 20px;
+
+	border: 0;
+	border-radius: 9px;
+
+	background: #087fc1;
+	color: #ffffff;
+
+	font-size: 12px;
+	font-weight: 700;
+
+	cursor: pointer;
+
+	box-shadow: 0 8px 20px rgba(8, 127, 193, 0.2);
+
+	transition: 0.3s ease;
+}
+
+.doctor-appointment-btn:hover {
+	transform: translateY(-2px);
+
+	background: #056fa9;
+
+	box-shadow: 0 12px 25px rgba(8, 127, 193, 0.28);
+}
+
+/* =========================================================
+   MODAL ANIMATION
+========================================================= */
+
+@keyframes modalFade {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes modalUp {
+	from {
+		opacity: 0;
+		transform: translateY(25px) scale(0.97);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+
+/* =========================================================
+   MOBILE MODAL
+========================================================= */
+
+@media (max-width: 650px) {
+	.doctor-modal-overlay {
+		padding: 15px;
+	}
+
+	.doctor-modal {
+		display: block;
+
+		width: 100%;
+		max-width: 365px;
+
+		max-height: 90vh;
+
+		overflow-y: auto;
+
+		border-radius: 16px;
+	}
+
+	.doctor-modal-image {
+		height: 220px;
+		min-height: 220px;
+	}
+
+	.doctor-modal-content {
+		padding: 22px 18px;
+	}
+
+	.doctor-modal-content h2 {
+		font-size: 22px;
+	}
+
+	.doctor-modal-content h3 {
+		font-size: 13px;
+	}
+
+	.doctor-modal-description {
+		margin: 14px 0;
+
+		font-size: 11px;
+	}
+
+	.doctor-modal-info {
+		grid-template-columns: 1fr;
+		gap: 8px;
+
+		margin-bottom: 16px;
+	}
+
+	.doctor-appointment-btn {
+		width: 100%;
+		padding: 11px;
+		font-size: 11px;
+	}
+}
+
+/* =========================================================
+   REDUCE MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+	.expert-card,
+	.expert-image img,
+	.experts-track,
+	.experts-arrow,
+	.experts-dots button,
+	.doctor-modal,
+	.doctor-modal-overlay {
+		transition: none !important;
+		animation: none !important;
+	}
+}

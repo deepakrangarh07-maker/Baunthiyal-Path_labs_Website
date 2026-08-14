@@ -1,0 +1,246 @@
+/* ==========================================================
+   PARTNERSHIP PROCESS
+========================================================== */
+
+.pp-section{
+    padding:80px 0;
+    background:#fff;
+}
+
+.pp-heading{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.pp-heading span{
+    color:#0A5EB0;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.pp-heading h2{
+    margin:12px 0;
+    color:#163A6C;
+    font-size:2.4rem;
+    font-weight:700;
+}
+
+.pp-heading p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* ==========================================
+   Desktop Process
+========================================== */
+
+.pp-desktop{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    position:relative;
+    margin-top:20px;
+}
+
+.pp-step{
+    position:relative;
+    flex:1;
+    text-align:center;
+}
+
+.pp-icon{
+    width:70px;
+    height:70px;
+    margin:auto;
+    border-radius:50%;
+    background:#0A5EB0;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    transition:.35s;
+    box-shadow:0 12px 25px rgba(10,94,176,.25);
+}
+
+.pp-step:hover .pp-icon{
+    transform:translateY(-6px) scale(1.05);
+    background:#08498A;
+}
+
+.pp-number{
+    display:block;
+    margin:12px 0;
+    font-size:22px;
+    font-weight:700;
+    color:#163A6C;
+}
+
+.pp-step h4{
+    color:#163A6C;
+    font-size:1.1rem;
+    margin-bottom:10px;
+}
+
+.pp-step p{
+    color:#666;
+    font-size:.92rem;
+    line-height:1.6;
+    max-width:160px;
+    margin:auto;
+}
+
+/* Dotted line */
+
+.pp-line{
+    position:absolute;
+    top:34px;
+    left:65%;
+    width:70%;
+    border-top:2px dashed #8DB7F5;
+}
+
+/* ==========================================
+   Email Section
+========================================== */
+
+.pp-contact{
+    margin-top:60px;
+    text-align:center;
+}
+
+.pp-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:14px 34px;
+    background:#0A5EB0;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.pp-btn:hover{
+    background:#08498A;
+    transform:translateY(-3px);
+}
+
+.pp-contact p{
+    margin-top:16px;
+    color:#163A6C;
+    font-weight:600;
+    font-size:1rem;
+}
+
+/* ==========================================
+   Mobile
+========================================== */
+
+.pp-mobile{
+    display:none;
+}
+
+@media(max-width:768px){
+
+.pp-desktop{
+    display:none;
+}
+
+.pp-mobile{
+    display:block;
+}
+
+.pp-step{
+    background:#fff;
+    border:1px solid #E8EEF8;
+    border-radius:20px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+}
+
+.pp-icon{
+    width:65px;
+    height:65px;
+    font-size:24px;
+}
+
+.pp-number{
+    font-size:20px;
+}
+
+.pp-step h4{
+    margin-top:10px;
+    font-size:1.05rem;
+}
+
+.pp-step p{
+    max-width:100%;
+}
+
+.pp-contact{
+    margin-top:40px;
+}
+
+.pp-btn{
+    width:100%;
+}
+
+}
+
+/* ==========================================
+   Small Mobile
+========================================== */
+
+@media(max-width:480px){
+
+.pp-section{
+    padding:60px 0;
+}
+
+.pp-heading h2{
+    font-size:1.9rem;
+}
+
+.pp-heading p{
+    font-size:.9rem;
+}
+
+.pp-step{
+    padding:24px 18px;
+}
+
+.pp-icon{
+    width:60px;
+    height:60px;
+    font-size:22px;
+}
+
+.pp-number{
+    font-size:18px;
+}
+
+.pp-step h4{
+    font-size:1rem;
+}
+
+.pp-step p{
+    font-size:.85rem;
+}
+
+.pp-btn{
+    padding:12px 20px;
+    font-size:.9rem;
+}
+
+.pp-contact p{
+    font-size:.9rem;
+}
+
+}

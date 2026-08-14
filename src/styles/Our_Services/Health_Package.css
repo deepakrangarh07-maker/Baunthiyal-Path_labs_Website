@@ -1,0 +1,658 @@
+/* =====================================================
+   HEALTH PACKAGES
+===================================================== */
+
+.health-packages-section {
+	width: 100%;
+	padding: 80px 20px;
+	background: #f6fbff;
+}
+
+.health-packages-container {
+	width: min(1250px, 100%);
+	margin: auto;
+}
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.health-packages-header {
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto 35px;
+}
+
+.health-packages-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+
+	padding: 8px 15px;
+
+	border-radius: 30px;
+
+	background: #e7f5ff;
+
+	color: #087bc1;
+
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 0.8px;
+}
+
+.health-packages-header h2 {
+	margin: 15px 0 10px;
+
+	font-size: clamp(30px, 4vw, 44px);
+	line-height: 1.1;
+
+	color: #073b67;
+	font-weight: 800;
+}
+
+.health-packages-header h2 span {
+	color: #0786c9;
+}
+
+.health-packages-header p {
+	margin: 0;
+
+	color: #71859a;
+
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+/* =====================================================
+   CATEGORY FILTER
+===================================================== */
+
+.health-category-filter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	flex-wrap: wrap;
+
+	margin-bottom: 40px;
+}
+
+.health-category-filter button {
+	border: 1px solid #dceaf3;
+
+	background: #ffffff;
+
+	color: #45637a;
+
+	padding: 10px 17px;
+
+	border-radius: 30px;
+
+	font-size: 13px;
+	font-weight: 700;
+
+	cursor: pointer;
+
+	transition:
+		transform 0.3s ease,
+		background 0.3s ease,
+		color 0.3s ease,
+		box-shadow 0.3s ease;
+}
+
+.health-category-filter button:hover {
+	transform: translateY(-2px);
+
+	box-shadow: 0 8px 20px rgba(0, 105, 170, 0.1);
+}
+
+.health-category-filter button.active {
+	background: #087fc2;
+	border-color: #087fc2;
+
+	color: white;
+
+	box-shadow: 0 8px 20px rgba(8, 127, 194, 0.2);
+}
+
+/* =====================================================
+   GRID
+===================================================== */
+
+.health-packages-grid {
+	display: grid;
+
+	grid-template-columns: repeat(3, 1fr);
+
+	gap: 24px;
+}
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.health-package-card {
+	position: relative;
+
+	background: #ffffff;
+
+	border: 1px solid #e1edf5;
+
+	border-radius: 18px;
+
+	padding: 22px;
+
+	overflow: hidden;
+
+	box-shadow:
+		0 8px 30px rgba(22, 83, 120, 0.06);
+
+	transition:
+		transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+		box-shadow 0.4s ease,
+		border-color 0.4s ease;
+
+	animation: packageCardEnter 0.6s ease both;
+}
+
+.health-package-card:hover {
+	transform: translateY(-7px);
+
+	border-color: #b8def1;
+
+	box-shadow:
+		0 20px 45px rgba(15, 93, 137, 0.13);
+}
+
+/* =====================================================
+   ICON
+===================================================== */
+
+.package-icon {
+	width: 52px;
+	height: 52px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 15px;
+
+	background: #eaf7ff;
+
+	color: #087fc2;
+
+	font-size: 22px;
+
+	margin-bottom: 18px;
+
+	transition:
+		transform 0.35s ease,
+		background 0.35s ease;
+}
+
+.health-package-card:hover .package-icon {
+	transform: scale(1.08) rotate(-3deg);
+
+	background: #dff3ff;
+}
+
+/* =====================================================
+   CATEGORY
+===================================================== */
+
+.package-category {
+	display: inline-block;
+
+	padding: 6px 11px;
+
+	border-radius: 20px;
+
+	background: #eaf7ff;
+
+	color: #087fc2;
+
+	font-size: 10px;
+
+	font-weight: 800;
+
+	text-transform: uppercase;
+
+	letter-spacing: 0.6px;
+
+	margin-bottom: 10px;
+}
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+.health-package-card h3 {
+	margin: 0;
+
+	min-height: 48px;
+
+	color: #073b67;
+
+	font-size: 18px;
+
+	line-height: 1.35;
+
+	font-weight: 800;
+}
+
+.package-short-name {
+	display: block;
+
+	margin-top: 6px;
+
+	color: #8294a5;
+
+	font-size: 13px;
+}
+
+/* =====================================================
+   DIVIDER
+===================================================== */
+
+.package-divider {
+	height: 1px;
+
+	background: #e8eff4;
+
+	margin: 18px 0;
+}
+
+/* =====================================================
+   META
+===================================================== */
+
+.package-meta {
+	display: grid;
+
+	grid-template-columns: 1fr 1fr;
+
+	gap: 10px;
+
+	margin-bottom: 18px;
+}
+
+.package-meta span {
+	display: flex;
+
+	align-items: center;
+
+	gap: 7px;
+
+	color: #698095;
+
+	font-size: 12px;
+
+	line-height: 1.4;
+}
+
+.package-meta svg {
+	color: #0786c9;
+
+	flex-shrink: 0;
+}
+
+/* =====================================================
+   PRICE
+===================================================== */
+
+.package-price-area {
+	display: flex;
+
+	align-items: flex-end;
+
+	justify-content: space-between;
+
+	gap: 10px;
+
+	margin-bottom: 18px;
+}
+
+.package-price-area div {
+	display: flex;
+
+	align-items: center;
+
+	gap: 8px;
+}
+
+.package-price-area del {
+	color: #9aaab8;
+
+	font-size: 13px;
+}
+
+.package-price-area strong {
+	color: #087fc2;
+
+	font-size: 24px;
+
+	font-weight: 900;
+}
+
+.package-saving {
+	padding: 5px 8px;
+
+	border-radius: 6px;
+
+	background: #e7f8ee;
+
+	color: #14944f;
+
+	font-size: 10px;
+
+	font-weight: 800;
+
+	white-space: nowrap;
+}
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.package-card-buttons {
+	display: grid;
+
+	grid-template-columns: 1fr 1fr;
+
+	gap: 9px;
+}
+
+.package-details-btn,
+.package-book-btn {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	gap: 7px;
+
+	min-height: 42px;
+
+	border-radius: 9px;
+
+	font-size: 12px;
+
+	font-weight: 800;
+
+	cursor: pointer;
+
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease,
+		background 0.3s ease;
+}
+
+.package-details-btn {
+	background: white;
+
+	border: 1px solid #087fc2;
+
+	color: #087fc2;
+}
+
+.package-book-btn {
+	border: 1px solid #087fc2;
+
+	background: #087fc2;
+
+	color: white;
+}
+
+.package-details-btn:hover,
+.package-book-btn:hover {
+	transform: translateY(-2px);
+
+	box-shadow: 0 8px 18px rgba(8, 127, 194, 0.18);
+}
+
+.package-details-btn svg {
+	transition: transform 0.3s ease;
+}
+
+.package-details-btn:hover svg {
+	transform: translateX(4px);
+}
+
+/* =====================================================
+   HOME COLLECTION
+===================================================== */
+
+.package-home {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	gap: 6px;
+
+	margin-top: 15px;
+
+	color: #15945a;
+
+	font-size: 11px;
+
+	font-weight: 700;
+}
+
+.package-home svg {
+	font-size: 12px;
+}
+
+/* =====================================================
+   ANIMATION
+===================================================== */
+
+@keyframes packageCardEnter {
+	from {
+		opacity: 0;
+		transform: translateY(25px) scale(0.97);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1000px) {
+	.health-packages-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 650px) {
+	.health-packages-section {
+		padding: 55px 15px;
+	}
+
+	.health-packages-header {
+		margin-bottom: 25px;
+	}
+
+	.health-packages-header h2 {
+		font-size: 30px;
+	}
+
+	.health-packages-header p {
+		font-size: 13px;
+	}
+
+	.health-category-filter {
+		justify-content: flex-start;
+
+		flex-wrap: nowrap;
+
+		overflow-x: auto;
+
+		padding-bottom: 8px;
+
+		scrollbar-width: none;
+	}
+
+	.health-category-filter::-webkit-scrollbar {
+		display: none;
+	}
+
+	.health-category-filter button {
+		flex-shrink: 0;
+
+		padding: 9px 14px;
+	}
+
+	.health-packages-grid {
+		grid-template-columns: 1fr;
+
+		gap: 18px;
+	}
+
+	.health-package-card {
+		padding: 19px;
+
+		border-radius: 16px;
+	}
+
+	.health-package-card h3 {
+		font-size: 17px;
+	}
+
+	.package-meta {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.package-price-area strong {
+		font-size: 22px;
+	}
+}
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 380px) {
+	.package-card-buttons {
+		grid-template-columns: 1fr;
+	}
+
+	.package-meta {
+		grid-template-columns: 1fr;
+	}
+
+	.package-price-area {
+		align-items: flex-start;
+
+		flex-direction: column;
+	}
+}
+
+/* =====================================================
+   PACKAGE CARD
+===================================================== */
+
+.health-package-card {
+	position: relative;
+
+	cursor: pointer;
+
+	transition:
+		transform 0.25s ease,
+		box-shadow 0.25s ease,
+		border-color 0.25s ease;
+}
+
+/* Hover */
+
+.health-package-card:hover {
+	transform: translateY(-5px);
+
+	box-shadow:
+		0 18px 40px rgba(0, 90, 150, 0.12);
+
+	border-color: #b8ddf2;
+}
+
+/* Keyboard accessibility */
+
+.health-package-card:focus-visible {
+	outline: 3px solid rgba(0, 137, 200, 0.25);
+	outline-offset: 3px;
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.package-details-btn,
+.package-book-btn {
+	position: relative;
+	z-index: 2;
+}
+
+
+/* =====================================================
+   CARD HINT
+===================================================== */
+
+.package-card-hint {
+	display: block;
+
+	margin-top: 10px;
+
+	text-align: center;
+
+	font-size: 11px;
+
+	font-weight: 500;
+
+	color: #8aa0b5;
+
+	opacity: 0;
+
+	transform: translateY(3px);
+
+	transition:
+		opacity 0.2s ease,
+		transform 0.2s ease;
+}
+
+.health-package-card:hover .package-card-hint {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 650px) {
+
+	.health-package-card {
+		cursor: pointer;
+	}
+
+	.package-card-hint {
+		opacity: 1;
+		transform: none;
+
+		font-size: 10px;
+
+		margin-top: 8px;
+	}
+}

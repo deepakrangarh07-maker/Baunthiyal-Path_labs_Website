@@ -1,0 +1,292 @@
+/* ==========================================
+   VIDEO CARD
+========================================== */
+
+.video-card {
+    background: #fff;
+    border-radius: 22px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 420px;
+
+    box-shadow:
+        0 15px 40px rgba(15, 70, 120, 0.08);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 20px 45px rgba(15, 70, 120, 0.12);
+}
+
+
+/* ==========================================
+   VIDEO PLAYER
+   INCREASED HEIGHT
+========================================== */
+
+.video-player {
+    position: relative;
+
+    width: 100%;
+    height: 300px;
+
+    overflow: hidden;
+
+    background: #eef6fb;
+}
+
+.video-player iframe {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    display: block;
+}
+
+
+/* ==========================================
+   VIDEO INFO
+   SMALL + COMPACT
+========================================== */
+
+.video-info {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    padding: 14px 18px 16px;
+}
+
+
+/* Video Tour */
+
+.live-badge {
+    display: inline-flex;
+    align-items: center;
+
+    width: fit-content;
+
+    padding: 4px 10px;
+
+    border-radius: 30px;
+
+    background: #e9f7ff;
+    color: var(--color-accent);
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 0.3px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Heading */
+
+.video-info h3 {
+    font-size: 17px;
+
+    line-height: 1.3;
+
+    color: var(--color-text-dark);
+
+    margin: 0 0 5px;
+}
+
+
+/* Paragraph */
+
+.video-info p {
+    font-size: 12px;
+
+    line-height: 1.3;
+
+    color: var(--color-text-muted);
+
+    margin: 0 0 10px;
+}
+
+
+/* Visit Channel */
+
+.visit-channel {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 5px;
+
+    width: fit-content;
+
+    text-decoration: none;
+
+    color: var(--color-accent);
+
+    font-size: 12px;
+    font-weight: 600;
+
+    transition: gap 0.3s ease;
+}
+
+.visit-channel:hover {
+    gap: 9px;
+}
+
+
+/* ==========================================
+   LAPTOP
+========================================== */
+
+@media (max-width: 1200px) {
+
+    .video-card {
+        min-height: 400px;
+    }
+
+    .video-player {
+        height: 280px;
+    }
+
+    .video-info {
+        padding: 13px 16px;
+    }
+
+    .video-info h3 {
+        font-size: 16px;
+    }
+
+    .video-info p {
+        font-size: 12px;
+    }
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 992px) {
+
+    .video-card {
+        min-height: 380px;
+    }
+
+    .video-player {
+        height: 250px;
+    }
+
+    .video-info {
+        padding: 12px 15px;
+    }
+
+    .live-badge {
+        font-size: 10px;
+        padding: 4px 9px;
+        margin-bottom: 7px;
+    }
+
+    .video-info h3 {
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+
+    .video-info p {
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+
+    .visit-channel {
+        font-size: 11px;
+    }
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .video-card {
+        min-height: auto;
+    }
+
+    .video-player {
+        height: 230px;
+    }
+
+    .video-info {
+        padding: 12px 14px 14px;
+    }
+
+    .live-badge {
+        font-size: 10px;
+        padding: 4px 9px;
+        margin-bottom: 7px;
+    }
+
+    .video-info h3 {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .video-info p {
+        font-size: 12px;
+        margin-bottom: 9px;
+    }
+
+    .visit-channel {
+        font-size: 12px;
+
+        width: fit-content;
+
+        padding: 0;
+
+        background: transparent;
+    }
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px) {
+
+    .video-player {
+        height: 210px;
+    }
+
+    .video-info {
+        padding: 11px 13px 13px;
+    }
+
+    .live-badge {
+        font-size: 9px;
+        padding: 4px 8px;
+    }
+
+    .video-info h3 {
+        font-size: 15px;
+    }
+
+    .video-info p {
+        font-size: 11px;
+    }
+
+    .visit-channel {
+        font-size: 11px;
+    }
+}

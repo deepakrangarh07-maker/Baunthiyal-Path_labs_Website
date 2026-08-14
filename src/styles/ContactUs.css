@@ -1,0 +1,1257 @@
+/* =========================================================
+   CONTACT US
+   Baunthiyal Path Labs & Imaging Centre
+========================================================= */
+
+.contact-page {
+  width: 100%;
+  background: #f7fbff;
+  color: #123b6d;
+  overflow: hidden;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.contact-hero {
+  position: relative;
+  padding: 75px 20px 65px;
+  background:
+    linear-gradient(
+      135deg,
+      #f5faff 0%,
+      #eef7ff 55%,
+      #ffffff 100%
+    );
+  text-align: center;
+}
+
+.contact-hero-inner {
+  width: min(1100px, 92%);
+  margin: auto;
+}
+
+.contact-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 7px 16px;
+  margin-bottom: 18px;
+
+  border-radius: 30px;
+
+  background: #e6f2ff;
+  color: #0868c9;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact-hero h1 {
+  margin: 0;
+
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 1.1;
+
+  font-weight: 800;
+  color: #123f75;
+}
+
+.contact-hero h1 span {
+  color: #086bc9;
+}
+
+.contact-hero p {
+  max-width: 700px;
+  margin: 20px auto 0;
+
+  font-size: 17px;
+  line-height: 1.7;
+
+  color: #60738a;
+}
+
+
+/* =========================================================
+   CENTRES SECTION
+========================================================= */
+
+.contact-centres {
+  width: min(1200px, 92%);
+  margin: auto;
+
+  padding: 70px 0 80px;
+}
+
+.contact-section-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.contact-section-heading h2 {
+  margin: 0;
+
+  font-size: clamp(28px, 4vw, 40px);
+  color: #123f75;
+  font-weight: 800;
+}
+
+.contact-section-heading p {
+  margin: 12px auto 0;
+
+  max-width: 650px;
+
+  color: #687b91;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   CENTRE GRID
+========================================================= */
+
+.centres-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 28px;
+}
+
+
+/* =========================================================
+   CENTRE CARD
+========================================================= */
+
+.centre-card {
+  background: #ffffff;
+
+  border: 1px solid #e2edf7;
+  border-radius: 22px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 12px 35px rgba(18, 63, 117, 0.08);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.centre-card:hover {
+  transform: translateY(-7px);
+
+  box-shadow:
+    0 20px 45px rgba(18, 63, 117, 0.14);
+}
+
+
+/* =========================================================
+   CENTRE IMAGE
+========================================================= */
+
+.centre-image {
+  position: relative;
+
+  width: 100%;
+  height: 280px;
+
+  overflow: hidden;
+}
+
+.centre-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+
+  transition: transform 0.6s ease;
+}
+
+.centre-card:hover .centre-image img {
+  transform: scale(1.05);
+}
+
+
+/* Image overlay */
+
+.centre-image::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(4, 42, 82, 0.45),
+      transparent 55%
+    );
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   CENTRE LABEL
+========================================================= */
+
+.centre-label {
+  position: absolute;
+
+  left: 18px;
+  bottom: 18px;
+
+  z-index: 2;
+
+  padding: 8px 14px;
+
+  border-radius: 30px;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  color: #075fb6;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   CENTRE CONTENT
+========================================================= */
+
+.centre-content {
+  padding: 25px;
+}
+
+.centre-content h3 {
+  margin: 0 0 10px;
+
+  font-size: 23px;
+  font-weight: 800;
+
+  color: #123f75;
+}
+
+.centre-address {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 10px;
+
+  margin-bottom: 18px;
+
+  color: #65798f;
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.centre-address svg {
+  flex-shrink: 0;
+
+  margin-top: 4px;
+
+  color: #0870d1;
+}
+
+
+/* =========================================================
+   CENTRE ACTIONS
+========================================================= */
+
+.centre-actions {
+  display: flex;
+
+  gap: 10px;
+
+  flex-wrap: wrap;
+}
+
+.centre-btn {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  min-height: 43px;
+
+  padding: 0 18px;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.centre-btn:hover {
+  transform: translateY(-2px);
+}
+
+.centre-btn-primary {
+  background: #086bc9;
+  color: #ffffff;
+
+  box-shadow:
+    0 7px 18px rgba(8, 107, 201, 0.22);
+}
+
+.centre-btn-primary:hover {
+  background: #075bb0;
+}
+
+.centre-btn-outline {
+  background: #ffffff;
+
+  color: #086bc9;
+
+  border: 1px solid #bcd9f3;
+}
+
+.centre-btn-outline:hover {
+  background: #eef7ff;
+}
+
+
+/* =========================================================
+   CONTACT / MESSAGE AREA
+========================================================= */
+
+.contact-main {
+  width: min(1200px, 92%);
+
+  margin: auto;
+
+  padding-bottom: 80px;
+
+  display: grid;
+
+  grid-template-columns: 0.9fr 1.1fr;
+
+  gap: 30px;
+
+  align-items: stretch;
+}
+
+
+/* =========================================================
+   CONTACT INFO
+========================================================= */
+
+.contact-info-card {
+  padding: 38px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #075fba,
+      #0875d8
+    );
+
+  color: #ffffff;
+
+  box-shadow:
+    0 18px 40px rgba(7, 95, 186, 0.2);
+}
+
+.contact-info-card h2 {
+  margin: 0 0 12px;
+
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.contact-info-card > p {
+  margin: 0 0 30px;
+
+  color: rgba(255, 255, 255, 0.86);
+
+  line-height: 1.65;
+
+  font-size: 15px;
+}
+
+
+/* =========================================================
+   CONTACT INFO ITEMS
+========================================================= */
+
+.contact-info-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.contact-info-item {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 14px;
+}
+
+.contact-info-icon {
+  width: 45px;
+  height: 45px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.16);
+
+  font-size: 18px;
+}
+
+.contact-info-text strong {
+  display: block;
+
+  margin-bottom: 4px;
+
+  font-size: 14px;
+}
+
+.contact-info-text span,
+.contact-info-text a {
+  color: rgba(255, 255, 255, 0.88);
+
+  font-size: 14px;
+
+  line-height: 1.5;
+
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   WHATSAPP
+========================================================= */
+
+.whatsapp-contact {
+  margin-top: 30px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  min-height: 46px;
+
+  padding: 0 20px;
+
+  border-radius: 30px;
+
+  background: #25d366;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  box-shadow:
+    0 8px 20px rgba(37, 211, 102, 0.28);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.whatsapp-contact:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 12px 25px rgba(37, 211, 102, 0.35);
+}
+
+
+/* =========================================================
+   MESSAGE CARD
+========================================================= */
+
+.message-card {
+  background: #ffffff;
+
+  border: 1px solid #e3edf6;
+
+  border-radius: 24px;
+
+  padding: 38px;
+
+  box-shadow:
+    0 14px 35px rgba(18, 63, 117, 0.07);
+}
+
+.message-card h2 {
+  margin: 0 0 8px;
+
+  color: #123f75;
+
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.message-card > p {
+  margin: 0 0 25px;
+
+  color: #718298;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.contact-form {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 14px;
+}
+
+.form-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.form-group label {
+  font-size: 13px;
+
+  font-weight: 700;
+
+  color: #244d78;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border: 1px solid #d8e5f1;
+
+  background: #fbfdff;
+
+  border-radius: 10px;
+
+  padding: 12px 14px;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  color: #23486e;
+
+  outline: none;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #0870d1;
+
+  box-shadow:
+    0 0 0 3px rgba(8, 112, 209, 0.09);
+
+  background: #ffffff;
+}
+
+.form-group textarea {
+  min-height: 120px;
+
+  resize: vertical;
+}
+
+
+/* =========================================================
+   PRESCRIPTION UPLOAD
+========================================================= */
+
+.prescription-upload {
+  position: relative;
+
+  border: 1.5px dashed #a9c9e8;
+
+  border-radius: 12px;
+
+  background: #f7fbff;
+
+  padding: 18px;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease;
+}
+
+.prescription-upload:hover {
+  border-color: #0870d1;
+
+  background: #eef7ff;
+}
+
+.prescription-upload input {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+
+  cursor: pointer;
+}
+
+.prescription-upload svg {
+  color: #0870d1;
+
+  font-size: 24px;
+
+  margin-bottom: 7px;
+}
+
+.prescription-upload strong {
+  display: block;
+
+  color: #1d4b78;
+
+  font-size: 13px;
+}
+
+.prescription-upload span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #8495a7;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   CALLBACK OPTION
+========================================================= */
+
+.callback-box {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 12px 14px;
+
+  border-radius: 10px;
+
+  background: #f1f8ff;
+
+  border: 1px solid #dcecf9;
+}
+
+.callback-box input {
+  width: 17px;
+  height: 17px;
+
+  accent-color: #0870d1;
+}
+
+.callback-box label {
+  cursor: pointer;
+
+  color: #315474;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   SUBMIT BUTTON
+========================================================= */
+
+.contact-submit {
+  width: 100%;
+
+  min-height: 48px;
+
+  border: none;
+
+  border-radius: 11px;
+
+  background: #086bc9;
+
+  color: #ffffff;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  font-family: inherit;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 20px rgba(8, 107, 201, 0.22);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.contact-submit:hover {
+  transform: translateY(-2px);
+
+  background: #075bb0;
+
+  box-shadow:
+    0 12px 25px rgba(8, 107, 201, 0.28);
+}
+
+
+/* =========================================================
+   FLOATING CONTACT BUTTONS
+========================================================= */
+
+.contact-floating {
+  position: fixed;
+
+  left: 25px;
+  bottom: 25px;
+
+  z-index: 1000;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.floating-call,
+.floating-whatsapp {
+  width: 58px;
+  height: 58px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+
+  font-size: 23px;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.18);
+
+  transition:
+    transform 0.25s ease;
+}
+
+.floating-call {
+  background: #087bea;
+}
+
+.floating-whatsapp {
+  background: #25d366;
+}
+
+.floating-call:hover,
+.floating-whatsapp:hover {
+  transform: scale(1.08);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .contact-hero {
+    padding: 60px 20px 50px;
+  }
+
+  .contact-main {
+    grid-template-columns: 1fr;
+
+    gap: 24px;
+  }
+
+  .centres-grid {
+    gap: 20px;
+  }
+
+  .centre-image {
+    height: 240px;
+  }
+
+  .contact-info-card,
+  .message-card {
+    padding: 30px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+  .contact-hero {
+    padding: 45px 16px 40px;
+  }
+
+  .contact-hero-inner {
+    width: 100%;
+  }
+
+  .contact-tag {
+    font-size: 10px;
+
+    padding: 6px 12px;
+
+    margin-bottom: 14px;
+  }
+
+  .contact-hero h1 {
+    font-size: 32px;
+  }
+
+  .contact-hero p {
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin-top: 14px;
+  }
+
+
+  /* Centres */
+
+  .contact-centres {
+    width: calc(100% - 28px);
+
+    padding: 45px 0 50px;
+  }
+
+  .contact-section-heading {
+    margin-bottom: 25px;
+  }
+
+  .contact-section-heading h2 {
+    font-size: 27px;
+  }
+
+  .contact-section-heading p {
+    font-size: 13px;
+  }
+
+  .centres-grid {
+    grid-template-columns: 1fr;
+
+    gap: 18px;
+  }
+
+  .centre-card {
+    border-radius: 16px;
+  }
+
+  .centre-image {
+    height: 200px;
+  }
+
+  .centre-content {
+    padding: 19px;
+  }
+
+  .centre-content h3 {
+    font-size: 19px;
+  }
+
+  .centre-address {
+    font-size: 13px;
+
+    margin-bottom: 15px;
+  }
+
+  .centre-btn {
+    min-height: 40px;
+
+    padding: 0 14px;
+
+    font-size: 12px;
+  }
+
+
+  /* Main contact */
+
+  .contact-main {
+    width: calc(100% - 28px);
+
+    padding-bottom: 55px;
+
+    gap: 18px;
+  }
+
+  .contact-info-card,
+  .message-card {
+    padding: 23px;
+
+    border-radius: 18px;
+  }
+
+  .contact-info-card h2,
+  .message-card h2 {
+    font-size: 24px;
+  }
+
+  .contact-info-card > p,
+  .message-card > p {
+    font-size: 13px;
+  }
+
+
+  /* Form */
+
+  .form-row {
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 11px 12px;
+
+    font-size: 13px;
+  }
+
+  .form-group textarea {
+    min-height: 105px;
+  }
+
+  .prescription-upload {
+    padding: 15px;
+  }
+
+
+  /* Floating buttons */
+
+  .contact-floating {
+    left: 14px;
+
+    bottom: 18px;
+
+    gap: 9px;
+  }
+
+  .floating-call,
+  .floating-whatsapp {
+    width: 48px;
+    height: 48px;
+
+    font-size: 19px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .contact-hero h1 {
+    font-size: 28px;
+  }
+
+  .contact-hero p {
+    font-size: 13px;
+  }
+
+  .centre-image {
+    height: 175px;
+  }
+
+  .centre-content {
+    padding: 16px;
+  }
+
+  .centre-content h3 {
+    font-size: 18px;
+  }
+
+  .centre-actions {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .centre-btn {
+    width: 100%;
+
+    padding: 0 8px;
+  }
+
+  .contact-info-card,
+  .message-card {
+    padding: 18px;
+  }
+
+  .contact-info-card h2,
+  .message-card h2 {
+    font-size: 21px;
+  }
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .centre-card,
+  .centre-image img,
+  .centre-btn,
+  .whatsapp-contact,
+  .contact-submit,
+  .floating-call,
+  .floating-whatsapp {
+    transition: none;
+  }
+}
+
+
+/* =========================================================
+   PRESCRIPTION SELECTED STATUS
+========================================================= */
+
+.upload-status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: 9px;
+
+  padding: 8px 11px;
+
+  border-radius: 8px;
+
+  background: #eefaf3;
+
+  border: 1px solid #ccefd9;
+
+  color: #16834b;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  animation: uploadSuccess 0.35s ease forwards;
+}
+
+.upload-status svg {
+  margin: 0;
+
+  color: #1eaa62;
+
+  font-size: 14px;
+}
+
+
+/* =========================================================
+   UPLOAD SUCCESS ANIMATION
+========================================================= */
+
+@keyframes uploadSuccess {
+
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================================
+   CALLBACK BOX IMPROVEMENT
+========================================================= */
+
+.callback-box {
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.callback-box:hover {
+  background: #edf7ff;
+
+  border-color: #bcdcf5;
+}
+
+.callback-box label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 5px;
+}
+
+.callback-box label svg {
+  color: #0870d1;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   WHATSAPP SUBMIT BUTTON
+========================================================= */
+
+.contact-submit {
+  background: #0870d1;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.contact-submit::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: -120%;
+
+  width: 80%;
+  height: 100%;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.18),
+    transparent
+  );
+
+  transform: skewX(-20deg);
+
+  transition: left 0.6s ease;
+}
+
+.contact-submit:hover::before {
+  left: 130%;
+}
+
+.contact-submit:hover {
+  transform: translateY(-2px);
+
+  background: #075fb5;
+
+  box-shadow:
+    0 12px 25px rgba(8, 107, 201, 0.28);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+  .upload-status {
+    font-size: 11px;
+
+    padding: 7px 9px;
+  }
+
+  .contact-submit {
+    min-height: 47px;
+
+    font-size: 13px;
+  }
+
+} 

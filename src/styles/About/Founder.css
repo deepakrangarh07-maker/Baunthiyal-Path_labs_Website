@@ -1,0 +1,952 @@
+/* =========================================================
+   FOUNDER / LEADERSHIP SECTION
+========================================================= */
+
+.founder-section {
+	width: 100%;
+	padding: 30px 0 10px;
+
+	background:
+		linear-gradient(
+			180deg,
+			#f7fbfd 0%,
+			#f4f9fc 100%
+		);
+
+	overflow: hidden;
+}
+
+.founder-container {
+	width: min(1120px, calc(100% - 40px));
+
+	margin: 0 auto;
+}
+
+/* =========================================================
+   SECTION HEADER
+========================================================= */
+
+.founder-header {
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+.founder-section-tag {
+	display: inline-flex;
+
+	align-items: center;
+	gap: 10px;
+
+	margin-bottom: 12px;
+
+	color: #087fbd;
+
+	font-size: 0.7rem;
+	font-weight: 800;
+
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.founder-section-tag span {
+	display: block;
+
+	width: 22px;
+	height: 2px;
+
+	border-radius: 20px;
+
+	background: #087fbd;
+}
+
+.founder-header h2 {
+	margin: 0;
+
+	color: #123b57;
+
+	font-size: clamp(2rem, 4vw, 2.65rem);
+
+	font-weight: 800;
+
+	line-height: 1.1;
+
+	letter-spacing: -1px;
+}
+
+.founder-header h2 span {
+	color: #087fbd;
+}
+
+.founder-header p {
+	margin: 10px 0 0;
+
+	color: #718694;
+
+	font-size: 0.85rem;
+
+	line-height: 1.6;
+}
+
+/* =========================================================
+   FOUNDER GRID
+========================================================= */
+
+.founder-grid {
+	display: grid;
+
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+
+	gap: 18px;
+
+	align-items: stretch;
+}
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.founder-card {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+
+	min-width: 0;
+
+	border-radius: 18px;
+
+	background: #ffffff;
+
+	border: 1px solid #e5eef3;
+
+	box-shadow:
+		0 10px 30px rgba(18, 59, 87, 0.08);
+
+	overflow: hidden;
+
+	transition:
+		transform 0.35s ease,
+		box-shadow 0.35s ease,
+		border-color 0.35s ease;
+}
+
+.founder-card:hover {
+	transform: translateY(-6px);
+
+	border-color: #cde7f2;
+
+	box-shadow:
+		0 20px 45px rgba(18, 59, 87, 0.13);
+}
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.founder-card-image-wrap {
+	position: relative;
+
+	padding: 13px 13px 0;
+}
+
+.founder-card-image {
+	position: relative;
+
+	height: 275px;
+
+	border-radius: 14px;
+
+	overflow: hidden;
+
+	background: #eaf4f8;
+}
+
+.founder-card-image img {
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+
+	transition:
+		transform 0.7s
+		cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.founder-card:hover
+.founder-card-image img {
+	transform: scale(1.04);
+}
+
+/* =========================================================
+   IMAGE OVERLAY
+========================================================= */
+
+.founder-card-overlay {
+	position: absolute;
+
+	inset: 0;
+
+	background:
+		linear-gradient(
+			to top,
+			rgba(7, 62, 88, 0.16),
+			transparent 50%
+		);
+
+	pointer-events: none;
+}
+
+/* =========================================================
+   FOUNDER BADGE
+========================================================= */
+
+.founder-role-badge {
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	display: flex;
+
+	align-items: center;
+	gap: 8px;
+
+	padding: 9px 15px;
+
+	border-radius:
+		12px
+		0
+		10px
+		0;
+
+	background: #087fbd;
+
+	color: #ffffff;
+
+	font-size: 0.68rem;
+	font-weight: 800;
+
+	letter-spacing: 0.5px;
+}
+
+.founder-role-badge svg {
+	font-size: 0.72rem;
+}
+
+/* =========================================================
+   FLOATING ICON
+========================================================= */
+
+.founder-floating-icon {
+	position: absolute;
+
+	left: 50%;
+	bottom: -19px;
+
+	transform: translateX(-50%);
+
+	z-index: 5;
+
+	width: 52px;
+	height: 52px;
+
+	display: grid;
+
+	place-items: center;
+
+	border-radius: 50%;
+
+	background: #ffffff;
+
+	border: 4px solid #ffffff;
+
+	color: #087fbd;
+
+	box-shadow:
+		0 7px 20px rgba(18, 59, 87, 0.14);
+
+	font-size: 1.25rem;
+
+	transition:
+		transform 0.3s ease,
+		background 0.3s ease;
+}
+
+.founder-card:hover
+.founder-floating-icon {
+	transform:
+		translateX(-50%)
+		translateY(-4px);
+}
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.founder-card-content {
+	display: flex;
+	flex-direction: column;
+
+	flex: 1;
+
+	padding: 29px 20px 16px;
+
+	text-align: center;
+}
+
+/* =========================================================
+   NAME
+========================================================= */
+
+.founder-card-content h3 {
+	margin: 0;
+
+	color: #123b57;
+
+	font-size: 1.35rem;
+
+	font-weight: 800;
+
+	line-height: 1.2;
+}
+
+.founder-card-content h3 span {
+	color: #123b57;
+}
+
+/* =========================================================
+   DESIGNATION
+========================================================= */
+
+.founder-designation {
+	margin-top: 5px;
+
+	color: #087fbd;
+
+	font-size: 0.72rem;
+
+	font-weight: 700;
+
+	line-height: 1.4;
+}
+
+/* =========================================================
+   TITLE LINE
+========================================================= */
+
+.founder-title-line {
+	width: 30px;
+	height: 2px;
+
+	margin: 10px auto 0;
+
+	border-radius: 20px;
+
+	background: #087fbd;
+}
+
+/* =========================================================
+   QUOTE
+========================================================= */
+
+.founder-quote {
+	display: flex;
+
+	align-items: flex-start;
+
+	gap: 9px;
+
+	margin: 13px 0 0;
+
+	padding: 0 7px;
+
+	text-align: center;
+}
+
+.founder-quote svg {
+	flex-shrink: 0;
+
+	margin-top: 3px;
+
+	color: #087fbd;
+
+	font-size: 0.7rem;
+}
+
+.founder-quote p {
+	margin: 0;
+
+	color: #456575;
+
+	font-size: 0.72rem;
+
+	font-weight: 600;
+
+	line-height: 1.55;
+}
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.founder-description {
+	margin: 10px auto 0;
+
+	max-width: 450px;
+
+	color: #718694;
+
+	font-size: 0.72rem;
+
+	line-height: 1.65;
+}
+
+/* =========================================================
+   POINTS
+========================================================= */
+
+.founder-points {
+	display: grid;
+
+	grid-template-columns: repeat(3, 1fr);
+
+	gap: 9px;
+
+	margin-top: 17px;
+}
+
+.founder-point {
+	min-height: 67px;
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+
+	gap: 5px;
+
+	padding: 8px 5px;
+
+	border-radius: 10px;
+
+	background: #f5f9fc;
+
+	border: 1px solid #edf3f6;
+
+	transition:
+		transform 0.3s ease,
+		background 0.3s ease,
+		border-color 0.3s ease;
+}
+
+.founder-point:hover {
+	transform: translateY(-3px);
+
+	background: #eef8fc;
+
+	border-color: #cce8f3;
+}
+
+/* =========================================================
+   POINT ICON
+========================================================= */
+
+.founder-point-icon {
+	display: grid;
+
+	place-items: center;
+
+	color: #087fbd;
+
+	font-size: 1.05rem;
+}
+
+/* =========================================================
+   POINT TITLE
+========================================================= */
+
+.founder-point span {
+	color: #123b57;
+
+	font-size: 0.62rem;
+
+	font-weight: 700;
+
+	line-height: 1.2;
+}
+
+/* =========================================================
+   PROFILE BUTTON
+========================================================= */
+
+.founder-profile-btn {
+	width: 100%;
+
+	min-height: 40px;
+
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	gap: 15px;
+
+	margin-top: 14px;
+
+	padding: 9px 15px;
+
+	border: 1px solid #087fbd;
+
+	border-radius: 8px;
+
+	background: #ffffff;
+
+	color: #087fbd;
+
+	font-family: inherit;
+
+	font-size: 0.72rem;
+
+	font-weight: 800;
+
+	cursor: pointer;
+
+	transition:
+		background 0.3s ease,
+		color 0.3s ease,
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
+}
+
+.founder-profile-btn svg {
+	font-size: 0.8rem;
+
+	transition:
+		transform 0.3s ease;
+}
+
+.founder-profile-btn:hover {
+	background: #087fbd;
+
+	color: #ffffff;
+
+	transform: translateY(-2px);
+
+	box-shadow:
+		0 8px 20px rgba(8, 127, 189, 0.18);
+}
+
+.founder-profile-btn:hover svg {
+	transform: translateX(4px);
+}
+
+/* =========================================================
+   TRUST STRIP
+========================================================= */
+
+.founder-trust-strip {
+	display: grid;
+
+	grid-template-columns: 1.5fr auto 0.8fr;
+
+	align-items: center;
+
+	gap: 25px;
+
+	margin-top: 18px;
+
+	padding: 16px 22px;
+
+	border-radius: 14px;
+
+	background: #ffffff;
+
+	border: 1px solid #e5eef3;
+
+	box-shadow:
+		0 8px 25px rgba(18, 59, 87, 0.07);
+}
+
+/* =========================================================
+   TRUST MAIN
+========================================================= */
+
+.founder-trust-main {
+	display: flex;
+
+	align-items: center;
+
+	gap: 14px;
+}
+
+.founder-trust-icon {
+	width: 42px;
+	height: 42px;
+
+	flex-shrink: 0;
+
+	display: grid;
+
+	place-items: center;
+
+	border-radius: 50%;
+
+	color: #087fbd;
+
+	background: #edf8fc;
+
+	font-size: 1.1rem;
+}
+
+.founder-trust-main strong {
+	display: block;
+
+	color: #123b57;
+
+	font-size: 0.72rem;
+
+	font-weight: 800;
+}
+
+.founder-trust-main span {
+	display: block;
+
+	margin-top: 5px;
+
+	color: #718694;
+
+	font-size: 0.61rem;
+}
+
+/* =========================================================
+   TRUST DIVIDER
+========================================================= */
+
+.founder-trust-divider {
+	width: 1px;
+
+	height: 42px;
+
+	background: #dce9ef;
+}
+
+/* =========================================================
+   TRUSTED
+========================================================= */
+
+.founder-trusted {
+	display: flex;
+
+	align-items: center;
+
+	gap: 10px;
+}
+
+.founder-trusted-icon {
+	width: 38px;
+	height: 38px;
+
+	display: grid;
+
+	place-items: center;
+
+	color: #087fbd;
+
+	font-size: 1rem;
+}
+
+.founder-trusted strong {
+	display: block;
+
+	color: #123b57;
+
+	font-size: 0.68rem;
+}
+
+.founder-trusted span {
+	display: block;
+
+	margin-top: 3px;
+
+	color: #718694;
+
+	font-size: 0.6rem;
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+	.founder-section {
+		padding: 45px 0 35px;
+	}
+
+	.founder-container {
+		width: min(720px, calc(100% - 30px));
+	}
+
+	.founder-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+
+		gap: 14px;
+	}
+
+	.founder-card-image {
+		height: 230px;
+	}
+
+	.founder-card-content {
+		padding: 27px 14px 14px;
+	}
+
+	.founder-card-content h3 {
+		font-size: 1.15rem;
+	}
+
+	.founder-description {
+		font-size: 0.68rem;
+	}
+
+	.founder-quote p {
+		font-size: 0.67rem;
+	}
+
+	.founder-point {
+		min-height: 62px;
+	}
+
+	.founder-trust-strip {
+		grid-template-columns: 1fr;
+
+		gap: 12px;
+	}
+
+	.founder-trust-divider {
+		width: 100%;
+		height: 1px;
+	}
+
+	.founder-trusted {
+		justify-content: center;
+	}
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+	.founder-section {
+		padding: 38px 0 30px;
+	}
+
+	.founder-container {
+		width: calc(100% - 26px);
+	}
+
+	.founder-header {
+		margin-bottom: 22px;
+	}
+
+	.founder-section-tag {
+		font-size: 0.62rem;
+
+		gap: 7px;
+	}
+
+	.founder-section-tag span {
+		width: 18px;
+	}
+
+	.founder-header h2 {
+		font-size: 1.8rem;
+
+		letter-spacing: -0.5px;
+	}
+
+	.founder-header p {
+		font-size: 0.72rem;
+	}
+
+	/* ONE CARD PER ROW */
+
+	.founder-grid {
+		grid-template-columns: 1fr;
+
+		gap: 18px;
+	}
+
+	/* IMAGE */
+
+	.founder-card-image-wrap {
+		padding: 10px 10px 0;
+	}
+
+	.founder-card-image {
+		height: 300px;
+
+		border-radius: 13px;
+	}
+
+	/* BADGE */
+
+	.founder-role-badge {
+		padding: 8px 12px;
+
+		font-size: 0.6rem;
+	}
+
+	/* FLOAT ICON */
+
+	.founder-floating-icon {
+		width: 48px;
+		height: 48px;
+
+		bottom: -18px;
+
+		font-size: 1.1rem;
+	}
+
+	/* CONTENT */
+
+	.founder-card-content {
+		padding: 28px 15px 15px;
+	}
+
+	.founder-card-content h3 {
+		font-size: 1.25rem;
+	}
+
+	.founder-designation {
+		font-size: 0.68rem;
+	}
+
+	.founder-quote {
+		padding: 0 3px;
+
+		margin-top: 12px;
+	}
+
+	.founder-quote p {
+		font-size: 0.7rem;
+	}
+
+	.founder-description {
+		font-size: 0.7rem;
+
+		line-height: 1.6;
+	}
+
+	/* POINTS */
+
+	.founder-points {
+		gap: 7px;
+
+		margin-top: 15px;
+	}
+
+	.founder-point {
+		min-height: 62px;
+	}
+
+	.founder-point-icon {
+		font-size: 0.95rem;
+	}
+
+	.founder-point span {
+		font-size: 0.58rem;
+	}
+
+	/* BUTTON */
+
+	.founder-profile-btn {
+		margin-top: 12px;
+
+		min-height: 39px;
+
+		font-size: 0.68rem;
+	}
+
+	/* TRUST */
+
+	.founder-trust-strip {
+		margin-top: 18px;
+
+		padding: 15px;
+	}
+
+	.founder-trust-main {
+		align-items: flex-start;
+	}
+
+	.founder-trust-main strong {
+		font-size: 0.68rem;
+
+		line-height: 1.35;
+	}
+
+	.founder-trust-main span {
+		font-size: 0.57rem;
+
+		line-height: 1.5;
+	}
+
+	.founder-trusted strong {
+		font-size: 0.64rem;
+	}
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+	.founder-container {
+		width: calc(100% - 20px);
+	}
+
+	.founder-header h2 {
+		font-size: 1.55rem;
+	}
+
+	.founder-card-image {
+		height: 270px;
+	}
+
+	.founder-card-content h3 {
+		font-size: 1.15rem;
+	}
+
+	.founder-points {
+		gap: 5px;
+	}
+
+	.founder-point {
+		min-height: 58px;
+
+		padding: 6px 3px;
+	}
+
+	.founder-point span {
+		font-size: 0.55rem;
+	}
+}
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+	.founder-card,
+	.founder-card-image img,
+	.founder-floating-icon,
+	.founder-point,
+	.founder-profile-btn,
+	.founder-profile-btn svg {
+		transition: none !important;
+	}
+}

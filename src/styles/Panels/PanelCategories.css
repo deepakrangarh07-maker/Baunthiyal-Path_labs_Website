@@ -1,0 +1,257 @@
+/* ==========================================================
+   PANEL CATEGORIES
+========================================================== */
+
+.pcat-section{
+    padding:20px 0;
+    background:#F8FBFF;
+}
+
+.pcat-heading{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.pcat-subtitle{
+    display:inline-block;
+    color:#0A5EB0;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:12px;
+}
+
+.pcat-title{
+    font-size:2.4rem;
+    font-weight:700;
+    color:#163A6C;
+    margin-bottom:16px;
+}
+
+.pcat-description{
+    color:#666;
+    line-height:1.8;
+    font-size:1rem;
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.pcat-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:24px;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.pcat-card{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    background:#fff;
+    border:1px solid #E7EEF8;
+    border-radius:22px;
+    padding:26px;
+    cursor:pointer;
+    transition:.35s ease;
+    box-shadow:0 12px 28px rgba(0,0,0,.06);
+}
+
+.pcat-card:hover{
+    transform:translateY(-6px);
+    border-color:#0A5EB0;
+    box-shadow:0 20px 40px rgba(10,94,176,.14);
+}
+
+.pcat-icon{
+    width:62px;
+    height:62px;
+    min-width:62px;
+    border-radius:18px;
+    background:#EAF5FF;
+    color:#0A5EB0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    transition:.35s;
+}
+
+.pcat-card:hover .pcat-icon{
+    background:#0A5EB0;
+    color:#fff;
+    transform:rotate(-8deg);
+}
+
+.pcat-content{
+    flex:1;
+}
+
+.pcat-content h3{
+    color:#163A6C;
+    font-size:1.15rem;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.pcat-content p{
+    color:#666;
+    font-size:.93rem;
+    line-height:1.7;
+    margin-bottom:18px;
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.pcat-button{
+    border:none;
+    background:none;
+    color:#0A5EB0;
+    font-size:.95rem;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.pcat-button:hover{
+    letter-spacing:.5px;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media(max-width:992px){
+
+.pcat-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.pcat-section{
+    padding:60px 0;
+}
+
+.pcat-heading{
+    margin-bottom:40px;
+}
+
+.pcat-title{
+    font-size:2rem;
+}
+
+.pcat-description{
+    padding:0 15px;
+}
+
+.pcat-grid{
+    display:flex;
+    overflow-x:auto;
+    gap:18px;
+    padding:8px 15px 15px;
+    scroll-snap-type:x mandatory;
+    scrollbar-width:none;
+}
+
+.pcat-grid::-webkit-scrollbar{
+    display:none;
+}
+
+.pcat-card{
+    min-width:320px;
+    max-width:320px;
+    flex-shrink:0;
+    scroll-snap-align:center;
+    padding:22px;
+}
+
+.pcat-icon{
+    width:55px;
+    height:55px;
+    min-width:55px;
+    font-size:24px;
+}
+
+.pcat-content h3{
+    font-size:1.05rem;
+}
+
+.pcat-content p{
+    font-size:.88rem;
+    margin-bottom:14px;
+}
+
+.pcat-button{
+    font-size:.9rem;
+}
+
+}
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media(max-width:480px){
+
+.pcat-section{
+    padding:45px 0;
+}
+
+.pcat-title{
+    font-size:1.7rem;
+}
+
+.pcat-description{
+    font-size:.9rem;
+}
+
+.pcat-grid{
+    gap:14px;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.pcat-card{
+    min-width:285px;
+    max-width:285px;
+    padding:18px;
+    border-radius:18px;
+    gap:15px;
+}
+
+.pcat-icon{
+    width:50px;
+    height:50px;
+    min-width:50px;
+    font-size:22px;
+}
+
+.pcat-content h3{
+    font-size:1rem;
+}
+
+.pcat-content p{
+    font-size:.84rem;
+    line-height:1.6;
+}
+
+.pcat-button{
+    font-size:.85rem;
+}
+
+}

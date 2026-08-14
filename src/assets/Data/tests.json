@@ -1,0 +1,7130 @@
+[
+	{
+		"Name": "FEVER PROFILE WITH LFT",
+		"Department": "Package Manager",
+		"Test Rates": 1499,
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PCOD ADVANCE  PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "3499",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANNUAL HEALTH + IRON (without Urine)",
+		"Department": "Package Manager",
+		"Test Rates": "1999"
+	},
+	{
+		"Name": "ANNUAL HEALTH + IRON with RBS",
+		"Department": "Package Manager",
+		"Test Rates": "1999"
+	},
+	{
+		"Name": "COMPLETE CARE HEALTH CHECK-UP",
+		"Department": "Package Manager",
+		"Test Rates": "3999",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "CBC, ESR, PERIPHERAL SMEAR",
+		"Department": "Package Manager",
+		"Test Rates": "270",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "WHOLE ABDOMEN With PVR",
+		"Department": "Package Manager",
+		"Test Rates": "2000",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "HPV with LBC",
+		"Department": "Package Manager",
+		"Test Rates": "5200",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Health Check Up",
+		"Department": "Package Manager",
+		"Test Rates": "2000",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Type I Diabetes",
+		"Department": "Package Manager",
+		"Test Rates": "1250",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Type II Diabetes",
+		"Department": "Package Manager",
+		"Test Rates": "1050",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANNUAL HEALTH + IRON",
+		"Department": "Package Manager",
+		"Test Rates": "1999",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PCOD PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "1999",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "CARE B-1",
+		"Department": "Package Manager",
+		"Test Rates": "300",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PRE-EMPLOYMENT MEDICAL HEALTH CHECK-UP",
+		"Department": "Package Manager",
+		"Test Rates": "500",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Set 2 Silver",
+		"Department": "Package Manager",
+		"Test Rates": "650",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "OFFER PACKAGE (RH)",
+		"Department": "Package Manager",
+		"Test Rates": "600",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANC PROFILE RISHIKESH",
+		"Department": "Package Manager",
+		"Test Rates": "1200",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PREGNANCY INDUCED HYPERTENSION (PIH)",
+		"Department": "Package Manager",
+		"Test Rates": "1620",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "FIT CHECK-UP",
+		"Department": "Package Manager",
+		"Test Rates": "1550",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "RFT with PHOSPHORUS",
+		"Department": "Package Manager",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "SET 2 CARE HEALTH",
+		"Department": "Package Manager",
+		"Test Rates": "650",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "CARE GOLD SET 3",
+		"Department": "Package Manager",
+		"Test Rates": "1050",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "THALLASEMIA PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "2050",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Care G3",
+		"Department": "Package Manager",
+		"Test Rates": "600",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PACK-02",
+		"Department": "Package Manager",
+		"Test Rates": "1150",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "CARE HEALTH S-2",
+		"Department": "Package Manager",
+		"Test Rates": "500",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "BASIC HEALTH CHECKUP WITHOUT URINE",
+		"Department": "Package Manager",
+		"Test Rates": "999"
+	},
+	{
+		"Name": "BASIC PLUS HEALTH CHECK WITHOUT URINE",
+		"Department": "Package Manager",
+		"Test Rates": "1350"
+	},
+	{
+		"Name": "ANNUAL PLUS With IRON HEALTH (Without Urine)",
+		"Department": "Package Manager",
+		"Test Rates": "2249",
+		"Sample Type": "NA"
+	},
+	{
+		"Name": "BASIC HEALTH CHECKUP (RBS-W\/Urine)",
+		"Department": "Package Manager",
+		"Test Rates": "999"
+	},
+	{
+		"Name": "BASIC PLUS HEALTH CHECK (RBS-W\/Urine)",
+		"Department": "Package Manager",
+		"Test Rates": "1350"
+	},
+	{
+		"Name": "ANNUAL PLUS With IRON HEALTH CHECKUP WITH RBS",
+		"Department": "Package Manager",
+		"Test Rates": "2249"
+	},
+	{
+		"Name": "PHC Pack - 01",
+		"Department": "Package Manager",
+		"Test Rates": "400",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 02",
+		"Department": "Package Manager",
+		"Test Rates": "600",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 03",
+		"Department": "Package Manager",
+		"Test Rates": "620",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 04",
+		"Department": "Package Manager",
+		"Test Rates": "720",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 05",
+		"Department": "Package Manager",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 06",
+		"Department": "Package Manager",
+		"Test Rates": "800",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 07",
+		"Department": "Package Manager",
+		"Test Rates": "1050",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 08",
+		"Department": "Package Manager",
+		"Test Rates": "1200",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 09",
+		"Department": "Package Manager",
+		"Test Rates": "1300",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 10",
+		"Department": "Package Manager",
+		"Test Rates": "1600",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PHC Pack - 11",
+		"Department": "Package Manager",
+		"Test Rates": "1800"
+	},
+	{
+		"Name": "PHC Pack - 12",
+		"Department": "Package Manager",
+		"Test Rates": "2000"
+	},
+	{
+		"Name": "BASIC HEALTH CHECKUP WITH RBS",
+		"Department": "Package Manager",
+		"Test Rates": "999"
+	},
+	{
+		"Name": "ANNUAL HEALTH + IRON with RBS",
+		"Department": "Package Manager",
+		"Test Rates": "1999"
+	},
+	{
+		"Name": "ANNUAL PLUS With IRON HEALTH CHECKUP WITH RBS",
+		"Department": "Package Manager",
+		"Test Rates": "2249"
+	},
+	{
+		"Name": "RESPIRATORY VIRAL & BACTERIAL PANEL",
+		"Department": "Package Manager",
+		"Test Rates": "12000",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Freedom Full Body Health Check-Up",
+		"Department": "Package Manager",
+		"Test Rates": "3599",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Freedom Full Body Health Check-Up",
+		"Department": "Package Manager",
+		"Test Rates": "2499"
+	},
+	{
+		"Name": "Kids Care Package",
+		"Department": "Package Manager",
+		"Test Rates": "200",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Set 1 Bronze",
+		"Department": "Package Manager",
+		"Test Rates": "500",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Set 2 Silver",
+		"Department": "Package Manager",
+		"Test Rates": "800",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "New Silver",
+		"Department": "Package Manager",
+		"Test Rates": "650",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Kids Care Package",
+		"Department": "Package Manager",
+		"Test Rates": "250",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Care B1",
+		"Department": "Package Manager",
+		"Test Rates": "300",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Care S2",
+		"Department": "Package Manager",
+		"Test Rates": "400",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Care G3",
+		"Department": "Package Manager",
+		"Test Rates": "500",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Care K2",
+		"Department": "Package Manager",
+		"Test Rates": "150",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Hyperlipidimia",
+		"Department": "Package Manager",
+		"Test Rates": "160",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Care P7",
+		"Department": "Package Manager",
+		"Test Rates": "1200",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Assure 1",
+		"Department": "Package Manager",
+		"Test Rates": "300",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Set 3 Gold",
+		"Department": "Package Manager",
+		"Test Rates": "1500",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Platinum Male",
+		"Department": "Package Manager",
+		"Test Rates": "2500",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ADVANCE HEART PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "3499",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "BASIC HEALTH CHECKUP",
+		"Department": "Package Manager",
+		"Test Rates": "999",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANNUAL PLUS With IRON HEALTH CHECKUP",
+		"Department": "Package Manager",
+		"Test Rates": "2249",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "OT PROFILE - 2",
+		"Department": "Package Manager",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "BASIC PLUS HEALTH CHECK WITH RBS",
+		"Department": "Package Manager",
+		"Test Rates": "1350"
+	},
+	{
+		"Name": "ARTHRITIS  ADVANCE PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "1599",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANEMIA PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "1499",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "PRE-HEALTH CHECK-UP RISHIKESH",
+		"Department": "Package Manager",
+		"Test Rates": "420",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Male Test Without PSA for Males Below 40 Year of Age",
+		"Department": "Package Manager",
+		"Test Rates": "2400",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Male Test With PSA for Males Above 40 Year of Age",
+		"Department": "Package Manager",
+		"Test Rates": "2600"
+	},
+	{
+		"Name": "Female Test with PAP Smear",
+		"Department": "Package Manager",
+		"Test Rates": "2850"
+	},
+	{
+		"Name": "Female Test without PAP Smear",
+		"Department": "Package Manager",
+		"Test Rates": "2700"
+	},
+	{
+		"Name": "BASIC PLUS HEALTH CHECK",
+		"Department": "Package Manager",
+		"Test Rates": "1350",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "DIABETIC PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "499",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Males Test Without PSA (for Males Below 40 years of age)",
+		"Department": "Package Manager",
+		"Test Rates": "1590",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Males Test With PSA (for Males Above 40 years of age)",
+		"Department": "Package Manager",
+		"Test Rates": "1740",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Females Test With PAP smear and Mammography",
+		"Department": "Package Manager",
+		"Test Rates": "2390",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Females Test Without PAP Samear and without Mammography",
+		"Department": "Package Manager",
+		"Test Rates": "1590",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Females Test Without PAP Smear and with Mammography",
+		"Department": "Package Manager",
+		"Test Rates": "1590",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Females Test With PAP Smear and without Mammography",
+		"Department": "Package Manager",
+		"Test Rates": "1790",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "COMPREHENSIVE HEALTH CHECKUP",
+		"Department": "Package Manager",
+		"Test Rates": "2499",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ADVANCE HEALTH CHECKUP",
+		"Department": "Package Manager",
+		"Test Rates": "3499",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ARTHRITIS  PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "599",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANEMIA ADVANCE PROFILE",
+		"Department": "Package Manager",
+		"Test Rates": "2099",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "DIABETIC ADVANCE",
+		"Department": "Package Manager",
+		"Test Rates": "899",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "OT PROFILE - 1",
+		"Department": "Package Manager",
+		"Test Rates": "600",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "OT PROFILE - 3",
+		"Department": "Package Manager",
+		"Test Rates": "800",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "DIABETIC PROFILE Without URINE R\/M",
+		"Department": "Package Manager",
+		"Test Rates": "399",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "NEW JOINING HEALTH PACKAGE",
+		"Department": "Package Manager",
+		"Test Rates": "5300",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "COMPREHENSIVE HEALTH CHECKUP WITH RBS",
+		"Department": "Package Manager",
+		"Test Rates": "2499"
+	},
+	{
+		"Name": "ADVANCE HEALTH CHECKUP WITH RBS",
+		"Department": "Package Manager",
+		"Test Rates": "3499"
+	},
+	{
+		"Name": "HPLC",
+		"Department": "Haematology",
+		"Test Rates": "1000",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DLC",
+		"Department": "Haematology",
+		"Test Rates": "100",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PCV",
+		"Department": "Haematology",
+		"Test Rates": "150",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "MCV",
+		"Department": "Haematology",
+		"Test Rates": "150",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Coombs Titer (Rh Antibody Titer)",
+		"Department": "Haematology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BABY SHIELD 11",
+		"Department": "Haematology",
+		"Test Rates": "2600",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Slide\/Block Review",
+		"Department": "Haematology",
+		"Test Rates": "1100",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Bone Marrow Aspiration",
+		"Department": "Haematology",
+		"Test Rates": "1000",
+		"Sample Type": "Bone Marrow Aspiration",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HAEMOGLOBIN (HB)",
+		"Department": "Haematology",
+		"Test Rates": "100",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CBC 3 PART",
+		"Department": "Haematology",
+		"Test Rates": "300",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Extended CBC ESR with Reticulocyte & IPF",
+		"Department": "Haematology",
+		"Test Rates": "450",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CBC 5 PART",
+		"Department": "Haematology",
+		"Test Rates": "300",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PS FOR MP",
+		"Department": "Haematology",
+		"Test Rates": "250",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PLATELET COUNT",
+		"Department": "Haematology",
+		"Test Rates": "150",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BLOOD GROUP",
+		"Department": "Haematology",
+		"Test Rates": "100",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "AEC (ABSOLUTE EOSINOPHIL COUNT)",
+		"Department": "Haematology",
+		"Test Rates": "200",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ESR",
+		"Department": "Haematology",
+		"Test Rates": "60",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "G6PD QUANTITATIVE",
+		"Department": "Haematology",
+		"Test Rates": "600",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RETICULOCYTE COUNT",
+		"Department": "Haematology",
+		"Test Rates": "250",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PERIPHERAL SMEAR",
+		"Department": "Haematology",
+		"Test Rates": "250",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PS FOR FILARIA",
+		"Department": "Haematology",
+		"Test Rates": "350",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BT\/CT",
+		"Department": "Haematology",
+		"Test Rates": "200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "COOMB'S DIRECT",
+		"Department": "Haematology",
+		"Test Rates": "300",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "COOMB' INDIRECT",
+		"Department": "Haematology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "IPF",
+		"Department": "Haematology",
+		"Test Rates": "600",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Absolute leukocyte count",
+		"Department": "Haematology",
+		"Test Rates": "100",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "G6PD",
+		"Department": "Haematology",
+		"Test Rates": "650",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HBA1C",
+		"Department": "Haematology",
+		"Test Rates": "550",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HB ELECTROPHORESIS",
+		"Department": "Haematology",
+		"Test Rates": "1000",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "WBC",
+		"Department": "Haematology",
+		"Test Rates": "100",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "EGFR (CREATNINE)",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY UREA CREATININE RATIO",
+		"Department": "Biochemistry",
+		"Test Rates": "500",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "24 HRS URINARY CREATININE",
+		"Department": "Biochemistry",
+		"Test Rates": "200",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "POTASSIUM (K)",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LDL DIRECT",
+		"Department": "Biochemistry",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "50 GM GLT (PREGNANCY)",
+		"Department": "Biochemistry",
+		"Test Rates": "100",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SODIUM",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CSF LACTATE",
+		"Department": "Biochemistry",
+		"Test Rates": "900",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PGBS (SINGLE SAMPLE)",
+		"Department": "Biochemistry",
+		"Test Rates": "110",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RFT\/KFT",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "75 GM OGTT",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "100 GM OGTT",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "phadiatop",
+		"Department": "Biochemistry",
+		"Test Rates": "1210",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY SODIUM",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "MICRO ALBUMIN",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Eptoin",
+		"Department": "Biochemistry",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BMI",
+		"Department": "Biochemistry",
+		"Test Rates": "300",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "AMMONIA",
+		"Department": "Biochemistry",
+		"Test Rates": "1000",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VIT E",
+		"Department": "Biochemistry",
+		"Test Rates": "4400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RBC",
+		"Department": "Biochemistry",
+		"Test Rates": "100",
+		"Sample Type": "Bile",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY PROTEIN\/CREATININE RATIO",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "Bile",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY COPPER 24 HRS",
+		"Department": "Biochemistry",
+		"Test Rates": "1970",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BILIRUBIN (DIRECT)",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BILIRUBIN (INDIRECT)",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "50 GM GCT",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "2 hr GCT 50 gm",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE MICROALBUMIN",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "Bile",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Islet cell antibody",
+		"Department": "Biochemistry",
+		"Test Rates": "2200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VBG",
+		"Department": "Biochemistry",
+		"Test Rates": "2200",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "V.D.R.L. in dilution",
+		"Department": "Biochemistry",
+		"Test Rates": "770",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY MICROPROTEIN",
+		"Department": "Biochemistry",
+		"Test Rates": "549",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SPUTUM FOR FUNGAL EXAMINATION",
+		"Department": "Biochemistry",
+		"Test Rates": "1000",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR CRYSTALS",
+		"Department": "Biochemistry",
+		"Test Rates": "60",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID CULTURE",
+		"Department": "Biochemistry",
+		"Test Rates": "1500",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SYNOVIAL CULTURE",
+		"Department": "Biochemistry",
+		"Test Rates": "1500",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR DYSMORPHIC RBC",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DRUG TESTING",
+		"Department": "Biochemistry",
+		"Test Rates": "2500",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "UIBC(Unsaturated Iron Binding Capacity )",
+		"Department": "Biochemistry",
+		"Test Rates": "200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SERUM  ELECTROPHOROSIS",
+		"Department": "Biochemistry",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR REDUCING SUGAR",
+		"Department": "Biochemistry",
+		"Test Rates": "60",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SPUTUM EXAMINATION",
+		"Department": "Biochemistry",
+		"Test Rates": "1000",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LUPUS ANTICOAGULANT CONFIRM",
+		"Department": "Biochemistry",
+		"Test Rates": "1200",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Anti centromere antibody",
+		"Department": "Biochemistry",
+		"Test Rates": "1500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ALCOHOL CARD",
+		"Department": "Biochemistry",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HCV ELISA",
+		"Department": "Biochemistry",
+		"Test Rates": "900",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "75 GM GCT",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "100 GM GCT",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CARBAMAZEPINE LEVEL",
+		"Department": "Biochemistry",
+		"Test Rates": "800",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN B6 (PYRIDOXINE)",
+		"Department": "Biochemistry",
+		"Test Rates": "3000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "50 GM OGTT",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PNEUMOCYSTIS IFA",
+		"Department": "Biochemistry",
+		"Test Rates": "2520",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR GONOCCOCAL  INFECTION",
+		"Department": "Biochemistry",
+		"Test Rates": "320",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FIBRINOGEN DEGRADATION PRODUCTS  (FDP)",
+		"Department": "Biochemistry",
+		"Test Rates": "1300",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "KIDEY STONE FORMATION DIAGNOSTIC PANAEL",
+		"Department": "Biochemistry",
+		"Test Rates": "5500",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN E",
+		"Department": "Biochemistry",
+		"Test Rates": "2400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN K",
+		"Department": "Biochemistry",
+		"Test Rates": "2400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN B6",
+		"Department": "Biochemistry",
+		"Test Rates": "2400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "24 HRS Urinary Albumin\/Creatinine Ratio",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR PROTEIN",
+		"Department": "Biochemistry",
+		"Test Rates": "60",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PAPP-A",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE BILIRUBIN",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ALLERGY DUST PANEL (IMMUNOCAP)",
+		"Department": "Biochemistry",
+		"Test Rates": "3800",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "GAD-65 ANTIBODY",
+		"Department": "Biochemistry",
+		"Test Rates": "2500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN B2 (RIBOFLAVIN)",
+		"Department": "Biochemistry",
+		"Test Rates": "3500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN B1 (THIAMIN)",
+		"Department": "Biochemistry",
+		"Test Rates": "2000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HBSAG ELISA",
+		"Department": "Biochemistry",
+		"Test Rates": "900",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "A\/G RATIO",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ALBUMIN GLOBULIN (A\/G) RATIO",
+		"Department": "Biochemistry",
+		"Test Rates": "300",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "GLOBULIN",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "24 Hrs Urinary Metabolic Evaluation",
+		"Department": "Biochemistry",
+		"Test Rates": "800",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "IMMUNOGLOBULIN IgG",
+		"Department": "Biochemistry",
+		"Test Rates": "800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Bun Creatinine Ratio",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ASO (QUANTITATIVE)",
+		"Department": "Biochemistry",
+		"Test Rates": "500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "URINE CALCIUM",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ALLERGIC BRONCHOPULMONARY ASPERGILLOSIS  (ABPA)",
+		"Department": "Biochemistry",
+		"Test Rates": "3200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FACTOR V",
+		"Department": "Biochemistry",
+		"Test Rates": "3500",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Anti Thrombin III",
+		"Department": "Biochemistry",
+		"Test Rates": "1000",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BICARBONATE",
+		"Department": "Biochemistry",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTI PHOSPHOLIPID ANTIBODIES (IGG & IGM)",
+		"Department": "Biochemistry",
+		"Test Rates": "1400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "IMMUNOGLOBULIN IgA, TOTAL SERUM (10006)",
+		"Department": "Biochemistry",
+		"Test Rates": "1100",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "hsCRP",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LIPOPROTEIN A",
+		"Department": "Biochemistry",
+		"Test Rates": "1100",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HOMOCYSTEIN",
+		"Department": "Biochemistry",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PSA PROFILE",
+		"Department": "Biochemistry",
+		"Test Rates": "1900",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "GLUOSE BY GLUCOMETER",
+		"Department": "Biochemistry",
+		"Test Rates": "50",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "DSG1&DSG3",
+		"Department": "Biochemistry",
+		"Test Rates": "4700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SAAG",
+		"Department": "Biochemistry",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "AUTOIMMUNE HEPATITIS PANEL",
+		"Department": "Biochemistry",
+		"Test Rates": "6200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Serum IgG",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HEAVY METAL SCREEN",
+		"Department": "Biochemistry",
+		"Test Rates": "5900",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Sugar 3 Samples",
+		"Department": "Biochemistry",
+		"Test Rates": "210",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "24 HOUR URINARY FREE CORTISOL",
+		"Department": "Biochemistry",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "APOLIPOPROTEIN A1",
+		"Department": "Biochemistry",
+		"Test Rates": "700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "APOLIPOPROTEIN B",
+		"Department": "Biochemistry",
+		"Test Rates": "700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CALCITONIN",
+		"Department": "Biochemistry",
+		"Test Rates": "1500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "24 Urinary Creatinine Percutaneous nephrostomy",
+		"Department": "Biochemistry",
+		"Test Rates": "200",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FLUID LDH",
+		"Department": "Biochemistry",
+		"Test Rates": "400",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CA 19.9",
+		"Department": "Biochemistry",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BILE ACID",
+		"Department": "Biochemistry",
+		"Test Rates": "1500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Blood Serology Elisa For Schistosomiasis",
+		"Department": "Biochemistry",
+		"Test Rates": "9500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Fluid Uric Acid",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CSF Chloride",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "DIABETIC 4 SAMPLE",
+		"Department": "Biochemistry",
+		"Test Rates": "280",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Sugar 6 Sample",
+		"Department": "Biochemistry",
+		"Test Rates": "280",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FIB-4 INDEX",
+		"Department": "Biochemistry",
+		"Test Rates": "400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "PHOSPHORUS, 24 HOUR URINE",
+		"Department": "Biochemistry",
+		"Test Rates": "280",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CITRATE, 24 HOUR URINE",
+		"Department": "Biochemistry",
+		"Test Rates": "900",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Sugar 4 Sample",
+		"Department": "Biochemistry",
+		"Test Rates": "280",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CSF Protein",
+		"Department": "Biochemistry",
+		"Test Rates": "180",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CHOLESTEROL, FLUID",
+		"Department": "Biochemistry",
+		"Test Rates": "250",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Chylomicron Qualitative (Specimen-Fluid)",
+		"Department": "Biochemistry",
+		"Test Rates": "650",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BETA 2 GLYCOPROTEIN IGM",
+		"Department": "Biochemistry",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "LACTATE PLASMA",
+		"Department": "Biochemistry",
+		"Test Rates": "1080",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SUGAR URINE (FASTING)",
+		"Department": "Biochemistry",
+		"Test Rates": "70",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BSF",
+		"Department": "Biochemistry",
+		"Test Rates": "70",
+		"Sample Type": "Fluoride Plasma [F]",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RBS",
+		"Department": "Biochemistry",
+		"Test Rates": "70",
+		"Sample Type": "Fluoride Plasma [R]",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BSPP",
+		"Department": "Biochemistry",
+		"Test Rates": "70",
+		"Sample Type": "Fluoride Plasma [PP]",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ADA PLEURAL FLUID",
+		"Department": "Biochemistry",
+		"Test Rates": "800",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SERUM ACETONE",
+		"Department": "Biochemistry",
+		"Test Rates": "100",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CRP QUANTITATIVE",
+		"Department": "Biochemistry",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "UREA",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BUN (BLOOD UREA NITROGEN)",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RA FACTOR QUANTITATIVE",
+		"Department": "Biochemistry",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CREATININE",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ELECTROLYTE",
+		"Department": "Biochemistry",
+		"Test Rates": "450",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LIPID PROFILE",
+		"Department": "Biochemistry",
+		"Test Rates": "500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CHOLESTEROL",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HDL CHOLESTEROL",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TRIGLYCERIDES",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TOTAL, DIRECT, INDIRECT",
+		"Department": "Biochemistry",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BILIRUBIN TOTAL",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SGOT",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SGPT",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ALKALINE PHOSPHATASE",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TOTAL PROTEIN",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ADA CSF",
+		"Department": "Biochemistry",
+		"Test Rates": "800",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ALBUMIN",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "AMYLASE",
+		"Department": "Biochemistry",
+		"Test Rates": "380",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LIPASE",
+		"Department": "Biochemistry",
+		"Test Rates": "380",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LDH",
+		"Department": "Biochemistry",
+		"Test Rates": "400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "GGT",
+		"Department": "Biochemistry",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CALCIUM",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "IONIC CALCIUM",
+		"Department": "Biochemistry",
+		"Test Rates": "200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ADA - FLUID",
+		"Department": "Biochemistry",
+		"Test Rates": "800",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URIC ACID",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PHOSPHORUS",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID - AMYLASE",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID - LIPASE",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "MAGNESIUM",
+		"Department": "Biochemistry",
+		"Test Rates": "500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "IRON",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TIBC",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "24 HRS. URINARY ALBUMIN",
+		"Department": "Biochemistry",
+		"Test Rates": "550",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ABG ( BLOOD GAS ANALYSIS )",
+		"Department": "Biochemistry",
+		"Test Rates": "2200",
+		"Sample Type": "Na Heparin Blood Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ADA (ADENOSINE DEAMINASE)",
+		"Department": "Biochemistry",
+		"Test Rates": "800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LFT",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CREATININE CLEARANCE TEST",
+		"Department": "Biochemistry",
+		"Test Rates": "750",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CPK Nac",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CPK Total",
+		"Department": "Biochemistry",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CHLORIDE",
+		"Department": "Biochemistry",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID PROTEIN",
+		"Department": "Biochemistry",
+		"Test Rates": "200",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "(ANTICARDIOLIPIN ANTIBODY) IGM",
+		"Department": "Immunology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RUBELLA IGM",
+		"Department": "Immunology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTICARDIOLIPIN ANTIBODY (IGG)",
+		"Department": "Immunology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANA IFA TITER",
+		"Department": "Immunology",
+		"Test Rates": "4000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CERULOPLASMIN",
+		"Department": "Immunology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TB GOLD",
+		"Department": "Immunology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BNP",
+		"Department": "Immunology",
+		"Test Rates": "3500",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HE4; HUMAN EPIDIDYMIS PROTEIN 4",
+		"Department": "Immunology",
+		"Test Rates": "2300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HYPERSENSITIVITY PNEUMONITIS (HP) PANEL",
+		"Department": "Immunology",
+		"Test Rates": "8400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANA PROFILE",
+		"Department": "Immunology",
+		"Test Rates": "4000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "igG 4",
+		"Department": "Immunology",
+		"Test Rates": "7000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "PIVKA II",
+		"Department": "Immunology",
+		"Test Rates": "3800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Gonorreha",
+		"Department": "Immunology",
+		"Test Rates": "3800",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANTICARDIOLIPIN ANTIBODY IGG & IGM",
+		"Department": "Immunology",
+		"Test Rates": "1400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TSH STIMULATION BY TRH",
+		"Department": "Immunology",
+		"Test Rates": "1140",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "GASTRIN",
+		"Department": "Immunology",
+		"Test Rates": "1300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TESTOSTERONE 3 SAMPLE",
+		"Department": "Immunology",
+		"Test Rates": "1800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CK (CPK) ISOENZYME ELECTROPHORESIS",
+		"Department": "Immunology",
+		"Test Rates": "8600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ALLERGY: CANDIDA ALBICANS",
+		"Department": "Immunology",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "(1, 3)-BETA-D-GLUCAN (BDG), CLIA",
+		"Department": "Immunology",
+		"Test Rates": "11000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ALLERGY: GLUTEN (Lasa)",
+		"Department": "Immunology",
+		"Test Rates": "1970",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "KAPPA \/ LAMBDA LIGHT CHAINS FREE, SERUM",
+		"Department": "Immunology",
+		"Test Rates": "6900",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "IMMUNOTYPING, SERUM",
+		"Department": "Immunology",
+		"Test Rates": "6600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "MYOGLOBIN, SERUM",
+		"Department": "Immunology",
+		"Test Rates": "4250",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "VARICELLA ZOSTER VIRUS (VZV) ANTIBODIES PANEL IgG & IgM, SERUM",
+		"Department": "Immunology",
+		"Test Rates": "2400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CEA",
+		"Department": "Immunology",
+		"Test Rates": "1100",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Anti Nuclear Antibody",
+		"Department": "Immunology",
+		"Test Rates": "800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTI HSV I & II IGG",
+		"Department": "Immunology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANA ELISA",
+		"Department": "Immunology",
+		"Test Rates": "850",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTI HSV I & II IGM",
+		"Department": "Immunology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "D-DIMER",
+		"Department": "Immunology",
+		"Test Rates": "1100",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RUBELLA IGG",
+		"Department": "Immunology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "NT PRO BNP",
+		"Department": "Immunology",
+		"Test Rates": "2500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTI THYROID PEROXIDASE",
+		"Department": "Immunology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTI CCP",
+		"Department": "Immunology",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TOXO PLASMA IgG\/IgM",
+		"Department": "Immunology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TOXO PLASMA IgM",
+		"Department": "Immunology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PROTHROMBIN TIME",
+		"Department": "Immunology",
+		"Test Rates": "300",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "APTT",
+		"Department": "Immunology",
+		"Test Rates": "300",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FREE PSA",
+		"Department": "Immunology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CORTISOL EVENING",
+		"Department": "Immunology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CORTISOL AFTER 1 HOUR",
+		"Department": "Immunology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TTG ANTIBODY - IgA",
+		"Department": "Immunology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "COMPLEMENT C3",
+		"Department": "Immunology",
+		"Test Rates": "850",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Anti Thrombin III Activity, Platelet Poor Citrate Plasma",
+		"Department": "Immunology",
+		"Test Rates": "3850",
+		"Sample Type": "Citrate Plasma Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Covid-19 Antibody IGG",
+		"Department": "Immunology",
+		"Test Rates": "850",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Nor-Metanephrine-Free, EDTA Plasma N0036",
+		"Department": "Immunology",
+		"Test Rates": "4600",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "COMPLEMENT C4",
+		"Department": "Immunology",
+		"Test Rates": "850",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "C-Peptide Random",
+		"Department": "Immunology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "C-Peptide PP",
+		"Department": "Immunology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "C-Peptide Fasting",
+		"Department": "Immunology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BETA 2 GLYCOPROTEIN (IGG & IGM)",
+		"Department": "Immunology",
+		"Test Rates": "2000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HEPATITIS C",
+		"Department": "Serology",
+		"Test Rates": "998",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Measles IgM",
+		"Department": "Serology",
+		"Test Rates": "1650",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "MUMPS IgM",
+		"Department": "Serology",
+		"Test Rates": "1650",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE ELISA (NS1 IGG and IGM)",
+		"Department": "Serology",
+		"Test Rates": "1100",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TORCH-8 (T0085)",
+		"Department": "Serology",
+		"Test Rates": "2000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TORCH 4 IGM",
+		"Department": "Serology",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TORCH 4 IGG",
+		"Department": "Serology",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "MALARIA ANTIGEN TEST",
+		"Department": "Serology",
+		"Test Rates": "350",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "P24 ANTIGEN",
+		"Department": "Serology",
+		"Test Rates": "1100",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RA FACTOR QUALITATIVE",
+		"Department": "Serology",
+		"Test Rates": "200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CRP QUALITATIVE",
+		"Department": "Serology",
+		"Test Rates": "250",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "H.PYLORI (STOOL)",
+		"Department": "Serology",
+		"Test Rates": "2500",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RAPID INFLUENZA  A+ B",
+		"Department": "Serology",
+		"Test Rates": "1500",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE Ns1 TEST CARD",
+		"Department": "Serology",
+		"Test Rates": "500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CHIKUNGUNYA (IgG IgM)",
+		"Department": "Serology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SYPHILIS (VDRL)",
+		"Department": "Serology",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TROPONIN T (QUALITATIVE)",
+		"Department": "Serology",
+		"Test Rates": "1600",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "H.Pylori Ab Combo Rapid Test",
+		"Department": "Serology",
+		"Test Rates": "2500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANA REFLEX BLOT",
+		"Department": "Serology",
+		"Test Rates": "4000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Rapid Plasma Reagin",
+		"Department": "Serology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "4 days 0 hours 0 mins"
+	},
+	{
+		"Name": "ENTAMOEBA ANTIGEN TEST RAPID, STOOL",
+		"Department": "Serology",
+		"Test Rates": "700",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "WIDAL (Tube Test)",
+		"Department": "Serology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "WIDAL TEST (Slide Agglutination)",
+		"Department": "Serology",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HBsAg",
+		"Department": "Serology",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE NS1 ELISA",
+		"Department": "Serology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE IGG ELISA",
+		"Department": "Serology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE IGM ELISA",
+		"Department": "Serology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LEPTOSPIRA  ANTIBODY TEST",
+		"Department": "Serology",
+		"Test Rates": "900",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HCV",
+		"Department": "Serology",
+		"Test Rates": "800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ASO (QUALITITATIVE)",
+		"Department": "Serology",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTI HAV IGM",
+		"Department": "Serology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FREE TESTOSTERON",
+		"Department": "Serology",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANTI HEV - IGM",
+		"Department": "Serology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TYPHIDOT",
+		"Department": "Serology",
+		"Test Rates": "400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TROPONIN I (QUALITATIVE)",
+		"Department": "Serology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE TEST CARD",
+		"Department": "Serology",
+		"Test Rates": "800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE TEST CARD (IgG, IgM)",
+		"Department": "Serology",
+		"Test Rates": "400",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "R P R Test for syphilis",
+		"Department": "Serology",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HIV I & II",
+		"Department": "Serology",
+		"Test Rates": "350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Scrub Typhus IgM\/IgG",
+		"Department": "Serology",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TPHA TITRE",
+		"Department": "Serology",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VARICELLA  ZOSTER IgM",
+		"Department": "Serology",
+		"Test Rates": "1870",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Measles IgG",
+		"Department": "Serology",
+		"Test Rates": "1650",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Mumps IgG",
+		"Department": "Serology",
+		"Test Rates": "1650",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID AFB STAIN",
+		"Department": "Microbiology",
+		"Test Rates": "300",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "STOOL ROUTINE",
+		"Department": "Microbiology",
+		"Test Rates": "250",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CSF EXAMINATION",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "GRAM STAIN",
+		"Department": "Microbiology",
+		"Test Rates": "250",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PUS CULTURE (MANUAL)",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "Pus Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SPUTUM CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ZN STAINING URINE (AFB)",
+		"Department": "Microbiology",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "AFB",
+		"Department": "Microbiology",
+		"Test Rates": "250",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SPUTUM FOR AFB",
+		"Department": "Microbiology",
+		"Test Rates": "250",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BIOLOGICAL INDICATOR",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FUNGAL STAIN",
+		"Department": "Microbiology",
+		"Test Rates": "600",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "KOH",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR FUNGAL HYPHAE",
+		"Department": "Microbiology",
+		"Test Rates": "400",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ALBERT`S STAIN",
+		"Department": "Microbiology",
+		"Test Rates": "200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "THROAT SWAB EXAMINATION",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "STOOL CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "950",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE CULTURE ( 12 ANTIBIOTICS )",
+		"Department": "Microbiology",
+		"Test Rates": "450",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SEMEN CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "Semen Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SPUTUM FOR MALIGNANT CELLS",
+		"Department": "Microbiology",
+		"Test Rates": "300",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID FOR HYDATID CYST",
+		"Department": "Microbiology",
+		"Test Rates": "100",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PUS CULTURE ANAEROBIC",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Pus Sample",
+		"TAT": "5 days 0 hours 0 mins"
+	},
+	{
+		"Name": "CULTURE SENSITIVITY (MANUAL)",
+		"Department": "Microbiology",
+		"Test Rates": "450",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Settle Plate test (Air sampling)",
+		"Department": "Microbiology",
+		"Test Rates": "100",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PUS CULTURE AEROBIC",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Pus Sample",
+		"TAT": "5 days 0 hours 0 mins"
+	},
+	{
+		"Name": "ANAEROBIC CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "Na Heparin Blood Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ENDOTRACHEAL TUBE TIP CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SWAB CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Water Culture without Treatment",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Water",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "URINE CULTURE & SENSITIVITY (20 ANTIBIOTIC)",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE CULTURE (Vitek 2 Compact)",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SPUTUM VITEK CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SEMEN CULTURE (Vitek 2 Compact)",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "Semen Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SARS CoV-2 TrueNAT",
+		"Department": "Microbiology",
+		"Test Rates": "1250",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SARS CoV-2 Antigen",
+		"Department": "Microbiology",
+		"Test Rates": "275",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SARS CoV-2 RT PCR",
+		"Department": "Microbiology",
+		"Test Rates": "700",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HLA B-27",
+		"Department": "Microbiology",
+		"Test Rates": "2500",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HIV -1\/HIV-2 RT-PCR",
+		"Department": "Microbiology",
+		"Test Rates": "4000",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HCV  PCR",
+		"Department": "Microbiology",
+		"Test Rates": "4000",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SARS CoV-2 CB-NAAT",
+		"Department": "Microbiology",
+		"Test Rates": "3800",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "AFB CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1200",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CULTURE GONOCOCCUS",
+		"Department": "Microbiology",
+		"Test Rates": "1200",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Influenza-A (H1N1\/H3N2) & Influenza B RT-PCR",
+		"Department": "Microbiology",
+		"Test Rates": "4500",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SWAB CULTURE (VITEK 2 COMPACT)",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FLUID CULTURE (VITEK 2 COMPACT)",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "PUS CULTURE (VITEK 2 COMPACT)",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Trichomoniasis",
+		"Department": "Microbiology",
+		"Test Rates": "650",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BLOOD CULTURE (BOTH HAND)",
+		"Department": "Microbiology",
+		"Test Rates": "3000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BLOOD CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "Blood culture",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BONE CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "BONE",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "URINE CULTURE RIGHT BAG",
+		"Department": "Microbiology",
+		"Test Rates": "450",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "URINE CULTURE LEFT BAG",
+		"Department": "Microbiology",
+		"Test Rates": "450",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "2 Sample Of Sputum For AFB",
+		"Department": "Microbiology",
+		"Test Rates": "500",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3 Days Sputum For AFB",
+		"Department": "Microbiology",
+		"Test Rates": "500",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "STERILITY CHECKING CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "OT FLOOR SWAB CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "OT WALL SWAB CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "OT TABLE SWAB CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FOLEYS TIP CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CULTURE, MYCOBACTERIUM ATYPICAL",
+		"Department": "Microbiology",
+		"Test Rates": "2700",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ICU SWAB CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "850",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FUNGAL CULTURE MANNUAL",
+		"Department": "Microbiology",
+		"Test Rates": "450",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TIP CULTURE (Vitek 2 Compact)",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Tb Culture",
+		"Department": "Microbiology",
+		"Test Rates": "1200",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FUNGAL (TIP) CULTURE VITEK 2 COMPACT",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Human Metapneumo Virus (HMPV RT-PCR)",
+		"Department": "Microbiology",
+		"Test Rates": "2999",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Fluid Sugar",
+		"Department": "Microbiology",
+		"Test Rates": "70",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FUNGAL CULTURE VITEK 2 COMPACT",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FUNGAL ANTIBIOTICS \/ AST",
+		"Department": "Microbiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "MGIT (Mycobacteria Growth Indicator Tube)",
+		"Department": "Microbiology",
+		"Test Rates": "1200",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FILARIA ANTIGEN",
+		"Department": "Microbiology",
+		"Test Rates": "890",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Fluid Culture Bact\/Alert Sensitivity",
+		"Department": "Microbiology",
+		"Test Rates": "1500",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Sterility Water Culture (Without Int)",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Water",
+		"TAT": "2 days 0 hours 0 mins"
+	},
+	{
+		"Name": "Water Culture with Treatment (RO\/Drinking Water)",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Water",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Water Culture - Instrument Water",
+		"Department": "Microbiology",
+		"Test Rates": "1000",
+		"Sample Type": "Water",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "PUS AFB STAIN",
+		"Department": "Microbiology",
+		"Test Rates": "300",
+		"Sample Type": "Pus Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TISSUE CULTURE",
+		"Department": "Microbiology",
+		"Test Rates": "1100",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CSF - PCR REPORT",
+		"Department": "Molecular Biology",
+		"Test Rates": "3000",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RIF Trunat",
+		"Department": "Molecular Biology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RESPIRATORY VIRAL PATHOGENS (RT-PCR) QUALITATIVE",
+		"Department": "Molecular Biology",
+		"Test Rates": "7000",
+		"Sample Type": "SWAB",
+		"TAT": "3 days 0 hours 0 mins"
+	},
+	{
+		"Name": "HPV PCR QUALITATIVE",
+		"Department": "Molecular Biology",
+		"Test Rates": "4000",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HCV GENOTYPING",
+		"Department": "Molecular Biology",
+		"Test Rates": "5500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VARICELA ZOSTER VIRUS (VZV) QULITATIVE PCR",
+		"Department": "Molecular Biology",
+		"Test Rates": "3200",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE & CHIKUNGUNYA RT-PCR",
+		"Department": "Molecular Biology",
+		"Test Rates": "2000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DENGUE RT-PCR",
+		"Department": "Molecular Biology",
+		"Test Rates": "1800",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CHIKUNGUNIYA RT-PCR",
+		"Department": "Molecular Biology",
+		"Test Rates": "1800",
+		"Sample Type": "EDTA WHOLE BLOOD",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HBV Viral Load (HBV DNA QUANTITATIVE)",
+		"Department": "Molecular Biology",
+		"Test Rates": "4000",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "H1N1 PCR",
+		"Department": "Molecular Biology",
+		"Test Rates": "4000",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "MTB PCR Trunat",
+		"Department": "Molecular Biology",
+		"Test Rates": "2500",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HIV Proviral DNA PCR - Qualitative",
+		"Department": "Molecular Biology",
+		"Test Rates": "1950",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "RESPIRATORY BACTERIAL PATHOGENS (RT-PCR)",
+		"Department": "Molecular Biology",
+		"Test Rates": "7000",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Nipah Virus (NIV) RNA",
+		"Department": "Molecular Biology",
+		"Test Rates": "3500",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HPV DNA PCR  QUANTITATIVE",
+		"Department": "Molecular Biology",
+		"Test Rates": "4000",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "PROTEIN ELECTROPHORESIS & IMMUNOTYPING, SERUM",
+		"Department": "Molecular Biology",
+		"Test Rates": "7090",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HERPES SIMPLEX VIRUS (HSV) TYPE 1 & 2 PCR QUALITATIVE",
+		"Department": "Molecular Biology",
+		"Test Rates": "4000",
+		"Sample Type": "SWAB",
+		"TAT": "1 days 0 hours 0 mins"
+	},
+	{
+		"Name": "N Gonorrhoeae C Trachomatis PCR",
+		"Department": "Molecular Biology",
+		"Test Rates": "4500",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HIV-1 RNA PCR",
+		"Department": "Molecular Biology",
+		"Test Rates": "4000",
+		"Sample Type": "EDTA PLASMA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE ROUTINE",
+		"Department": "Clinical Pathology",
+		"Test Rates": "200",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID ROUTINE",
+		"Department": "Clinical Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE KETONES",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR B J PROTEINS",
+		"Department": "Clinical Pathology",
+		"Test Rates": "700",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY CHLORIDES",
+		"Department": "Clinical Pathology",
+		"Test Rates": "600",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY ELECTROLYTES",
+		"Department": "Clinical Pathology",
+		"Test Rates": "600",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PREGNANCY TEST (UPT)",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "urinary potassium",
+		"Department": "Clinical Pathology",
+		"Test Rates": "600",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "24 HRS. URINARY PROTEIN",
+		"Department": "Clinical Pathology",
+		"Test Rates": "550",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PERICARDIAL FLUID EXAMINATION",
+		"Department": "Clinical Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "STOOL HANGING DROP",
+		"Department": "Clinical Pathology",
+		"Test Rates": "300",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Stool Occult Blood Test",
+		"Department": "Clinical Pathology",
+		"Test Rates": "200",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "STOOL FOR pH and REDUCING SUBSTANCE",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SEMEN ANALYSIS",
+		"Department": "Clinical Pathology",
+		"Test Rates": "400",
+		"Sample Type": "Semen Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "MANTOUX",
+		"Department": "Clinical Pathology",
+		"Test Rates": "200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SYNOVIAL FLUID EXAMINATION",
+		"Department": "Clinical Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR MYOGLOBIN",
+		"Department": "Clinical Pathology",
+		"Test Rates": "1320",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR SPECIFIC GRAVITY",
+		"Department": "Clinical Pathology",
+		"Test Rates": "100",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR REDUCING SUBSTANCE",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CYST FLUID EXAMINATION",
+		"Department": "Clinical Pathology",
+		"Test Rates": "500",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINARY CREATININE",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID EXAMINATION",
+		"Department": "Clinical Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Urine Albumin Creat Ratio-Spot",
+		"Department": "Clinical Pathology",
+		"Test Rates": "550",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE FOR ALBUMIN",
+		"Department": "Clinical Pathology",
+		"Test Rates": "100",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "24 HRS Urinary Protein\/Creatinine Ratio",
+		"Department": "Clinical Pathology",
+		"Test Rates": "720",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Fluid For Parasites",
+		"Department": "Clinical Pathology",
+		"Test Rates": "100",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Nicotine Urine",
+		"Department": "Clinical Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PUS ROUTINE EXAMINATION",
+		"Department": "Clinical Pathology",
+		"Test Rates": "850",
+		"Sample Type": "Pus Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Rotavirus-Stool",
+		"Department": "Clinical Pathology",
+		"Test Rates": "1100",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE BILE SALT",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE BENZ JONES PROTEIN",
+		"Department": "Clinical Pathology",
+		"Test Rates": "200",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BILE PIGMENT",
+		"Department": "Clinical Pathology",
+		"Test Rates": "200",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BILE SALT",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Clostridium Difficile",
+		"Department": "Clinical Pathology",
+		"Test Rates": "3000",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "URIC ACID, 24-HOUR URINE",
+		"Department": "Clinical Pathology",
+		"Test Rates": "250",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "pH Water",
+		"Department": "Clinical Pathology",
+		"Test Rates": "200",
+		"Sample Type": "Water",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "URINE ROUTINE MANAUL",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CANNABINOIDS (Delta-9- THC Metabolites)\/Marijuana (THC) Testing",
+		"Department": "Clinical Pathology",
+		"Test Rates": "750",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FLUID ALBUMIN",
+		"Department": "Clinical Pathology",
+		"Test Rates": "150",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CHYLE EXAMINATION",
+		"Department": "Clinical Pathology",
+		"Test Rates": "600",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "OPPORTUNISTIC ENTERIC PARASITE SCREEN, STOOL",
+		"Department": "Clinical Pathology",
+		"Test Rates": "900",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "UREA - SPTO URINE",
+		"Department": "Clinical Pathology",
+		"Test Rates": "400",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "STOOL FOR MODIFIED ZN",
+		"Department": "Clinical Pathology",
+		"Test Rates": "250",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "STOOL FOR FAT GLOBULES",
+		"Department": "Clinical Pathology",
+		"Test Rates": "250",
+		"Sample Type": "Stool Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH - LARGE",
+		"Department": "Histo Pathology",
+		"Test Rates": "2750",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH - LARGE-1",
+		"Department": "Histo Pathology",
+		"Test Rates": "2750",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH - EXTRA LARGE",
+		"Department": "Histo Pathology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "7 days 0 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH - SMALL",
+		"Department": "Histo Pathology",
+		"Test Rates": "1100",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH - MEDIUM 1",
+		"Department": "Histo Pathology",
+		"Test Rates": "1500",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH - MEDIUM",
+		"Department": "Histo Pathology",
+		"Test Rates": "1500",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Endometrial polyp",
+		"Department": "Histo Pathology",
+		"Test Rates": "1980",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATHOLOGY OF HEMITHYROIDECTOMY",
+		"Department": "Histo Pathology",
+		"Test Rates": "2750",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of bilateral orchidectomy",
+		"Department": "Histo Pathology",
+		"Test Rates": "3300",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of MRM Without IHC",
+		"Department": "Histo Pathology",
+		"Test Rates": "5500",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of sebaceous cyst",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "histopathology of TURBT",
+		"Department": "Histo Pathology",
+		"Test Rates": "3850",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of core biopsy",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of testicular tumor",
+		"Department": "Histo Pathology",
+		"Test Rates": "5500",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Discectomy",
+		"Department": "Histo Pathology",
+		"Test Rates": "2200",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Fistula",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Fibroid (small)",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of fibroid (Large)",
+		"Department": "Histo Pathology",
+		"Test Rates": "2750",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of hemorrhoids",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopoathology of Sinus Tract",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of lipoma large",
+		"Department": "Histo Pathology",
+		"Test Rates": "1980",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "histopathology of cyst",
+		"Department": "Histo Pathology",
+		"Test Rates": "2000",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATHOLOGY OF ENDOCERVICAL POLY",
+		"Department": "Histo Pathology",
+		"Test Rates": "1980",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Endometrium",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Fibroadenoma",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATHOLOGY OF CERVICAL POLYP",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "histopathology of thyroidectomy",
+		"Department": "Histo Pathology",
+		"Test Rates": "3850",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of MRM with IHC",
+		"Department": "Histo Pathology",
+		"Test Rates": "11000",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of uterus with adnexa",
+		"Department": "Histo Pathology",
+		"Test Rates": "3850",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of ovarian cyst medium",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of fallopian tubes",
+		"Department": "Histo Pathology",
+		"Test Rates": "1100",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Gall Bladder",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Appendix",
+		"Department": "Histo Pathology",
+		"Test Rates": "1980",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Uterus (Without adnexa)",
+		"Department": "Histo Pathology",
+		"Test Rates": "2200",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of thyroglossal cyst",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "histopathology of ectopic",
+		"Department": "Histo Pathology",
+		"Test Rates": "2200",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Lymph Node",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of TURP",
+		"Department": "Histo Pathology",
+		"Test Rates": "3300",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Intestine",
+		"Department": "Histo Pathology",
+		"Test Rates": "2200",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Lipoma small",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Hernial sac",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "histopathology of detrusor muscle",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of myomectomy specimen",
+		"Department": "Histo Pathology",
+		"Test Rates": "3300",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Nerve",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Abscess wall",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of liver lobe",
+		"Department": "Histo Pathology",
+		"Test Rates": "2200",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of ovarian cyst large",
+		"Department": "Histo Pathology",
+		"Test Rates": "2750",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Total Prostatectomy",
+		"Department": "Histo Pathology",
+		"Test Rates": "5500",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "histopathology of Gastric biopsy",
+		"Department": "Histo Pathology",
+		"Test Rates": "1650",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATHOLOGY OF BL SALPHINGOOPHORECTOMY",
+		"Department": "Histo Pathology",
+		"Test Rates": "3300",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Histopathology of Testis (Unilateral)",
+		"Department": "Histo Pathology",
+		"Test Rates": "2750",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TESTICULAR BIOPSY(B\/L)",
+		"Department": "Histo Pathology",
+		"Test Rates": "3300",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PROSTATIC BIOPSY LEFT",
+		"Department": "Histo Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PROSTATIC BIOPSY RIGHT",
+		"Department": "Histo Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH - SMALL 1",
+		"Department": "Histo Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "Tissue",
+		"TAT": "3 days 0 hours 0 mins"
+	},
+	{
+		"Name": "IHC FDP panel markers study",
+		"Department": "Histo Pathology",
+		"Test Rates": "6500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "IMMUNOHISTOCHEMISTRY: BLADDER VS PROSTATE CARCINOMA PANEL",
+		"Department": "Histo Pathology",
+		"Test Rates": "5400",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "IMMUNOHISTOCHEMISTRY, H3 G34W",
+		"Department": "Histo Pathology",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH SMALL 2",
+		"Department": "Histo Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "IMMUNOHISTOCHEMISTRY: COMPREHENSIVE PANEL",
+		"Department": "Histo Pathology",
+		"Test Rates": "8600",
+		"Sample Type": "Various",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH SMALL - 3",
+		"Department": "Histo Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HISTOPATH SMALL - 4",
+		"Department": "Histo Pathology",
+		"Test Rates": "1000",
+		"Sample Type": "Tissue",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ACID FAST STAIN FOR LEPROSY",
+		"Department": "Cytology",
+		"Test Rates": "400",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FLUID CYTOLOGY",
+		"Department": "Cytology",
+		"Test Rates": "700",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BRONCHIAL WASH CYTOLOGY",
+		"Department": "Cytology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FNAC",
+		"Department": "Cytology",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "SPUTUM CYTOLOGY",
+		"Department": "Cytology",
+		"Test Rates": "300",
+		"Sample Type": "Sputum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PAP SMEAR",
+		"Department": "Cytology",
+		"Test Rates": "700",
+		"Sample Type": "Fluoride Plasma",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LBC (LIQUID BASED CYTOLOGY)",
+		"Department": "Cytology",
+		"Test Rates": "1200",
+		"Sample Type": "SWAB",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LIVER ABSCESS CYTOLOGY",
+		"Department": "Cytology",
+		"Test Rates": "1000",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "URINE CYTOLOGY",
+		"Department": "Cytology",
+		"Test Rates": "700",
+		"Sample Type": "Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VAULT SMEAR",
+		"Department": "Cytology",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SEMEN PAP",
+		"Department": "Cytology",
+		"Test Rates": "700",
+		"Sample Type": "Semen Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "IMMUNOHISTOCHEMISTRY",
+		"Department": "Cytology",
+		"Test Rates": "8600",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Testicular Aspiration",
+		"Department": "Cytology",
+		"Test Rates": "1000",
+		"Sample Type": "Semen Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Fluid Cytology Cell Block",
+		"Department": "Cytology",
+		"Test Rates": "1500",
+		"Sample Type": "Fluid Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "AMH",
+		"Department": "Harmone Assay",
+		"Test Rates": "2000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "PSA",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TOTAL T3",
+		"Department": "Harmone Assay",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "AFP",
+		"Department": "Harmone Assay",
+		"Test Rates": "1100",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ESTRADIOL",
+		"Department": "Harmone Assay",
+		"Test Rates": "550",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "T4",
+		"Department": "Harmone Assay",
+		"Test Rates": "150",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FERRITIN",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FREE T3",
+		"Department": "Harmone Assay",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PROGESTERONE",
+		"Department": "Harmone Assay",
+		"Test Rates": "700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FREE T4",
+		"Department": "Harmone Assay",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FREE T3, FREE T4, TSH",
+		"Department": "Harmone Assay",
+		"Test Rates": "650",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "T3 T4  TSH (TFT)",
+		"Department": "Harmone Assay",
+		"Test Rates": "400",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PROCALCITONIN",
+		"Department": "Harmone Assay",
+		"Test Rates": "3000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TSH",
+		"Department": "Harmone Assay",
+		"Test Rates": "250",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CORTISOL 8 PM",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "GROWTH HORMONE",
+		"Department": "Harmone Assay",
+		"Test Rates": "800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN B12",
+		"Department": "Harmone Assay",
+		"Test Rates": "800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "BETA HCG",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "IGE LEVEL",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "INSULIN FASTING",
+		"Department": "Harmone Assay",
+		"Test Rates": "700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "INSULIN PP",
+		"Department": "Harmone Assay",
+		"Test Rates": "700",
+		"Sample Type": "SERUM PP",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "IL6",
+		"Department": "Harmone Assay",
+		"Test Rates": "2500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "LH",
+		"Department": "Harmone Assay",
+		"Test Rates": "450",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PTH",
+		"Department": "Harmone Assay",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FSH",
+		"Department": "Harmone Assay",
+		"Test Rates": "450",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "PROLACTIN",
+		"Department": "Harmone Assay",
+		"Test Rates": "450",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TESTOSTERONE PP",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TESTOSTERONE Fasting",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TESTOSTERONE",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CORTISOL 8AM",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "C Peptide",
+		"Department": "Harmone Assay",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "VITAMIN D3",
+		"Department": "Harmone Assay",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FSH LH PROLACTIN",
+		"Department": "Harmone Assay",
+		"Test Rates": "1350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FOLATE (FOLIC ACID)",
+		"Department": "Harmone Assay",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "17 OH PROGESTERONE",
+		"Department": "Harmone Assay",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TROPONIN - I (QUANTITATIVE)",
+		"Department": "Harmone Assay",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CPK MB",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DHEAS",
+		"Department": "Harmone Assay",
+		"Test Rates": "1000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "INSULIN RANDOM",
+		"Department": "Harmone Assay",
+		"Test Rates": "700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Pooled Prolactin",
+		"Department": "Harmone Assay",
+		"Test Rates": "1350",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ANA IFA",
+		"Department": "Harmone Assay",
+		"Test Rates": "2000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CMV IGG",
+		"Department": "Harmone Assay",
+		"Test Rates": "500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Inhibin A",
+		"Department": "Harmone Assay",
+		"Test Rates": "1700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "CMV IGM",
+		"Department": "Harmone Assay",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "TRIPLE MARKER",
+		"Department": "Harmone Assay",
+		"Test Rates": "2500",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "QUADRUPLE MARKER",
+		"Department": "Harmone Assay",
+		"Test Rates": "3000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DUAL MARKER",
+		"Department": "Harmone Assay",
+		"Test Rates": "2000",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Inhibin b",
+		"Department": "Harmone Assay",
+		"Test Rates": "1700",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TOXO PLASMA IGG",
+		"Department": "Harmone Assay",
+		"Test Rates": "300",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "3 SAMPLE TESTOSTERONE",
+		"Department": "Harmone Assay",
+		"Test Rates": "1800",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3 SAMPLE FREE TESTOSTERONE",
+		"Department": "Harmone Assay",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CORTISOL",
+		"Department": "Harmone Assay",
+		"Test Rates": "600",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CA 125",
+		"Department": "Tumor Markers",
+		"Test Rates": "1200",
+		"Sample Type": "Serum Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "FEVER PLUS PROFILE",
+		"Department": "NA",
+		"Test Rates": "1400",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "HEART PROFILE",
+		"Department": "NA",
+		"Test Rates": "1699",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "MINI HEALTH CHECKUP",
+		"Department": "NA",
+		"Test Rates": "799",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "RH Negative Profile",
+		"Department": "NA",
+		"Test Rates": "2200",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Women Care Package",
+		"Department": "NA",
+		"Test Rates": "1799",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Comprehensive Women Package",
+		"Department": "NA",
+		"Test Rates": "2299",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANTARA NEW",
+		"Department": "NA",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "ANC PROFILE",
+		"Department": "NA",
+		"Test Rates": "1499",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "IRON PROFILE",
+		"Department": "NA",
+		"Test Rates": "1099",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "COAGULATION PROFILE",
+		"Department": "NA",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "INFERTILITY PANEL",
+		"Department": "NA",
+		"Test Rates": "4500"
+	},
+	{
+		"Name": "Diabetic package",
+		"Department": "NA",
+		"Test Rates": "1870",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "Cardiac package",
+		"Department": "NA",
+		"Test Rates": "1800",
+		"Sample Type": "24 Hrs Urine Sample"
+	},
+	{
+		"Name": "USG GUIDED FNAC BOTH BREAST",
+		"Department": "Radiology",
+		"Test Rates": "4000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ULTRASOUND-GUIDED PROCEDURES",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER OBSTETRIC",
+		"Department": "Radiology",
+		"Test Rates": "3200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG KUB CHILD",
+		"Department": "Radiology",
+		"Test Rates": "1200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG SCROTUM",
+		"Department": "Radiology",
+		"Test Rates": "1800",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ULTRASOUND PELVIS",
+		"Department": "Radiology",
+		"Test Rates": "1200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG FOLLICULAR SINGLE DAY",
+		"Department": "Radiology",
+		"Test Rates": "500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG BREAST - LEFT",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG BREAST - RIGHT",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ULTRASOUND KUB\/PELVIS",
+		"Department": "Radiology",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER TEMPORAL",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER SINGLE LIMB (ARTERIAL\/VENEOUS)",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG SMALL PARTS",
+		"Department": "Radiology",
+		"Test Rates": "1600",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG SMALL PARTS B\/L",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG SMALL PARTS (Multiple)",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG GUIDED FNAC",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER PORTAL VEIN",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG OBSTETRICS FOR FWB",
+		"Department": "Radiology",
+		"Test Rates": "1600",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG SCREENING ABDOMEN",
+		"Department": "Radiology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG OBS 1-3 MONTHS",
+		"Department": "Radiology",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER BOTH LIMBS  (ARTERIAL\/VENOUS)",
+		"Department": "Radiology",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER PELVIS",
+		"Department": "Radiology",
+		"Test Rates": "1800",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG PAROTID",
+		"Department": "Radiology",
+		"Test Rates": "1200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG ASSISTANCE",
+		"Department": "Radiology",
+		"Test Rates": "500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER SCROTUM STUDY",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG NECK\/THYROID",
+		"Department": "Radiology",
+		"Test Rates": "1600",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG PROSTATE",
+		"Department": "Radiology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG KUB -PVR",
+		"Department": "Radiology",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER SINGLE LIMB (ARTERIAL + VENEOUS)",
+		"Department": "Radiology",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG KUB ADULT",
+		"Department": "Radiology",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG DIAGNOSTIC TAP",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG FOLLICULAR MULTIPLE DAY",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG FOLLICULAR BASELINE",
+		"Department": "Radiology",
+		"Test Rates": "1500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG NT, NB SCAN",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ULTRASOUND WHOLE ABDOMEN-TVS",
+		"Department": "Radiology",
+		"Test Rates": "2200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER USG CAROTID",
+		"Department": "Radiology",
+		"Test Rates": "4000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER RENAL",
+		"Department": "Radiology",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG ABDOMEN & PELVIS",
+		"Department": "Radiology",
+		"Test Rates": "1500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG OBSTETRICS FOR FWB TWINS",
+		"Department": "Radiology",
+		"Test Rates": "2800",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG BOTH BREAST",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG THERAPEUTIC TAP",
+		"Department": "Radiology",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER PRE-FISTULA MAPPING",
+		"Department": "Radiology",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ULTRASOUND WHOLE ABDOMEN",
+		"Department": "Radiology",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER BOTH LIMBS  (ARTERIAL + VENOUS)",
+		"Department": "Radiology",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG LOWER ABD",
+		"Department": "Radiology",
+		"Test Rates": "1200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG LEVEL - II (TWINS)",
+		"Department": "Radiology",
+		"Test Rates": "5500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG SOFT TISSUE",
+		"Department": "Radiology",
+		"Test Rates": "1800",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG TRANSVAGINAL ULTRASOUND (TVS)",
+		"Department": "Radiology",
+		"Test Rates": "1700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG FETAL COLOUR DOPPLER",
+		"Department": "Radiology",
+		"Test Rates": "3200",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG FETAL COLOUR DOPPLER (TWINS)",
+		"Department": "Radiology",
+		"Test Rates": "4500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG NT,NB SCAN (TWINS)",
+		"Department": "Radiology",
+		"Test Rates": "4000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG SCROTUM+WHOLE ABDOMEN",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG LEVEL - II",
+		"Department": "Radiology",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "Pulmonary Function Tests (PFT)",
+		"Department": "Radiology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "USG PVR",
+		"Department": "Radiology",
+		"Test Rates": "900",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TVS DOPPLER",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG GUIDED PLEURAL TAPPING",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG-PENILE DOPPLER",
+		"Department": "Radiology",
+		"Test Rates": "4000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG GUIDED PROSTATE BIOPSY",
+		"Department": "Radiology",
+		"Test Rates": "14000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG SHOULDER LEFT\/RIGHT",
+		"Department": "Radiology",
+		"Test Rates": "1600",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TRUS (Trans-Rectal Ultrasound Scan)",
+		"Department": "Radiology",
+		"Test Rates": "2200",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "UROFLOWMETRY",
+		"Department": "Radiology",
+		"Test Rates": "900",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FETAL ECHOCARDIOGRAPHY",
+		"Department": "Radiology",
+		"Test Rates": "4000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TRUS GUIDED PROSTATE BIOPSY",
+		"Department": "Radiology",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG LEFT SHOULDER JOINT",
+		"Department": "Radiology",
+		"Test Rates": "1800",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG VERICOSE VEINS L\/R",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG- OBS ROUTINE SINGLE FINDINGS",
+		"Department": "Radiology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG DOPPLER OF AV FISTULA",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG FOLLICULAR FIRST DAY",
+		"Department": "Radiology",
+		"Test Rates": "1800",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3D CHARGES LEVEL-II",
+		"Department": "Radiology",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3D CHARGES FOR OBS",
+		"Department": "Radiology",
+		"Test Rates": "500",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER MAPPING",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG B-SCAN OCULAR",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "B-SCAN ULTRASONOGRAPHY (EYE)",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG LEVEL II WITH FETAL ECHO",
+		"Department": "Radiology",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG Cranium",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Tru-cut biopsy",
+		"Department": "Radiology",
+		"Test Rates": "6400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ULTRASOUND UPPER ABDOMEN",
+		"Department": "Radiology",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG NECK\/THYROID COLOR DOPPLER",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "DOPPLER PRE-FISTULA MAPPING B\/L LIMB",
+		"Department": "Radiology",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FETAL ECHOCARDIOGRAPHY TWINS",
+		"Department": "Radiology",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3D CHARGES",
+		"Department": "Radiology",
+		"Test Rates": "500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG GUIDED BIOPSY",
+		"Department": "Radiology",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "FibroScan",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ULTRASOUND PENILE",
+		"Department": "Radiology",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG GUIDED LIVER BIOPSY",
+		"Department": "Radiology",
+		"Test Rates": "15000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG B\/L SHOULDER",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG THORAX",
+		"Department": "Radiology",
+		"Test Rates": "1800",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "BIOPHYSICAL PROFILE (BPS)",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Ultrasound Forearm (Left\/Right)",
+		"Department": "Radiology",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "Ultrasound Forearm B\/L",
+		"Department": "Radiology",
+		"Test Rates": "3250",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "WHOLE ABDOMEN WITH SPLENOPORTAL COLOR DOPPLER",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG LIMITED OBSTETRICS (AFI ONLY)",
+		"Department": "Radiology",
+		"Test Rates": "800",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG LIMITED STUDY",
+		"Department": "Radiology",
+		"Test Rates": "800",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "AMBULANCE CHARGE",
+		"Department": "Radiology",
+		"Test Rates": "800",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG LIMITED OBS (DOPPLER ONLY)",
+		"Department": "Radiology",
+		"Test Rates": "1700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG TRANSVAGINAL (TVS) TWINS",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG GUIDED ASPIRATION",
+		"Department": "Radiology",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NTNB SCAN TRIPLETS",
+		"Department": "Radiology",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG Inguinoscrotal Region (B\/L)",
+		"Department": "Radiology",
+		"Test Rates": "1800",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG Soft Parts (Two Regions\/Parts)",
+		"Department": "Radiology",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "USG GRAFT DOPPLER",
+		"Department": "Radiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HAND AP\/OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH FEET AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH HIPS AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH HIPS AP\/LAT\/OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2100",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY KUB",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH KNEES AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ANKLE BOTH AP&LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ABDOMEN ERECT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ABDOMEN LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY - PELVIS AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CHEST AP SUPINE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY FOOT AP\/OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CERVICAL SPINE AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY LUMBAR SPINE AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY KNEES AP STANDING",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY FULL SPINE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY NASAL BONES BOTH",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY COCCYX AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY KNEE AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ADENOID\/NASOPHARYNX",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH SHOULDER AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ELBOW AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY FOREARM AP\/OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY SKULL AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CHEST PA VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH FOREARM AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HIP AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY NECK LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY PBH AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "XRAY DORSAL SPINE AP \/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "XRAY D-L SPINE AP \/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HAND AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY LEFT WRIST (AP\/LAT)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY PARANASAL SINUSES (PNS)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY INTRAVENOUS PYELOGRAM (IVP)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY MCU",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY RGU",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2550",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BARIUM ENEMA",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY L.S SPINE AP\/ LATERAL VIEWS",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY SHOULDER AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY SKULL LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY SKULL BOTH VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "650",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CERVICAL AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY FINGER AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY RIGHT WRIST (AP\/LAT)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY RIGHT WRIST (AP\/OBLIQUE)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY TM JOINT (LEFT)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY TM JOINT (RIGHT)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH TM JOINTS (O\/C)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY LEG RIGHT\/LEFT AP&LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY ELBOW JOINT AP & LATERAL",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY MASTOID LAT\/AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY MASTOID",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY SHOULDER AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY SHOULDER LAT&AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "X RAY NECK AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY RIGHT KNEE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray HSG (Hysterosalpingography)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY NOSE LAT\/AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "Various",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY L.S SPIINE LAT (Flexion and Extension)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "Various",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY LS SPINE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY DISTAL RADIUS AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HEEL LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY LS SPINE AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY SKYLINE B\/L",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY THORACIC SPINE AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CERVICAL SPINE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY DORSAL SPINE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ANKLE AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ANKLE LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray Mandible AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray Mandible Oblique",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY L S SPINE LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY HIP LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH FOOT AP\/OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY FOOT AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH KNEES SKYLINE VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH HANDS AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY FOOT LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY THUMB AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HAND BONE AGE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY FACE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "XRAY CLAVICAL AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY CERVICAL SPINE LAT VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY THIGH AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY THIGH LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY FEMUR AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BARIUM MEAL",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ABDOMEN SUPINE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "Various",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray Styloid B\/L",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY SHOULDER AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY SKYLINE VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY ORBIT AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY FACE LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY FISTULOGRAM",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HAND LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HAND LAT & PA",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CHEST PA & LAT VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH HIPS AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH HIPS LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CHEST LAT VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY B\/L SI JOINTS",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY WRIST AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY WRIST LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY RIGHT WRIST JOINT AP, LATERAL & OBLIQUE VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1050",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY ARM AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY FOOT AP & LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY TM JOINT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY B\/L FOOT AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY FEMUR AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY THIGH AP\/ LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH FOOT AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY CV JUNCTION AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY CV JUNCTION LATERAL-FLEXTION AND EXTENSION",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY D-L SPINE LATERAL-FLEXTION AND EXTENSION",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CERVICAL SPINE LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY FOREARM AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY B\/L NASAL BONES LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY HIPS AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CHEST B\/L VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY LEG AP & LAT VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY THORACIC SPINE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SCANOGRAM B\/L UPPER LIMB AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH HEEL LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY B\/L MASTOID",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH KNEES LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SCANOGRAM WHOLE SPINE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY B\/L ELBOW JOINT AP & LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1450",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SCANOGRAM B\/L LOWER LIMB",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SCANOGRAM WHOLE SPINE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CHEST AP VIEW (TR)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH KNEES AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH LEGS AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY CHEST AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY UNSPECIFIED",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY DORSAL LUMBER SPINE AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BOTH HAND AP\/OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH HEEL AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SCANOGRAM WHOLE SPINE AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY THORACIC SPINE LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SCANOGRAM B\/L LOWER LIMB AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray Mandible B\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH SHOULDER AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY BARIUM MEAL FOLLOW THROUGH",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY TOE AP\/OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BARIUM SWALLOW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "SCANOGRAM B\/L UPPER LIMB",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray Mandible PA",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY LOOPOGRAM",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "B\/L NOSE LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY SINOGRAM",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY SI JOINT (AP\/LAT)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY PENILE SHAFT AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY LEG AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray at Home",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY KNEE FLEXTION AND EXTENSION",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray Styloid AP view",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY T TUBE CHOLANGIOGRAM",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH HANDS LAT VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "700",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY CV JUNCTION AP\/LAT VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY HUMERUS AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY CERVICAL SPINE  AP (OPEN MOUTH)",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY KNEE AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY B\/L ELBOW OBLIQUE",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-Ray Forearm AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY DORSAL LUMBER LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY ORBIT AP",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY SPINE BENDING VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X RAY LUMBAR SPINE LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "350",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH LEGS LAT VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY SKULL AP\/LAT",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY ANKLES AP VIEW",
+		"Department": "Radiology X-RAY",
+		"Test Rates": "750",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "TMT (TREADMILL TEST)",
+		"Department": "Cardiology",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "2D ECHO FOR CHILD",
+		"Department": "Cardiology",
+		"Test Rates": "5000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "2D ECHO",
+		"Department": "Cardiology",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "ECG",
+		"Department": "Cardiology",
+		"Test Rates": "300",
+		"Sample Type": "NA",
+		"TAT": "0 days 12 hours 0 mins"
+	},
+	{
+		"Name": "NCCT-HEAD",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT HEAD CONTRAST",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT ORBIT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT THORAX",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT PNS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT HEAD WITH PNS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT KUB",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT NECK",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "6000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT ABDOMEN",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT NECK WITH THORAX",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "9000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT WHOLE ABDOMEN",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "8000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT ABDOMEN WITH THORAX",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "12000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT CERVICAL SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT THORACIC\/DORSAL SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT LUMBER SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "4000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT ELBOW JOINT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT WRIST",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT ANKLE JOINT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT KNEE JOINT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT SHOULDER",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT TEMPORO-MANDIBULAR JOINTS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT FACE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT FACE WITH 3D",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT ORBIT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "2500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT HEAD WITH ORBITS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT HEAD WITH NECK",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3D CHAREGES FOR SPINE SINGLE SEGMEN",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3D CHAREGES FOR JOINT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT FACE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT ABDOMEN WITH TRIPLE PHASE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT KUB\/UROGRAPHY",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT PELVIS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "6000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT ENTEROGRAPHY",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "9000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY BRAIN",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "9000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY AORTO",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "8000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY PULMONARY",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY UPPER LIMB",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "12000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY LOWER LIMB",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "13000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY BRAIN WITH NECK",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "14000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY ABDOMEN",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY RENAL",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "12000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ADBOMINAL AORTA WITH LIMB",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "15000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HRCT TEMPORAL BONE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HRCT CHEST",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HRCT THORAX",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT ABDOMEN (TRIPLE PHASE)",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT HEAD WITH FACE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "24 Hrs Urine Sample",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT SCREENING WHOLE SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "6000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT L S SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT HIP JOINT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT PELVIS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT KUB WITH TRIPLE PHASE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "12000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT KUB (TRIPLE PHASE)",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "12000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CT THORACIC AROTA ANGIOGRAPHY",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "13000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT HEAD WITH PNS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CD CHARGE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT TEMPORAL BONE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT RT ELBOW",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CT VENOGRAM BRAIN",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT D.L. SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "PNS FILM CHARGES",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "3D CHARGES FOR CT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "2000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT CERVICAL DORSAL SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT LT ELBOW",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT NECK",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT LUMBOSACRAL SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CD REVIEW CHARGES",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "1000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT CV JUNCTION",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT THORACIC\/LUMBER SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT DORSOLUMBER SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CT RENAL ANGIO WITH UROGRAPHY",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "20000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT DORSAL SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT LEFT HAND",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT RIGHT HAND",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "HRCT PNS\/NOSE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "3500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT THORAX WITH UPPER ABDOMEN",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT PNS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT KUB VOLUMETRIC",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "X-RAY BOTH LEGS AP\/LAT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "1400",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CT GUIDED BIOPSY",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT LT LEG",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT RT LEG",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT WHOLE SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "8000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT CERVICAL DORSAL SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "8000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT NECK WITH FACE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CT-CYSTOGRAPHY",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "7000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT PNS WITH TMJ",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT FOOT",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CT ANGIOGRAPHY NECK",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "NCCT ARM",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "5000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT-HEAD WITH NECK",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "8500",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "ANGIOGRAPHY ABDOMEN WITH B\/L LOWER LIMB",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "16000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT HEAD WITH ORBITS",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "6000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT WHOLE ABDOMEN (PANCREATIC PROTOCOL)",
+		"Department": "Radiology CT Scan",
+		"Test Rates": "10000",
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	},
+	{
+		"Name": "CECT DORSAL SPINE",
+		"Department": "Radiology CT Scan",
+		"Test Rates": 7000,
+		"Sample Type": "NA",
+		"TAT": "0 days 8 hours 0 mins"
+	}
+]

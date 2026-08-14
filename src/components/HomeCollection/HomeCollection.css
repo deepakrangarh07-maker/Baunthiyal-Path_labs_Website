@@ -1,0 +1,472 @@
+/* ==========================================
+   HOME COLLECTION
+========================================== */
+
+.home-collection{
+    padding:70px 0;
+}
+
+.home-heading{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 45px;
+}
+
+.section-tag{
+    display:inline-block;
+    padding:6px 16px;
+    border-radius:30px;
+    background:#eaf7ff;
+    color:var(--color-accent);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:14px;
+}
+
+.home-heading h2{
+    font-size:38px;
+    color:var(--color-text-dark);
+    margin-bottom:14px;
+}
+
+.home-heading p{
+    font-size:16px;
+    line-height:1.7;
+    color:var(--color-text-muted);
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.home-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.home-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    box-shadow:
+    0 15px 35px rgba(15,70,120,.08);
+
+    transition:
+    transform .35s,
+    box-shadow .35s;
+
+    height:100%;
+
+}
+
+.home-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 25px 50px rgba(15,70,120,.14);
+
+}
+
+.home-card-icon{
+
+    width:75px;
+    height:75px;
+
+    border-radius:18px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:32px;
+
+    color:var(--color-accent);
+
+    transition:.35s;
+
+}
+
+.home-card:hover .home-card-icon{
+
+    background:var(--color-accent)!important;
+
+    color:#fff;
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
+
+.home-card-content{
+
+    margin-top:24px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    flex:1;
+
+}
+
+.home-card h3{
+
+    font-size:22px;
+
+    color:var(--color-text-dark);
+
+    margin-bottom:12px;
+
+}
+
+.home-card p{
+
+    font-size:15px;
+
+    color:var(--color-text-muted);
+
+    line-height:1.7;
+
+    flex:1;
+
+}
+
+/* ==========================================
+BUTTON
+========================================== */
+
+.home-card-btn{
+
+    margin-top:24px;
+
+    width:max-content;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:none;
+
+    border:none;
+
+    color:var(--color-accent);
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.home-card-btn span{
+
+transition:.3s;
+
+}
+
+.home-card:hover .home-card-btn span{
+
+transform:translateX(6px);
+
+}
+
+/* ==========================================
+CTA BUTTON
+========================================== */
+
+.home-btn-wrap{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:40px;
+
+}
+
+.book-home-btn{
+
+    padding:15px 34px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:var(--color-accent);
+
+    color:#fff;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:
+    0 12px 30px rgba(15,70,120,.18);
+
+}
+
+.book-home-btn:hover{
+
+    transform:translateY(-4px);
+
+    background:var(--color-accent-hover);
+
+}
+
+/* ==========================================
+MOBILE SLIDER
+========================================== */
+
+.home-slider,
+.home-dots{
+
+display:none;
+
+}
+
+.slider-nav{
+
+position:absolute;
+
+top:50%;
+
+transform:translateY(-50%);
+
+width:42px;
+
+height:42px;
+
+border:none;
+
+border-radius:50%;
+
+background:#fff;
+
+box-shadow:0 8px 25px rgba(0,0,0,.12);
+
+cursor:pointer;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:5;
+
+}
+
+.slider-nav.left{
+
+left:-8px;
+
+}
+
+.slider-nav.right{
+
+right:-8px;
+
+}
+
+/* ==========================================
+TABLET
+========================================== */
+
+@media(max-width:992px){
+
+.home-heading h2{
+
+font-size:32px;
+
+}
+
+.home-grid{
+
+display:none;
+
+}
+
+.home-slider{
+
+display:block;
+
+position:relative;
+
+}
+
+.home-card{
+
+padding:28px;
+
+}
+
+.home-dots{
+
+display:flex;
+
+justify-content:center;
+
+gap:8px;
+
+margin-top:20px;
+
+}
+
+.home-dot{
+
+width:10px;
+
+height:10px;
+
+border-radius:50%;
+
+background:#d5dce4;
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+.home-dot.active{
+
+width:30px;
+
+border-radius:30px;
+
+background:var(--color-accent);
+
+}
+
+}
+
+/* ==========================================
+MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.home-collection{
+
+padding:50px 0;
+
+}
+
+.home-heading{
+
+margin-bottom:30px;
+
+}
+
+.home-heading h2{
+
+font-size:28px;
+
+}
+
+.home-heading p{
+
+font-size:15px;
+
+}
+
+.home-card{
+
+padding:22px;
+
+}
+
+.home-card-icon{
+
+width:65px;
+
+height:65px;
+
+font-size:28px;
+
+}
+
+.home-card h3{
+
+font-size:20px;
+
+}
+
+.home-card p{
+
+font-size:14px;
+
+}
+
+.book-home-btn{
+
+width:100%;
+
+}
+
+}
+
+/* ==========================================
+SMALL MOBILE
+========================================== */
+
+@media(max-width:480px){
+
+.home-heading h2{
+
+font-size:24px;
+
+}
+
+.home-card{
+
+padding:20px;
+
+}
+
+.home-card h3{
+
+font-size:18px;
+
+}
+
+.home-card-icon{
+
+width:60px;
+
+height:60px;
+
+font-size:24px;
+
+}
+
+.home-card p{
+
+font-size:13px;
+
+}
+
+}   

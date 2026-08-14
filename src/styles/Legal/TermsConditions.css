@@ -1,0 +1,398 @@
+/* =========================================================
+   TERMS & CONDITIONS
+   Baunthiyal Path Labs
+========================================================= */
+
+.terms-page {
+	width: 100%;
+	min-height: 100vh;
+	background: #f5faff;
+	color: #173f67;
+}
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.terms-container {
+	width: min(1180px, 92%);
+	margin: 0 auto;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.terms-hero {
+	position: relative;
+	padding: 80px 0 75px;
+	background:
+		linear-gradient(
+			135deg,
+			#eaf7ff 0%,
+			#f8fcff 55%,
+			#e5f5ff 100%
+		);
+	border-bottom: 1px solid #dcecf7;
+	overflow: hidden;
+}
+
+.terms-hero::before {
+	content: "";
+	position: absolute;
+	width: 360px;
+	height: 360px;
+	right: -120px;
+	top: -180px;
+	border-radius: 50%;
+	background: rgba(16, 137, 207, 0.08);
+}
+
+.terms-hero::after {
+	content: "";
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	left: -100px;
+	bottom: -130px;
+	border-radius: 50%;
+	background: rgba(16, 137, 207, 0.06);
+}
+
+.terms-hero .terms-container {
+	position: relative;
+	z-index: 2;
+}
+
+.terms-tag {
+	display: inline-flex;
+	align-items: center;
+	padding: 8px 16px;
+	border-radius: 50px;
+	background: #e0f4ff;
+	color: #087fc4;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 0.8px;
+	margin-bottom: 16px;
+}
+
+.terms-hero h1 {
+	margin: 0 0 15px;
+	font-size: clamp(34px, 5vw, 56px);
+	line-height: 1.1;
+	font-weight: 800;
+	color: #073b67;
+}
+
+.terms-hero p {
+	max-width: 650px;
+	margin: 0;
+	font-size: 17px;
+	line-height: 1.7;
+	color: #66819a;
+}
+
+/* =========================================================
+   CONTENT AREA
+========================================================= */
+
+.terms-content {
+	padding: 55px 0 80px;
+}
+
+.terms-card {
+	background: #ffffff;
+	border: 1px solid #dcebf5;
+	border-radius: 22px;
+	padding: 45px 50px;
+	box-shadow: 0 15px 45px rgba(18, 83, 120, 0.07);
+}
+
+/* =========================================================
+   UPDATED DATE
+========================================================= */
+
+.terms-updated {
+	display: inline-flex;
+	align-items: center;
+	padding: 9px 14px;
+	margin-bottom: 35px;
+	border-radius: 8px;
+	background: #f0f8fd;
+	color: #6f879b;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/* =========================================================
+   SECTION
+========================================================= */
+
+.terms-section {
+	padding: 0 0 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #e8f0f5;
+}
+
+.terms-section:last-of-type {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.terms-section h2 {
+	margin: 0 0 14px;
+	color: #083f6d;
+	font-size: 21px;
+	font-weight: 800;
+	line-height: 1.35;
+}
+
+.terms-section p {
+	margin: 0 0 13px;
+	color: #647d93;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+.terms-section p:last-child {
+	margin-bottom: 0;
+}
+
+/* =========================================================
+   LIST
+========================================================= */
+
+.terms-section ul {
+	margin: 12px 0 16px;
+	padding-left: 22px;
+}
+
+.terms-section li {
+	margin-bottom: 9px;
+	padding-left: 5px;
+	color: #647d93;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.terms-section li::marker {
+	color: #0988cf;
+}
+
+/* =========================================================
+   MEDICAL NOTICE
+========================================================= */
+
+.terms-notice {
+	margin-top: 22px;
+	padding: 20px 22px;
+	border-left: 4px solid #0988cf;
+	border-radius: 10px;
+	background: #f1f9fd;
+}
+
+.terms-notice strong {
+	display: block;
+	margin-bottom: 8px;
+	color: #0a4b79;
+	font-size: 15px;
+}
+
+.terms-notice p {
+	margin: 0;
+	font-size: 14px;
+}
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.terms-contact {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	margin-top: 18px;
+	padding: 20px 22px;
+	background: #f5faff;
+	border: 1px solid #dfedf6;
+	border-radius: 12px;
+}
+
+.terms-contact strong {
+	color: #0a4775;
+	font-size: 15px;
+}
+
+.terms-contact span {
+	color: #71879a;
+	font-size: 14px;
+}
+
+/* =========================================================
+   FOOTER MESSAGE
+========================================================= */
+
+.terms-footer {
+	margin-top: 35px;
+	padding: 22px 25px;
+	border-radius: 12px;
+	background: linear-gradient(
+		135deg,
+		#e9f8ff,
+		#f5fbff
+	);
+	text-align: center;
+}
+
+.terms-footer p {
+	margin: 0;
+	color: #47718e;
+	font-size: 14px;
+	line-height: 1.7;
+	font-weight: 500;
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+	.terms-hero {
+		padding: 65px 0 60px;
+	}
+
+	.terms-content {
+		padding: 40px 0 60px;
+	}
+
+	.terms-card {
+		padding: 35px;
+		border-radius: 18px;
+	}
+
+	.terms-section h2 {
+		font-size: 20px;
+	}
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+	.terms-container {
+		width: 92%;
+	}
+
+	.terms-hero {
+		padding: 50px 0 48px;
+	}
+
+	.terms-tag {
+		font-size: 10px;
+		padding: 7px 12px;
+		margin-bottom: 12px;
+	}
+
+	.terms-hero h1 {
+		font-size: 32px;
+	}
+
+	.terms-hero p {
+		font-size: 14px;
+		line-height: 1.65;
+	}
+
+	.terms-content {
+		padding: 25px 0 45px;
+	}
+
+	.terms-card {
+		padding: 25px 20px;
+		border-radius: 15px;
+	}
+
+	.terms-updated {
+		margin-bottom: 27px;
+		font-size: 11px;
+		padding: 8px 11px;
+	}
+
+	.terms-section {
+		padding-bottom: 23px;
+		margin-bottom: 23px;
+	}
+
+	.terms-section h2 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.terms-section p {
+		font-size: 13px;
+		line-height: 1.75;
+	}
+
+	.terms-section ul {
+		padding-left: 19px;
+	}
+
+	.terms-section li {
+		font-size: 13px;
+		line-height: 1.65;
+		margin-bottom: 7px;
+	}
+
+	.terms-notice {
+		padding: 16px 17px;
+		margin-top: 18px;
+	}
+
+	.terms-notice strong {
+		font-size: 13px;
+	}
+
+	.terms-notice p {
+		font-size: 12px;
+	}
+
+	.terms-contact {
+		padding: 17px;
+	}
+
+	.terms-contact strong {
+		font-size: 13px;
+	}
+
+	.terms-contact span {
+		font-size: 12px;
+	}
+
+	.terms-footer {
+		margin-top: 25px;
+		padding: 17px;
+	}
+
+	.terms-footer p {
+		font-size: 12px;
+	}
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+	.terms-hero h1 {
+		font-size: 28px;
+	}
+
+	.terms-card {
+		padding: 21px 16px;
+	}
+
+	.terms-section h2 {
+		font-size: 17px;
+	}
+}
