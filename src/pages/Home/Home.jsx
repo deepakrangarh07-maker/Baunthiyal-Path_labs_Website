@@ -2,6 +2,8 @@ import "./Home.css";
 import HomeCollection from "../../components/Home/HomeCollection";
 import HeroSlider from "../../components/HeroSlider/HeroSlider";
 import VideoCard from "../../components/VideoCard/VideoCard";
+import HomeHealthPackages from "../../components/Home/HomeHealthPackages";
+import HowItWorks from "../../components/Home/HowItWorks";
 
 function Home() {
 	return (
@@ -23,6 +25,10 @@ function Home() {
 					<HomeCollection />
 				</section>
 			</div>
+
+			
+				<HomeHealthPackages />
+				<HowItWorks />
 
 			{/* Future Sections */}
 

@@ -1,318 +1,284 @@
-/*
-=========================================================
-HEALTH PACKAGES DATA
-
-Add / edit packages here.
-
-price        = offer price
-originalPrice = actual package price
-canBook      = whether booking is available
-=========================================================
-*/
-
 export const healthPackages = [
 	{
-  id:1,
-
-  name:"Fever Profile with LFT",
-
-  shortName:"FL",
-
-  category:"Fever & Infection",
-
-  price:1400,
-
-  originalPrice:5000,
-
-  parameterCount:25,
-
-  sampleType:"Blood Sample",
-
-  tat:"Same Day",
-
-  homeCollection:true,
-
-  parameters:[
-    "Complete Blood Count",
-    "Hemoglobin",
-    "Platelet Count",
-    "ESR",
-    "CRP",
-    "SGOT",
-    "SGPT",
-    "Total Bilirubin",
-    "Direct Bilirubin",
-    "Indirect Bilirubin",
-    "Albumin",
-    "Globulin",
-    "Creatinine",
-    "Urea",
-    "Blood Sugar",
-    "Sodium",
-    "Potassium",
-    "Calcium",
-    "Vitamin D",
-    "Vitamin B12",
-    "Iron",
-    "Ferritin",
-    "Urine Routine",
-    "Urine Microscopy",
-    "Liver Function Test"
-  ]
-},
-
-	// {
-	// 	id: 2,
-	// 	name: "PCOD Advance Profile",
-	// 	shortName: "PA",
-	// 	category: "Women Health",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood Sample",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"Comprehensive health profile designed to support evaluation of hormonal and metabolic parameters associated with PCOD.",
-
-	// 	includes: [
-	// 		"Thyroid Profile",
-	// 		"FSH",
-	// 		"LH",
-	// 		"Prolactin",
-	// 		"Testosterone",
-	// 		"Blood Sugar",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 3,
-	// 	name: "Annual Health + Iron",
-	// 	shortName: "AHIU",
-	// 	category: "Full Body",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood & Urine",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"A comprehensive annual health package covering essential blood, urine, iron and general wellness parameters.",
-
-	// 	includes: [
-	// 		"Complete Blood Count",
-	// 		"Iron Profile",
-	// 		"Liver Function Test",
-	// 		"Kidney Function Test",
-	// 		"Thyroid Profile",
-	// 		"Urine Routine",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 4,
-	// 	name: "Comprehensive Full Body Checkup",
-	// 	shortName: "CFBC",
-	// 	category: "Full Body",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood & Urine",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"Complete preventive health screening package covering major health parameters for routine wellness monitoring.",
-
-	// 	includes: [
-	// 		"Complete Blood Count",
-	// 		"Liver Function Test",
-	// 		"Kidney Function Test",
-	// 		"Lipid Profile",
-	// 		"Thyroid Profile",
-	// 		"Blood Sugar",
-	// 		"Urine Routine",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 5,
-	// 	name: "Diabetes Care Package",
-	// 	shortName: "DCP",
-	// 	category: "Diabetes",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood Sample",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"A focused diabetes screening package designed to monitor important blood sugar and metabolic parameters.",
-
-	// 	includes: [
-	// 		"Fasting Blood Sugar",
-	// 		"Post Meal Blood Sugar",
-	// 		"HbA1c",
-	// 		"Lipid Profile",
-	// 		"Kidney Function Test",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 6,
-	// 	name: "Heart Health Checkup",
-	// 	shortName: "HHC",
-	// 	category: "Heart",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood Sample",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"A preventive cardiac health screening package covering important cholesterol and metabolic parameters.",
-
-	// 	includes: [
-	// 		"Lipid Profile",
-	// 		"Blood Sugar",
-	// 		"Kidney Function Test",
-	// 		"Complete Blood Count",
-	// 		"Thyroid Profile",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 7,
-	// 	name: "Thyroid Complete Profile",
-	// 	shortName: "TCP",
-	// 	category: "Thyroid",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood Sample",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"Complete thyroid screening package designed to evaluate thyroid hormone levels.",
-
-	// 	includes: ["TSH", "T3", "T4", "Free T3", "Free T4"],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 8,
-	// 	name: "Senior Citizen Health Package",
-	// 	shortName: "SCHP",
-	// 	category: "Senior Citizen",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood & Urine",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"A preventive health package designed for senior citizens with a focus on essential wellness parameters.",
-
-	// 	includes: [
-	// 		"Complete Blood Count",
-	// 		"Liver Function Test",
-	// 		"Kidney Function Test",
-	// 		"Lipid Profile",
-	// 		"Thyroid Profile",
-	// 		"Blood Sugar",
-	// 		"Urine Routine",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 9,
-	// 	name: "Women's Wellness Package",
-	// 	shortName: "WWP",
-	// 	category: "Women",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood Sample",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"A preventive women's wellness package covering important general and hormonal health parameters.",
-
-	// 	includes: [
-	// 		"Complete Blood Count",
-	// 		"Thyroid Profile",
-	// 		"Iron Profile",
-	// 		"Vitamin D",
-	// 		"Vitamin B12",
-	// 		"Blood Sugar",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
-
-	// {
-	// 	id: 10,
-	// 	name: "Vitamin & Nutrition Profile",
-	// 	shortName: "VNP",
-	// 	category: "Nutrition",
-	// 	department: "Package Manager",
-
-	// 	price: 1400,
-	// 	originalPrice: 5000,
-
-	// 	sampleType: "Blood Sample",
-	// 	tat: "Same Day",
-
-	// 	description:
-	// 		"A nutritional screening package designed to assess important vitamin and mineral-related parameters.",
-
-	// 	includes: [
-	// 		"Vitamin D",
-	// 		"Vitamin B12",
-	// 		"Iron Profile",
-	// 		"Calcium",
-	// 		"Magnesium",
-	// 	],
-
-	// 	homeCollection: true,
-	// 	canBook: true,
-	// },
+		id: 1,
+		name: "B- FIT HEALTH CHECKUP",
+		shortName: "BFHC",
+		category: "Health Checkup",
+		price: 999,
+		originalPrice: 2730,
+		parameterCount: 69,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC with ESR",
+			"BSF",
+			"LFT",
+			"KFT",
+			"LIPID PROFILE",
+			"TFT",
+			"URINE R/M",
+		],
+	},
+	{
+		id: 2,
+		name: "B-FIT ADVANCE HEALTH CHECKUP",
+		shortName: "BFAHC",
+		category: "Health Checkup",
+		price: 1350,
+		originalPrice: 2880,
+		parameterCount: 71,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC With ESR",
+			"HBA1C",
+			"IRON",
+			"BSF",
+			"LFT",
+			"KFT",
+			"LIPID PROFILE",
+			"TFT",
+			"URINE R/M",
+		],
+	},
+	{
+		id: 3,
+		name: "B- FIT ANNUAL HEALTH CHECKUP",
+		shortName: "BFAHC",
+		category: "Health Checkup",
+		price: 1999,
+		originalPrice: 5330,
+		parameterCount: 71,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC with ESR",
+			"BSF",
+			"LFT",
+			"KFT",
+			"LIPID PROFILE",
+			"TFT",
+			"VIT-D3",
+			"VIT-B12",
+			"URINE ROUTINE EXAMINATION",
+		],
+	},
+	{
+		id: 4,
+		name: "B-FIT ANNUAL PLUS HEALTH CHECKUP",
+		shortName: "BFAP",
+		category: "Health Checkup",
+		price: 2249,
+		originalPrice: 5880,
+		parameterCount: 73,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC with ESR",
+			"IRON",
+			"HBA1C",
+			"BSF",
+			"LFT",
+			"KFT",
+			"LIPID PROFILE",
+			"TFT",
+			"VITAMIN D3",
+			"VITAMIN B12",
+			"URINE ROUTINE EXAMINATION",
+		],
+	},
+	{
+		id: 6,
+		name: "DIABITIC PROFILE",
+		shortName: "DP",
+		category: "Diabetes",
+		price: 499,
+		originalPrice: 890,
+		parameterCount: 21,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: ["HBA1C", "BSF", "BSPP", "URINE ROUTINE EXAMINATION"],
+	},
+	{
+		id: 7,
+		name: "DIABETIC ADVANCE",
+		shortName: "DAP",
+		category: "Diabetes",
+		price: 899,
+		originalPrice: 2140,
+		parameterCount: 23,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"BSF",
+			"BSPP",
+			"HBA1C",
+			"INSULIN",
+			"URINE MICROALBUMIN",
+			"URIN ROUTINE EXAMINATION",
+		],
+	},
+	{
+		id: 8,
+		name: "ARTHRITIS PROFILE",
+		shortName: "AP",
+		category: "Arthritis",
+		price: 599,
+		originalPrice: 1210,
+		parameterCount: 28,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: ["CBC", "ESR", "URIC ACID", "RA FACTOR", "CRP"],
+	},
+	{
+		id: 9,
+		name: "ARTHRITIS ADVANCE PROFILE",
+		shortName: "AAP",
+		category: "Arthritis",
+		price: 1599,
+		originalPrice: 3110,
+		parameterCount: 30,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC",
+			"ESR",
+			"URIC ACID",
+			"RA FACTOR",
+			"CRP",
+			"ANTI CCP",
+			"ANA (ANTI NUCLEAR ATI BODY)",
+		],
+	},
+	{
+		id: 10,
+		name: "ADVANCE HEART PROFILE",
+		shortName: "AHP",
+		category: "Heart & Cardiac",
+		price: 3499,
+		originalPrice: 5600,
+		parameterCount: 14,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"LIPID PROFILE",
+			"CPKMB",
+			"TROPNIN I (QUANTITATIVE)",
+			"HOMOCYSTIN",
+			"APOLIPIDPEOTEIN A & B",
+			"LIPOPROTEIN (a)",
+		],
+	},
+	{
+		id: 11,
+		name: "HEART PROFILE",
+		shortName: "HP",
+		category: "Heart & Cardiac",
+		price: 1699,
+		originalPrice: 2100,
+		parameterCount: 11,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"LIPID PROFILE",
+			"CPKMB",
+			"TROPNIN I (QUANTITATIVE)",
+			"HOMOCYSTIN",
+		],
+	},
+	{
+		id: 12,
+		name: "IRON PROFILE",
+		shortName: "IP",
+		category: "Anemia & Iron",
+		price: 1099,
+		originalPrice: 2100,
+		parameterCount: 28,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC",
+			"S.IRON",
+			"TIBC",
+			"TRANSFERRIN SATURATION",
+			"S.FERRITIN",
+		],
+	},
+	{
+		id: 13,
+		name: "ANEMIA PROFILE",
+		shortName: "ANP",
+		category: "Anemia & Iron",
+		price: 1499,
+		originalPrice: 4100,
+		parameterCount: 32,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC",
+			"VITAMIN B12",
+			"FOLATE (FOLIC ACID)",
+			"IRON PFOFILE (S.IRON",
+			"TIBC",
+			"TRANSFERRIN SATURATION)",
+			"S.FERRITIN",
+		],
+	},
+	{
+		id: 14,
+		name: "ANEMIA ADVANCE PROFILE",
+		shortName: "ANAP",
+		category: "Anemia & Iron",
+		price: 2099,
+		originalPrice: 5100,
+		parameterCount: 33,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC",
+			"VITAMIN B12",
+			"FOLATE (FOLIC ACID)",
+			"IRON PFOFILE (S.IRON",
+			"TIBC",
+			"TRANSFERRIN SATURATION)",
+			"S.FERRITIN",
+			"HPLC",
+		],
+	},
+	{
+		id: 15,
+		name: "ANC PROFILE",
+		shortName: "ANCP",
+		category: "ANC / Pregnancy",
+		price: 1499,
+		originalPrice: 2720,
+		parameterCount: 51,
+		sampleType: "Blood Sample",
+		tat: "Same Day",
+		homeCollection: true,
+		parameters: [
+			"CBC",
+			"BLOOD GROUP",
+			"BSR",
+			"HIV",
+			"HbsAg",
+			"HCV",
+			"VDRL",
+			"TFT",
+			"URINE ROUTINE EXAMINATION",
+		],
+	},
 ];
-
-
