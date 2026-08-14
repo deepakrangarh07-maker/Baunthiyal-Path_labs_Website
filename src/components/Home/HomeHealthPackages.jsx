@@ -173,7 +173,7 @@ function HomeHealthPackages() {
 											</div>
 
 											<a
-												href={`/health_package/`}
+												href={`/health_package`}
 												className="home-health-card-button"
 											>
 												View Package
