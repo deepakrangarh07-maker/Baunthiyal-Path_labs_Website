@@ -542,36 +542,6 @@ ${formData.callback ? "Yes - Please call me back within 2 minutes" : "No"}
 					</form>
 				</div>
 			</section>
-
-			{/* ==================================================
-          FLOATING CONTACT BUTTONS
-      ================================================== */}
-
-			<div className="contact-floating">
-				{/* CALL */}
-
-				<a
-					href="tel:+91XXXXXXXXXX"
-					className="floating-call"
-					aria-label="Call Baunthiyal Path Labs"
-					title="Call Us"
-				>
-					<FaPhoneAlt />
-				</a>
-
-				{/* WHATSAPP */}
-
-				<a
-					href="https://wa.me/91XXXXXXXXXX"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="floating-whatsapp"
-					aria-label="WhatsApp Baunthiyal Path Labs"
-					title="WhatsApp Us"
-				>
-					<FaWhatsapp />
-				</a>
-			</div>
 		</main>
 	);
 }

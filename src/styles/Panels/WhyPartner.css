@@ -1,441 +1,962 @@
+/* =========================================================
+   WHY PARTNER
+   Premium Healthcare Micro Interactions
+========================================================= */
 
-/* ==========================================================
-                WHY PARTNER
-========================================================== */
-
-.whyPartner{
-    width:100%;
-    padding:40px 0;
-    background:linear-gradient(180deg,#f8fbff 0%,#ffffff 100%);
-    overflow:hidden;
+.whyPartner {
+	position: relative;
+	width: 100%;
+	padding: 20px 0;
+	background:
+		radial-gradient(
+			circle at 50% 75%,
+			rgba(30, 111, 210, 0.045),
+			transparent 45%
+		),
+		#f8fbff;
+	overflow: hidden;
 }
 
-.whyPartner .container{
-    width:min(1400px,92%);
-    margin:auto;
+
+/* =========================================================
+   SUBTLE BACKGROUND LIGHT
+========================================================= */
+
+.whyPartner::before {
+	content: "";
+	position: absolute;
+
+	width: 420px;
+	height: 420px;
+
+	top: 35%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	border-radius: 50%;
+
+	background: radial-gradient(
+		circle,
+		rgba(30, 150, 220, 0.035),
+		transparent 68%
+	);
+
+	pointer-events: none;
+
+	animation: backgroundBreathing 10s ease-in-out infinite;
 }
 
-/* ==========================================================
-                TITLE
-========================================================== */
+@keyframes backgroundBreathing {
+	0%,
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 0.7;
+	}
 
-.section-title{
-    text-align:center;
-    margin-bottom:60px;
+	50% {
+		transform: translate(-50%, -50%) scale(1.12);
+		opacity: 1;
+	}
 }
 
-.section-title span{
 
-    display:inline-block;
-    color:#1565C0;
-    font-size:.9rem;
-    font-weight:700;
-    letter-spacing:2px;
-    margin-bottom:12px;
+/* =========================================================
+   CONTAINER
+========================================================= */
 
+.whyPartner .container {
+	position: relative;
+	z-index: 2;
+
+	width: min(1180px, calc(100% - 40px));
+	margin: 0 auto;
 }
 
-.section-title h2{
 
-    font-size:clamp(2rem,4vw,3rem);
-    color:#173F7A;
-    margin-bottom:15px;
-    font-weight:700;
+/* =========================================================
+   SECTION TITLE
+========================================================= */
 
+.whyPartner .section-title {
+	text-align: center;
+
+	max-width: 720px;
+
+	margin: 0 auto 48px;
+
+	opacity: 0;
+
+	transform: translateY(30px);
 }
 
-.section-title p{
+.whyPartner.is-visible .section-title {
+	opacity: 1;
+	transform: translateY(0);
 
-    max-width:700px;
-    margin:auto;
-    color:#666;
-    line-height:1.8;
-
+	transition:
+		opacity 0.6s ease,
+		transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-/* ==========================================================
-                DESKTOP GRID
-========================================================== */
 
-.partner-grid{
+/* =========================================================
+   SUBTITLE
+========================================================= */
 
-    display:grid;
-    grid-template-columns:repeat(6,1fr);
-    gap:18px;
+.whyPartner .section-title span {
+	display: inline-block;
 
+	margin-bottom: 10px;
+
+	color: #087fbd;
+
+	font-size: 12px;
+	font-weight: 800;
+
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	opacity: 0;
+	transform: translateY(12px);
 }
 
-/* ==========================================================
-                CARD
-========================================================== */
+.whyPartner.is-visible .section-title span {
+	opacity: 1;
+	transform: translateY(0);
 
-.partner-card{
-
-    position:relative;
-
-    background:#fff;
-
-    border-radius:20px;
-
-    padding:28px 20px;
-
-    text-align:center;
-
-    border:1px solid #E6EEF8;
-
-    overflow:hidden;
-
-    transition:.45s ease;
-
-    cursor:pointer;
-
-    box-shadow:0 12px 35px rgba(18,71,132,.05);
-
+	transition:
+		opacity 0.55s ease 0.08s,
+		transform 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.08s;
 }
 
-/* Top Light */
 
-.partner-card::before{
+/* =========================================================
+   TITLE
+========================================================= */
 
-    content:"";
+.whyPartner .section-title h2 {
+	margin: 0 0 13px;
 
-    position:absolute;
+	color: #123f69;
 
-    inset:0;
+	font-size: clamp(30px, 3vw, 40px);
+	font-weight: 800;
 
-    background:linear-gradient(180deg,
-    rgba(21,101,192,.06),
-    transparent);
+	line-height: 1.15;
 
-    opacity:0;
+	letter-spacing: -0.8px;
 
-    transition:.45s;
-
+	opacity: 0;
+	transform: translateY(18px);
 }
 
-/* Hover */
+.whyPartner.is-visible .section-title h2 {
+	opacity: 1;
+	transform: translateY(0);
 
-.partner-card:hover{
-
-    transform:translateY(-12px);
-
-    box-shadow:0 25px 55px rgba(21,101,192,.18);
-
+	transition:
+		opacity 0.6s ease 0.04s,
+		transform 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.04s;
 }
 
-.partner-card:hover::before{
 
-    opacity:1;
+/* =========================================================
+   DESCRIPTION
+========================================================= */
 
+.whyPartner .section-title p {
+	margin: 0 auto;
+
+	max-width: 650px;
+
+	color: #647b91;
+
+	font-size: 15px;
+
+	line-height: 1.7;
+
+	opacity: 0;
+	transform: translateY(15px);
 }
 
-/* ==========================================================
-                ICON
-========================================================== */
+.whyPartner.is-visible .section-title p {
+	opacity: 1;
+	transform: translateY(0);
 
-.partner-icon{
-
-    width:82px;
-
-    height:82px;
-
-    margin:auto;
-
-    border-radius:50%;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-size:35px;
-
-    color:#1565C0;
-
-    background:#EEF5FF;
-
-    margin-bottom:25px;
-
-    transition:.45s;
-
+	transition:
+		opacity 0.6s ease 0.12s,
+		transform 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.12s;
 }
 
-.partner-card:hover .partner-icon{
 
-    transform:rotate(8deg) scale(1.12);
+/* =========================================================
+   DESKTOP GRID
+========================================================= */
 
-    background:#1565C0;
+.partner-grid {
+	display: grid;
 
-    color:white;
+	grid-template-columns: repeat(3, 1fr);
 
+	gap: 22px;
 }
 
-/* Floating animation */
 
-.partner-icon svg{
+/* =========================================================
+   CARD
+========================================================= */
 
-    animation:floatIcon 3s ease-in-out infinite;
+.partner-card {
+	position: relative;
 
+	min-width: 0;
+
+	background: #ffffff;
+
+	border: 1px solid #e4edf5;
+
+	border-radius: 22px;
+
+	box-shadow:
+		0 8px 24px rgba(20, 70, 110, 0.055);
+
+	opacity: 0;
+
+	transform:
+		translateY(35px)
+		scale(0.96);
+
+	transition:
+		transform 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+		opacity 0.6s ease,
+		box-shadow 0.38s ease,
+		border-color 0.38s ease;
+
+	transition-delay: var(--card-delay);
+
+	overflow: hidden;
+
+	isolation: isolate;
 }
 
-@keyframes floatIcon{
 
-0%{
-transform:translateY(0px);
+/* =========================================================
+   CARD TOP LIGHT
+========================================================= */
+
+.partner-card::before {
+	content: "";
+
+	position: absolute;
+
+	top: 0;
+	left: 12%;
+
+	width: 76%;
+	height: 2px;
+
+	border-radius: 10px;
+
+	background: linear-gradient(
+		90deg,
+		transparent,
+		rgba(20, 145, 215, 0.45),
+		transparent
+	);
+
+	opacity: 0;
+
+	transform: scaleX(0.5);
+
+	transition:
+		opacity 0.4s ease,
+		transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+
+	pointer-events: none;
 }
 
-50%{
-transform:translateY(-5px);
+
+/* =========================================================
+   CARD SOFT GLOW
+========================================================= */
+
+.partner-card::after {
+	content: "";
+
+	position: absolute;
+
+	width: 150px;
+	height: 150px;
+
+	top: -90px;
+	right: -80px;
+
+	border-radius: 50%;
+
+	background: radial-gradient(
+		circle,
+		rgba(26, 144, 215, 0.09),
+		transparent 70%
+	);
+
+	opacity: 0;
+
+	transition:
+		opacity 0.45s ease,
+		transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+
+	pointer-events: none;
+
+	z-index: -1;
 }
 
-100%{
-transform:translateY(0px);
+
+/* =========================================================
+   CARD INNER
+========================================================= */
+
+.partner-card-inner {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 100%;
+
+	padding: 30px 25px;
+
+	text-align: center;
+
+	z-index: 2;
 }
 
+
+/* =========================================================
+   VISIBLE STATE
+========================================================= */
+
+.whyPartner.is-visible .partner-card {
+	opacity: 1;
+
+	transform:
+		translateY(0)
+		scale(1);
 }
 
-/* ==========================================================
-                TEXT
-========================================================== */
 
-.partner-card h3{
+/* =========================================================
+   CARD HOVER
+========================================================= */
 
-    color:#173F7A;
+.whyPartner.is-visible .partner-card:hover {
+	transform:
+		translateY(-10px)
+		scale(1.025);
 
-    font-size:1.22rem;
+	border-color: rgba(30, 111, 210, 0.35);
 
-    margin-bottom:14px;
-
-    font-weight:700;
-
+	box-shadow:
+		0 18px 40px rgba(25, 95, 150, 0.12),
+		0 0 0 1px rgba(30, 111, 210, 0.04);
 }
 
-.partner-card p{
 
-    color:#666;
+/* =========================================================
+   HOVER TOP LINE
+========================================================= */
 
-    line-height:1.7;
+.whyPartner.is-visible .partner-card:hover::before {
+	opacity: 1;
 
-    font-size:.95rem;
-
+	transform: scaleX(1);
 }
 
-/* ==========================================================
-                MOBILE SLIDER
-========================================================== */
 
-.partner-mobile{
+/* =========================================================
+   HOVER BACKGROUND GLOW
+========================================================= */
 
-    display:none;
+.whyPartner.is-visible .partner-card:hover::after {
+	opacity: 1;
 
+	transform: scale(1.35);
 }
 
-.partner-mobile .swiper{
 
-    padding:10px 0 45px;
+/* =========================================================
+   ICON
+========================================================= */
 
+.partner-icon {
+	position: relative;
+
+	width: 70px;
+	height: 70px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin-bottom: 19px;
+
+	border-radius: 50%;
+
+	background:
+		linear-gradient(
+			145deg,
+			#edf8ff,
+			#e3f3fc
+		);
+
+	color: #087fbd;
+
+	font-size: 27px;
+
+	box-shadow:
+		0 6px 18px rgba(30, 111, 210, 0.07);
+
+	transform:
+		translateY(0)
+		scale(1)
+		rotate(0deg);
+
+	transition:
+		transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+		background 0.35s ease,
+		box-shadow 0.35s ease,
+		color 0.35s ease;
 }
 
-.partner-mobile .swiper-slide{
 
-    display:flex;
+/* =========================================================
+   ICON INNER RING
+========================================================= */
 
-    justify-content:center;
+.partner-icon::before {
+	content: "";
 
+	position: absolute;
+
+	inset: -5px;
+
+	border-radius: 50%;
+
+	border: 1px solid rgba(20, 145, 215, 0.08);
+
+	opacity: 0;
+
+	transform: scale(0.8);
+
+	transition:
+		opacity 0.4s ease,
+		transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-/* ==========================================================
-                TABLET
-========================================================== */
 
-@media(max-width:1200px){
+/* =========================================================
+   ICON GLOW
+========================================================= */
 
-.partner-grid{
+.partner-icon::after {
+	content: "";
 
-grid-template-columns:repeat(3,1fr);
+	position: absolute;
 
-gap:22px;
+	inset: -12px;
 
+	border-radius: 50%;
+
+	background: radial-gradient(
+		circle,
+		rgba(30, 111, 210, 0.12),
+		transparent 68%
+	);
+
+	opacity: 0;
+
+	transform: scale(0.7);
+
+	transition:
+		opacity 0.4s ease,
+		transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+
+	z-index: -1;
 }
 
+
+/* =========================================================
+   ICON HOVER
+========================================================= */
+
+.partner-card:hover .partner-icon {
+	transform:
+		translateY(-3px)
+		scale(1.08)
+		rotate(3deg);
+
+	background:
+		linear-gradient(
+			145deg,
+			#e1f4ff,
+			#d8effc
+		);
+
+	box-shadow:
+		0 10px 30px rgba(30, 111, 210, 0.18);
+
+	color: #0574ae;
 }
 
-/* ==========================================================
-                SMALL TABLET
-========================================================== */
+.partner-card:hover .partner-icon::before {
+	opacity: 1;
 
-@media(max-width:900px){
-
-.partner-grid{
-
-grid-template-columns:repeat(2,1fr);
-
+	transform: scale(1);
 }
 
-.partner-card{
+.partner-card:hover .partner-icon::after {
+	opacity: 1;
 
-padding:20px 18px;
-
+	transform: scale(1);
 }
 
+
+/* =========================================================
+   CARD TITLE
+========================================================= */
+
+.partner-card h3 {
+	margin: 0 0 9px;
+
+	color: #163f67;
+
+	font-size: 18px;
+	font-weight: 750;
+
+	line-height: 1.3;
+
+	transition:
+		transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+		color 0.3s ease;
 }
 
-/* ==========================================================
-                MOBILE
-========================================================== */
 
-@media(max-width:768px){
+/* =========================================================
+   TITLE HOVER
+========================================================= */
 
-.partner-grid{
+.partner-card:hover h3 {
+	transform: translateY(-2px);
 
-display:none;
-
+	color: #087fbd;
 }
 
-.partner-mobile{
 
-display:block;
+/* =========================================================
+   CARD DESCRIPTION
+========================================================= */
 
+.partner-card p {
+	max-width: 260px;
+
+	margin: 0;
+
+	color: #71859a;
+
+	font-size: 13px;
+
+	line-height: 1.65;
+
+	transition:
+		color 0.3s ease,
+		transform 0.3s ease;
 }
 
-.partner-mobile .partner-card{
+.partner-card:hover p {
+	color: #60788e;
 
-width:280px;
-
-padding:20px 18px;
-
+	transform: translateY(-1px);
 }
 
-.partner-icon{
 
-width:72px;
+/* =========================================================
+   NABL HIGHLIGHTED CARD
+========================================================= */
 
-height:72px;
+.partner-card-highlight {
+	border-color: rgba(30, 135, 205, 0.25);
 
-font-size:30px;
+	background:
+		linear-gradient(
+			145deg,
+			#ffffff 0%,
+			#f8fcff 100%
+		);
 
+	box-shadow:
+		0 12px 30px rgba(20, 120, 185, 0.10),
+		0 0 0 1px rgba(30, 135, 205, 0.04);
 }
 
-.partner-card h3{
 
-font-size:1.1rem;
+/* =========================================================
+   NABL SPECIAL GLOW
+========================================================= */
 
+.partner-card-highlight .partner-icon {
+	background:
+		linear-gradient(
+			145deg,
+			#e5f7ff,
+			#d8f0fc
+		);
+
+	color: #0578b5;
+
+	box-shadow:
+		0 8px 24px rgba(20, 130, 200, 0.13);
 }
 
-.partner-card p{
 
-font-size:.9rem;
+/* =========================================================
+   NABL HOVER
+========================================================= */
 
-line-height:1.6;
+.whyPartner.is-visible .partner-card-highlight:hover {
+	transform:
+		translateY(-12px)
+		scale(1.03);
 
+	border-color: rgba(20, 135, 210, 0.42);
+
+	box-shadow:
+		0 22px 48px rgba(20, 110, 175, 0.15),
+		0 0 28px rgba(30, 145, 215, 0.07);
 }
 
+
+/* =========================================================
+   NABL INNER SUBTLE FLOAT
+========================================================= */
+
+.partner-card-highlight .partner-card-inner {
+	animation: subtleNablFloat 4s ease-in-out infinite;
 }
 
-/* ==========================================================
-                SMALL MOBILE
-========================================================== */
+@keyframes subtleNablFloat {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
 
-@media(max-width:480px){
-
-.whyPartner{
-
-padding:20px 0;
-
+	50% {
+		transform: translateY(-3px);
+	}
 }
 
-.section-title{
 
-margin-bottom:35px;
+/* Stop idle movement when user interacts */
 
+.partner-card-highlight:hover .partner-card-inner {
+	animation-play-state: paused;
 }
 
-.section-title h2{
 
-font-size:2rem;
+/* =========================================================
+   MOBILE SWIPER
+========================================================= */
 
+.partner-mobile {
+	display: none;
 }
 
-.partner-mobile .partner-card{
+.partner-swiper {
+	width: 100%;
 
-width:250px;
-
-padding:18px 16px;
-
+	overflow: visible;
 }
 
-.partner-icon{
+.partner-swiper .swiper-slide {
+	height: auto;
 
-width:65px;
-
-height:65px;
-
-font-size:26px;
-
-margin-bottom:18px;
-
+	display: flex;
 }
 
-.partner-card h3{
 
-font-size:1rem;
+/* =========================================================
+   MOBILE CARD
+========================================================= */
 
+.partner-mobile .partner-card {
+	width: 100%;
+
+	min-height: 216px;
 }
 
-.partner-card p{
 
-font-size:.85rem;
+/* =========================================================
+   MOBILE VISIBLE ANIMATION
+========================================================= */
 
+.whyPartner.is-visible .partner-mobile .partner-card {
+	opacity: 1;
+
+	transform:
+		translateY(0)
+		scale(1);
 }
 
+
+/* =========================================================
+   MOBILE HOVER / TOUCH
+========================================================= */
+
+@media (hover: hover) {
+	.partner-mobile .partner-card:hover {
+		transform:
+			translateY(-5px)
+			scale(1.01);
+	}
 }
 
-/* ==========================================================
-            SMOOTH LOADING ANIMATION
-========================================================== */
 
-.partner-card{
+/* =========================================================
+   TABLET
+========================================================= */
 
-animation:fadeUp .8s ease both;
+@media (max-width: 992px) {
+	.whyPartner {
+		padding: 65px 0 70px;
+	}
 
+	.whyPartner .container {
+		width: min(100% - 32px, 900px);
+	}
+
+	.partner-grid {
+		grid-template-columns: repeat(2, 1fr);
+
+		gap: 18px;
+	}
+
+	.partner-card-inner {
+		padding: 27px 22px;
+	}
+
+	.partner-icon {
+		width: 66px;
+		height: 66px;
+
+		font-size: 25px;
+	}
 }
 
-.partner-card:nth-child(1){animation-delay:.05s;}
-.partner-card:nth-child(2){animation-delay:.12s;}
-.partner-card:nth-child(3){animation-delay:.18s;}
-.partner-card:nth-child(4){animation-delay:.25s;}
-.partner-card:nth-child(5){animation-delay:.32s;}
-.partner-card:nth-child(6){animation-delay:.39s;}
 
-@keyframes fadeUp{
+/* =========================================================
+   MOBILE
+========================================================= */
 
-0%{
+@media (max-width: 768px) {
+	.whyPartner {
+		padding: 55px 0 60px;
+	}
 
-opacity:0;
+	.whyPartner .container {
+		width: 100%;
+	}
 
-transform:translateY(40px);
+	.whyPartner .section-title {
+		width: calc(100% - 32px);
 
+		margin-bottom: 35px;
+	}
+
+	.whyPartner .section-title h2 {
+		font-size: 29px;
+
+		letter-spacing: -0.5px;
+	}
+
+	.whyPartner .section-title p {
+		font-size: 13px;
+
+		line-height: 1.65;
+	}
+
+	/* Hide desktop grid */
+	.partner-grid {
+		display: none;
+	}
+
+	/* Show mobile slider */
+	.partner-mobile {
+		display: block;
+
+		width: 100%;
+
+		padding: 0 0 5px;
+
+		overflow: hidden;
+	}
+
+	.partner-card {
+		border-radius: 20px;
+	}
+
+	.partner-card-inner {
+		padding: 25px 20px;
+	}
+
+	.partner-icon {
+		width: 62px;
+		height: 62px;
+
+		margin-bottom: 16px;
+
+		font-size: 24px;
+	}
+
+	.partner-card h3 {
+		font-size: 17px;
+	}
+
+	.partner-card p {
+		font-size: 12.5px;
+	}
+
+	/* Smaller mobile transform */
+	.whyPartner.is-visible .partner-card:hover {
+		transform:
+			translateY(-5px)
+			scale(1.01);
+	}
+
+	.whyPartner.is-visible .partner-card-highlight:hover {
+		transform:
+			translateY(-6px)
+			scale(1.015);
+	}
+
+	/* Disable complex icon movement on touch devices */
+	.partner-card:hover .partner-icon {
+		transform:
+			translateY(-2px)
+			scale(1.04)
+			rotate(2deg);
+	}
 }
 
-100%{
 
-opacity:1;
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
 
-transform:translateY(0);
+@media (max-width: 480px) {
+	.whyPartner {
+		padding: 45px 0 50px;
+	}
 
+	.whyPartner .section-title {
+		margin-bottom: 28px;
+	}
+
+	.whyPartner .section-title span {
+		font-size: 10px;
+
+		letter-spacing: 1.6px;
+	}
+
+	.whyPartner .section-title h2 {
+		font-size: 26px;
+	}
+
+	.whyPartner .section-title p {
+		font-size: 12px;
+	}
+
+	.partner-mobile {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.partner-mobile .partner-card {
+		min-height: 216.85px;
+
+		border-radius: 18px;
+	}
+
+	.partner-card-inner {
+		padding: 23px 18px;
+	}
+
+	.partner-icon {
+		width: 58px;
+		height: 58px;
+
+		margin-bottom: 14px;
+
+		font-size: 22px;
+	}
+
+	.partner-card h3 {
+		font-size: 16px;
+
+		margin-bottom: 7px;
+	}
+
+	.partner-card p {
+		font-size: 12px;
+
+		line-height: 1.55;
+	}
 }
 
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 360px) {
+	.whyPartner .section-title h2 {
+		font-size: 24px;
+	}
+
+	.partner-mobile .partner-card {
+		min-height: 205px;
+	}
+
+	.partner-card-inner {
+		padding: 21px 16px;
+	}
 }
 
-/* ==========================================================
-            ACTIVE PRESS EFFECT
-========================================================== */
 
-.partner-card:active{
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
 
-transform:scale(.97);
+@media (prefers-reduced-motion: reduce) {
+	.whyPartner *,
+	.whyPartner *::before,
+	.whyPartner *::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
 
-transition:.15s;
+	.whyPartner .section-title,
+	.whyPartner .section-title span,
+	.whyPartner .section-title h2,
+	.whyPartner .section-title p,   
+	.whyPartner .partner-card {
+		opacity: 1;
 
-}
+		transform: none;
+	}
+
+	.partner-card-highlight .partner-card-inner {
+		animation: none;
+	}
+}   

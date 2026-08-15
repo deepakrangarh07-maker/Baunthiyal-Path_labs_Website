@@ -12,7 +12,7 @@ function PartnershipProcess() {
 		<section className="pp-section">
 			<div className="container">
 				<div className="pp-heading">
-					<span>HOW IT WORKS</span>
+					{/* <span>HOW IT WORKS</span> */}
 
 					<h2>Partnership Process</h2>
 

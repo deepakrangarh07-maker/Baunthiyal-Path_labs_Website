@@ -1,257 +1,930 @@
-/* ==========================================================
+/* =========================================================
    PANEL CATEGORIES
-========================================================== */
+   Baunthiyal Path Labs
+========================================================= */
 
-.pcat-section{
-    padding:20px 0;
-    background:#F8FBFF;
+.pcat-section {
+	width: 100%;
+	padding: 30px 0 45px;
+
+	background:
+		radial-gradient(
+			circle at 10% 10%,
+			rgba(72, 201, 245, 0.07),
+			transparent 30%
+		),
+		radial-gradient(
+			circle at 90% 80%,
+			rgba(10, 94, 176, 0.05),
+			transparent 30%
+		),
+		#f8fbff;
+
+	overflow: hidden;
 }
 
-.pcat-heading{
-    text-align:center;
-    max-width:700px;
-    margin:0 auto 60px;
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.pcat-heading {
+	width: 100%;
+	max-width: 720px;
+
+	margin: 0 auto 50px;
+
+	text-align: center;
 }
 
-.pcat-subtitle{
-    display:inline-block;
-    color:#0A5EB0;
-    font-size:14px;
-    font-weight:700;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    margin-bottom:12px;
+.pcat-subtitle {
+	display: inline-flex;
+
+	align-items: center;
+	justify-content: center;
+
+	padding: 7px 15px;
+
+	margin-bottom: 12px;
+
+	border: 1px solid #c9eafd;
+	border-radius: 50px;
+
+	background: #eef9ff;
+
+	color: #087fba;
+
+	font-size: 11px;
+	font-weight: 800;
+
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
 }
 
-.pcat-title{
-    font-size:2.4rem;
-    font-weight:700;
-    color:#163A6C;
-    margin-bottom:16px;
+.pcat-title {
+	margin: 0 0 14px;
+
+	color: #123f68;
+
+	font-size: clamp(30px, 3vw, 42px);
+	font-weight: 800;
+
+	line-height: 1.1;
+	letter-spacing: -1px;
 }
 
-.pcat-description{
-    color:#666;
-    line-height:1.8;
-    font-size:1rem;
+.pcat-title span {
+	color: #0797d2;
 }
 
-/* ==========================================
+.pcat-description {
+	max-width: 620px;
+
+	margin: 0 auto;
+
+	color: #6b8298;
+
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+
+/* =========================================================
    GRID
-========================================== */
+========================================================= */
 
-.pcat-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:24px;
+.pcat-grid {
+	display: grid;
+
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+
+	gap: 22px;
+
+	width: 100%;
 }
 
-/* ==========================================
-   CARD
-========================================== */
 
-.pcat-card{
-    display:flex;
-    align-items:flex-start;
-    gap:18px;
-    background:#fff;
-    border:1px solid #E7EEF8;
-    border-radius:22px;
-    padding:26px;
-    cursor:pointer;
-    transition:.35s ease;
-    box-shadow:0 12px 28px rgba(0,0,0,.06);
+/* =========================================================
+   CARD WRAPPER
+
+   Desktop square cards
+========================================================= */
+
+.pcat-card-wrapper {
+	position: relative;
+
+	width: 100%;
+
+	aspect-ratio: 1 / 1;
+
+	perspective: 1200px;
+
+	cursor: pointer;
+
+	outline: none;
 }
 
-.pcat-card:hover{
-    transform:translateY(-6px);
-    border-color:#0A5EB0;
-    box-shadow:0 20px 40px rgba(10,94,176,.14);
+
+/* =========================================================
+   CARD INNER
+========================================================= */
+
+.pcat-card-inner {
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+
+	transform-style: preserve-3d;
+
+	transition:
+		transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+	will-change: transform;
 }
 
-.pcat-icon{
-    width:62px;
-    height:62px;
-    min-width:62px;
-    border-radius:18px;
-    background:#EAF5FF;
-    color:#0A5EB0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:28px;
-    transition:.35s;
+.pcat-card-wrapper.is-flipped .pcat-card-inner {
+	transform: rotateY(180deg);
 }
 
-.pcat-card:hover .pcat-icon{
-    background:#0A5EB0;
-    color:#fff;
-    transform:rotate(-8deg);
+
+/* =========================================================
+   COMMON CARD
+========================================================= */
+
+.pcat-card {
+	position: absolute;
+
+	inset: 0;
+
+	width: 100%;
+	height: 100%;
+
+	border-radius: 22px;
+
+	overflow: hidden;
+
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+
+	box-sizing: border-box;
 }
 
-.pcat-content{
-    flex:1;
+
+/* =========================================================
+   FRONT
+========================================================= */
+
+.pcat-card-front {
+	display: flex;
+
+	flex-direction: column;
+
+	padding: 27px;
+
+	background:
+		linear-gradient(
+			145deg,
+			#ffffff 0%,
+			#ffffff 65%,
+			#f1faff 100%
+		);
+
+	border: 1px solid #e0edf7;
+
+	box-shadow:
+		0 14px 35px rgba(12, 82, 125, 0.08);
+
+	transform: rotateY(0deg);
+
+	transition:
+		box-shadow 0.35s ease,
+		border-color 0.35s ease;
 }
 
-.pcat-content h3{
-    color:#163A6C;
-    font-size:1.15rem;
-    font-weight:700;
-    margin-bottom:8px;
+
+/* =========================================================
+   CARD NUMBER
+========================================================= */
+
+.pcat-card-number {
+	position: absolute;
+
+	top: 20px;
+	right: 22px;
+
+	color: #dbeefa;
+
+	font-size: 30px;
+	font-weight: 900;
+
+	line-height: 1;
 }
 
-.pcat-content p{
-    color:#666;
-    font-size:.93rem;
-    line-height:1.7;
-    margin-bottom:18px;
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.pcat-icon {
+	position: relative;
+	z-index: 2;
+
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	width: 64px;
+	height: 64px;
+
+	margin-bottom: 22px;
+
+	border-radius: 18px;
+
+	background:
+		linear-gradient(
+			145deg,
+			#e9f8ff,
+			#d8f2ff
+		);
+
+	color: #078ac4;
+
+	font-size: 27px;
+
+	box-shadow:
+		0 10px 25px rgba(7, 138, 196, 0.10);
+
+	transition:
+		transform 0.45s ease,
+		box-shadow 0.45s ease;
 }
 
-/* ==========================================
-   BUTTON
-========================================== */
 
-.pcat-button{
-    border:none;
-    background:none;
-    color:#0A5EB0;
-    font-size:.95rem;
-    font-weight:700;
-    cursor:pointer;
-    transition:.3s;
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.pcat-content {
+	position: relative;
+	z-index: 2;
+
+	display: flex;
+
+	flex: 1;
+
+	flex-direction: column;
 }
 
-.pcat-button:hover{
-    letter-spacing:.5px;
+.pcat-content h3 {
+	margin: 0 45px 10px 0;
+
+	color: #123f68;
+
+	font-size: 18px;
+	font-weight: 800;
+
+	line-height: 1.25;
 }
 
-/* ==========================================
+.pcat-content p {
+	margin: 0;
+
+	color: #70869a;
+
+	font-size: 12.5px;
+
+	line-height: 1.65;
+}
+
+
+/* =========================================================
+   VIEW DETAILS
+========================================================= */
+
+.pcat-learn {
+	display: flex;
+
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: auto;
+	padding-top: 18px;
+
+	color: #078ac4;
+
+	font-size: 12px;
+	font-weight: 800;
+}
+
+.pcat-arrow {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	width: 32px;
+	height: 32px;
+
+	border-radius: 50%;
+
+	background: #eaf7ff;
+
+	color: #078ac4;
+
+	transition:
+		transform 0.3s ease,
+		background 0.3s ease;
+}
+
+
+/* =========================================================
+   DECORATIVE GLOW
+========================================================= */
+
+.pcat-card-glow {
+	position: absolute;
+
+	width: 150px;
+	height: 150px;
+
+	right: -65px;
+	bottom: -65px;
+
+	border-radius: 50%;
+
+	background: rgba(48, 188, 235, 0.10);
+
+	filter: blur(5px);
+
+	pointer-events: none;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.pcat-card-wrapper:hover .pcat-card-front {
+	border-color: #bce7fa;
+
+	box-shadow:
+		0 22px 45px rgba(8, 137, 196, 0.14);
+}
+
+.pcat-card-wrapper:hover .pcat-icon {
+	transform: translateY(-4px) scale(1.05);
+
+	box-shadow:
+		0 14px 30px rgba(7, 138, 196, 0.18);
+}
+
+.pcat-card-wrapper:hover .pcat-arrow {
+	transform: translateX(4px);
+
+	background: #0797d2;
+
+	color: #fff;
+}
+
+
+/* =========================================================
+   KEYBOARD FOCUS
+========================================================= */
+
+.pcat-card-wrapper:focus-visible {
+	border-radius: 24px;
+
+	box-shadow:
+		0 0 0 3px rgba(7, 151, 210, 0.25);
+}
+
+
+/* =========================================================
+   BACK
+========================================================= */
+
+.pcat-card-back {
+	display: flex;
+
+	flex-direction: column;
+
+	padding: 24px;
+
+	background:
+		linear-gradient(
+			145deg,
+			#087fba 0%,
+			#076ba0 55%,
+			#064d79 100%
+		);
+
+	color: #fff;
+
+	transform: rotateY(180deg);
+
+	box-shadow:
+		0 20px 50px rgba(4, 77, 121, 0.25);
+}
+
+
+/* =========================================================
+   BACK TOP
+========================================================= */
+
+.pcat-back-top {
+	display: flex;
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pcat-back-icon {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	width: 48px;
+	height: 48px;
+
+	border-radius: 14px;
+
+	background: rgba(255, 255, 255, 0.14);
+
+	border: 1px solid rgba(255, 255, 255, 0.22);
+
+	color: #fff;
+
+	font-size: 21px;
+
+	backdrop-filter: blur(8px);
+}
+
+
+/* =========================================================
+   FLIP / CLOSE BUTTON
+========================================================= */
+
+.pcat-close {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	width: 38px;
+	height: 38px;
+
+	padding: 0;
+
+	border: 1px solid rgba(255, 255, 255, 0.28);
+
+	border-radius: 50%;
+
+	background: rgba(255, 255, 255, 0.12);
+
+	color: #fff;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	transition:
+		transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1),
+		background 0.3s ease;
+}
+
+.pcat-close:hover {
+	background: rgba(255, 255, 255, 0.22);
+
+	transform: rotate(-180deg) scale(1.08);
+}
+
+.pcat-close:active {
+	transform: rotate(-180deg) scale(0.94);
+}
+
+
+/* =========================================================
+   BACK CONTENT
+========================================================= */
+
+.pcat-back-content {
+	display: flex;
+
+	flex-direction: column;
+
+	flex: 1;
+
+	padding-top: 18px;
+
+	overflow: hidden;
+}
+
+.pcat-back-label {
+	margin-bottom: 7px;
+
+	color: rgba(255, 255, 255, 0.65);
+
+	font-size: 9px;
+	font-weight: 800;
+
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+}
+
+.pcat-back-content h3 {
+	margin: 0 0 9px;
+
+	color: #fff;
+
+	font-size: 19px;
+	font-weight: 800;
+
+	line-height: 1.2;
+}
+
+.pcat-back-content p {
+	margin: 0;
+
+	color: rgba(255, 255, 255, 0.82);
+
+	font-size: 11.5px;
+
+	line-height: 1.55;
+}
+
+
+/* =========================================================
+   DIVIDER
+========================================================= */
+
+.pcat-divider {
+	width: 100%;
+	height: 1px;
+
+	margin: 13px 0;
+
+	background: rgba(255, 255, 255, 0.18);
+}
+
+
+/* =========================================================
+   LIST
+========================================================= */
+
+.pcat-list {
+	display: flex;
+
+	flex-direction: column;
+
+	gap: 8px;
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+	overflow-y: auto;
+}
+
+.pcat-list::-webkit-scrollbar {
+	width: 3px;
+}
+
+.pcat-list::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.35);
+
+	border-radius: 10px;
+}
+
+.pcat-list li {
+	display: flex;
+
+	align-items: flex-start;
+
+	gap: 8px;
+
+	color: rgba(255, 255, 255, 0.92);
+
+	font-size: 11px;
+
+	line-height: 1.35;
+}
+
+.pcat-check {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	flex-shrink: 0;
+
+	width: 17px;
+	height: 17px;
+
+	border-radius: 50%;
+
+	background: rgba(255, 255, 255, 0.15);
+
+	color: #7ee4ff;
+
+	font-size: 9px;
+	font-weight: 900;
+}
+
+
+/* =========================================================
+   BACK FOOTER
+========================================================= */
+
+.pcat-back-footer {
+	display: flex;
+
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: auto;
+	padding-top: 12px;
+
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+	color: rgba(255, 255, 255, 0.72);
+
+	font-size: 9px;
+	font-weight: 700;
+}
+
+.pcat-back-arrow {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	width: 27px;
+	height: 27px;
+
+	border-radius: 50%;
+
+	background: rgba(255, 255, 255, 0.13);
+
+	color: #fff;
+}
+
+
+/* =========================================================
    TABLET
-========================================== */
+========================================================= */
 
-@media(max-width:992px){
+@media (max-width: 1100px) {
+	.pcat-section {
+		padding: 60px 0 70px;
+	}
 
-.pcat-grid{
-    grid-template-columns:1fr;
+	.pcat-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+
+		gap: 20px;
+	}
+
+	.pcat-card-front,
+	.pcat-card-back {
+		padding: 24px;
+	}
 }
 
-}
 
-/* ==========================================
+/* =========================================================
    MOBILE
-========================================== */
+========================================================= */
 
-@media(max-width:768px){
+@media (max-width: 768px) {
+	.pcat-section {
+		padding: 50px 0 60px;
+	}
 
-.pcat-section{
-    padding:60px 0;
+	.pcat-heading {
+		margin-bottom: 30px;
+
+		padding: 0 18px;
+	}
+
+	.pcat-subtitle {
+		font-size: 10px;
+
+		padding: 6px 12px;
+	}
+
+	.pcat-title {
+		font-size: 29px;
+	}
+
+	.pcat-description {
+		font-size: 13px;
+	}
+
+	/* Horizontal mobile slider */
+
+	.pcat-grid {
+		display: flex;
+
+		width: 100%;
+
+		gap: 16px;
+
+		overflow-x: auto;
+
+		padding: 8px 18px 22px;
+
+		scroll-snap-type: x mandatory;
+
+		scroll-padding-left: 18px;
+
+		-webkit-overflow-scrolling: touch;
+
+		scrollbar-width: none;
+	}
+
+	.pcat-grid::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Square mobile cards */
+
+	.pcat-card-wrapper {
+		flex: 0 0 290px;
+
+		width: 290px;
+		height: 290px;
+
+		aspect-ratio: auto;
+
+		scroll-snap-align: start;
+	}
+
+	.pcat-card-front,
+	.pcat-card-back {
+		border-radius: 20px;
+	}
+
+	.pcat-card-front {
+		padding: 23px;
+	}
+
+	.pcat-icon {
+		width: 58px;
+		height: 58px;
+
+		margin-bottom: 18px;
+
+		font-size: 24px;
+	}
+
+	.pcat-content h3 {
+		font-size: 17px;
+	}
+
+	.pcat-content p {
+		font-size: 11.5px;
+	}
+
+	.pcat-card-back {
+		padding: 21px;
+	}
+
+	.pcat-back-content h3 {
+		font-size: 17px;
+	}
+
+	.pcat-back-content p {
+		font-size: 11px;
+	}
+
+	.pcat-list li {
+		font-size: 10.5px;
+	}
 }
 
-.pcat-heading{
-    margin-bottom:40px;
-}
 
-.pcat-title{
-    font-size:2rem;
-}
-
-.pcat-description{
-    padding:0 15px;
-}
-
-.pcat-grid{
-    display:flex;
-    overflow-x:auto;
-    gap:18px;
-    padding:8px 15px 15px;
-    scroll-snap-type:x mandatory;
-    scrollbar-width:none;
-}
-
-.pcat-grid::-webkit-scrollbar{
-    display:none;
-}
-
-.pcat-card{
-    min-width:320px;
-    max-width:320px;
-    flex-shrink:0;
-    scroll-snap-align:center;
-    padding:22px;
-}
-
-.pcat-icon{
-    width:55px;
-    height:55px;
-    min-width:55px;
-    font-size:24px;
-}
-
-.pcat-content h3{
-    font-size:1.05rem;
-}
-
-.pcat-content p{
-    font-size:.88rem;
-    margin-bottom:14px;
-}
-
-.pcat-button{
-    font-size:.9rem;
-}
-
-}
-
-/* ==========================================
+/* =========================================================
    SMALL MOBILE
-========================================== */
+========================================================= */
 
-@media(max-width:480px){
+@media (max-width: 480px) {
+	.pcat-section {
+		padding: 42px 0 50px;
+	}
 
-.pcat-section{
-    padding:45px 0;
+	.pcat-heading {
+		padding: 0 16px;
+	}
+
+	.pcat-title {
+		font-size: 26px;
+	}
+
+	.pcat-description {
+		font-size: 12px;
+		line-height: 1.65;
+	}
+
+	.pcat-grid {
+		gap: 14px;
+
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.pcat-card-wrapper {
+		flex-basis: 285px;
+
+		width: 285px;
+		height: 285px;
+	}
+
+	.pcat-card-front {
+		padding: 20px;
+	}
+
+	.pcat-card-back {
+		padding: 19px;
+	}
+
+	.pcat-icon {
+		width: 54px;
+		height: 54px;
+
+		border-radius: 16px;
+
+		font-size: 22px;
+	}
+
+	.pcat-content h3 {
+		font-size: 16px;
+	}
+
+	.pcat-content p {
+		font-size: 11px;
+	}
+
+	.pcat-learn {
+		font-size: 11px;
+	}
+
+	.pcat-arrow {
+		width: 29px;
+		height: 29px;
+	}
+
+	.pcat-back-icon {
+		width: 44px;
+		height: 44px;
+
+		font-size: 19px;
+	}
+
+	.pcat-close {
+		width: 35px;
+		height: 35px;
+	}
+
+	.pcat-back-content h3 {
+		font-size: 16px;
+	}
+
+	.pcat-back-content p {
+		font-size: 10.5px;
+	}
+
+	.pcat-list {
+		gap: 6px;
+	}
+
+	.pcat-list li {
+		font-size: 10px;
+	}
 }
 
-.pcat-title{
-    font-size:1.7rem;
-}
 
-.pcat-description{
-    font-size:.9rem;
-}
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
 
-.pcat-grid{
-    gap:14px;
-    padding-left:16px;
-    padding-right:16px;
-}
+@media (prefers-reduced-motion: reduce) {
+	.pcat-card-inner,
+	.pcat-card,
+	.pcat-icon,
+	.pcat-arrow,
+	.pcat-close {
+		transition: none !important;
+	}
 
-.pcat-card{
-    min-width:285px;
-    max-width:285px;
-    padding:18px;
-    border-radius:18px;
-    gap:15px;
-}
+	.pcat-card-wrapper:hover .pcat-card-front {
+		transform: none;
+	}
 
-.pcat-icon{
-    width:50px;
-    height:50px;
-    min-width:50px;
-    font-size:22px;
-}
-
-.pcat-content h3{
-    font-size:1rem;
-}
-
-.pcat-content p{
-    font-size:.84rem;
-    line-height:1.6;
-}
-
-.pcat-button{
-    font-size:.85rem;
-}
-
+	.pcat-card-wrapper:hover .pcat-icon {
+		transform: none;
+	}
 }

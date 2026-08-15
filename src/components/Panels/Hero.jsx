@@ -1,101 +1,230 @@
-import "../../styles/Panels/Hero.css";
-import HeroImage from "../../assets/panels/panel-hero.png";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-import {
-	FaCheckCircle,
-	FaArrowRight,
-	FaHandshake,
-	FaShieldAlt,
-} from "react-icons/fa";
+import { FaArrowRight, FaCheckCircle, FaShieldAlt } from "react-icons/fa";
+
+import "../../styles/Panels/Hero.css";
+
+import cghsImage from "../../assets/panels/panel-hero.png";
+import partnerImage from "../../assets/panels/panel-hero.png";
+
+const slides = [
+	{
+		id: 1,
+
+		tag: "CGHS PANELLED",
+
+		title: (
+			<>
+				Trusted Diagnostics for
+				<span> Government Healthcare</span>
+			</>
+		),
+
+		description:
+			"Baunthiyal Path Labs & Imaging Centre provides reliable pathology and ultrasound for eligible government beneficiaries under CGHS empanelment.",
+
+		image: cghsImage,
+
+		points: [
+			"CGHS Empanelled",
+			"Pathology Services",
+			"Ultrasound Services",
+			"Trusted Diagnostic Care",
+		],
+
+		primaryButton: "View Services",
+
+		// Internal website route
+		primaryAction: "/our_services",
+
+		secondaryButton: "Contact Us",
+		secondaryAction: "tel:+919876543210",
+	},
+
+	{
+		id: 2,
+
+		tag: "HEALTHCARE PARTNERSHIP",
+
+		title: (
+			<>
+				Become a<span> Trusted Healthcare Partner</span>
+			</>
+		),
+
+		description:
+			"Partner with Baunthiyal Path Labs & Imaging Centre for reliable pathology and diagnostic services for your organization.",
+
+		image: partnerImage,
+
+		points: [
+			"Authorised Collection Centre",
+			"Corporate Partnerships",
+			"Hospital Partnerships",
+			"Reliable Diagnostics",
+		],
+
+		primaryButton: "Become a Partner",
+
+		// Email action
+		primaryAction:
+			"mailto:care@baunthiyallabs.com?subject=Request%20for%20Healthcare%20Partnership&body=Dear%20Baunthiyal%20Path%20Labs%20%26%20Imaging%20Centre%20Team%2C%0A%0AI%20am%20interested%20in%20becoming%20a%20healthcare%20partner.%0A%0AMy%20details%3A%0AName%3A%20%0AOrganisation%3A%20%0ALocation%3A%20%0AContact%20Number%3A%20%0AEmail%3A%20%0A%0ARegards%2C%0A%5BYour%20Name%5D",
+
+		secondaryButton: "Contact Us",
+		secondaryAction: "tel:+919876543210",
+	},
+];
 
 function Hero() {
-	const handleBecomePartner = () => {
-		const subject = "Request to Open an Authorised Blood Collection Centre";
-		const body = `Dear Baunthiyal Path Labs & Imaging Centre Team,
-		  I am interested in opening an Authorised Blood Collection Centre in association with Baunthiyal Path Labs & Imaging Centre.
-		  I would like to discuss the requirements, eligibility criteria, infrastructure requirements, documentation, investment, and process for becoming an authorised blood collection centre. 
-		  Please share the necessary details and guide me through the next steps. 
-		  My details: Name: 
-		  Organisation / Company: 
-		  Location: 
-		  Contact Number: 
-		  Email Address: 
-		  I look forward to hearing from you. 
-		  Regards, 
-		  [Your Name]`;
-		window.location.href = `mailto:care@baunthiyallabs.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+	const [current, setCurrent] = useState(0);
+	const [animating, setAnimating] = useState(false);
+
+	const slide = slides[current];
+
+	const nextSlide = () => {
+		if (animating) return;
+
+		setAnimating(true);
+
+		setTimeout(() => {
+			setCurrent((prev) => (prev + 1) % slides.length);
+			setAnimating(false);
+		}, 500);
 	};
+
+	const prevSlide = () => {
+		if (animating) return;
+
+		setAnimating(true);
+
+		setTimeout(() => {
+			setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
+			setAnimating(false);
+		}, 500);
+	};
+
+	const goToSlide = (index) => {
+		if (index === current || animating) return;
+
+		setAnimating(true);
+
+		setTimeout(() => {
+			setCurrent(index);
+			setAnimating(false);
+		}, 500);
+	};
+
+	// Automatic slider
+	useEffect(() => {
+		const timer = setInterval(() => {
+			setCurrent((prev) => (prev + 1) % slides.length);
+		}, 6000);
+
+		return () => clearInterval(timer);
+	}, []);
+
+	// Check whether action is an external action
+	const isExternalAction =
+		slide.primaryAction.startsWith("mailto:") ||
+		slide.primaryAction.startsWith("tel:");
+
 	return (
 		<section className="panel-hero">
-			<div className="container">
-				<div className="hero-grid">
-					{/* LEFT */}
+			<div className="panel-hero-container">
+				<div
+					className={`panel-hero-slider ${animating ? "is-changing" : ""}`}
+					style={{
+						backgroundImage: `
+							linear-gradient(
+								90deg,
+								rgba(255,255,255,0.98) 0%,
+								rgba(255,255,255,0.94) 35%,
+								rgba(255,255,255,0.70) 58%,
+								rgba(255,255,255,0.10) 100%
+							),
+							url(${slide.image})
+						`,
+					}}
+				>
+					{/* ================= CONTENT ================= */}
 
-					<div className="hero-content">
-						<span className="hero-tag">Trusted Healthcare Partner</span>
+					<div className="panel-hero-content">
+						<div className="panel-hero-tag">
+							<FaShieldAlt />
+							{slide.tag}
+						</div>
 
-						<h1>
-							Corporate & Government
-							<span> Diagnostic Panels</span>
-						</h1>
+						<h1>{slide.title}</h1>
 
-						<p>
-							Baunthiyal Path Labs & Imaging Centre partners with Government
-							Organizations, Corporate Offices, Hospitals, Schools, Colleges and
-							Insurance Companies to provide reliable pathology and radiology
-							services.
-						</p>
+						<p>{slide.description}</p>
 
-						<ul className="hero-list">
-							<li>
-								<FaCheckCircle />
-								CGHS Empanelment
-							</li>
+						{/* POINTS */}
 
-							<li>
-								<FaCheckCircle />
-								Authorised Collection Centre
-							</li>
+						<div className="panel-hero-points">
+							{slide.points.map((point, index) => (
+								<div className="panel-hero-point" key={index}>
+									<FaCheckCircle />
 
-							<li>
-								<FaCheckCircle />
-								Hospital Partnerships
-							</li>
+									<span>{point}</span>
+								</div>
+							))}
+						</div>
 
-							<li>
-								<FaCheckCircle />
-								Insurance (TPA) Services
-							</li>
-						</ul>
+						{/* BUTTONS */}
 
-						<div className="hero-buttons">
-							<button className="primary-btn" onClick={handleBecomePartner}>
-								Become a Partner
-								<FaArrowRight />
-							</button>
+						<div className="panel-hero-buttons">
+							{/* PRIMARY BUTTON */}
 
-							<a href="tel:+919876543210" className="secondary-btn">
-								<FaHandshake />
-								Contact Us
+							{isExternalAction ? (
+								<a href={slide.primaryAction} className="primary-btn">
+									{slide.primaryButton}
+									<FaArrowRight />
+								</a>
+							) : (
+								<Link to={slide.primaryAction} className="primary-btn">
+									{slide.primaryButton}
+									<FaArrowRight />
+								</Link>
+							)}
+
+							{/* SECONDARY BUTTON */}
+
+							<a href={slide.secondaryAction} className="secondary-btn">
+								{slide.secondaryButton}
 							</a>
 						</div>
 					</div>
 
-					{/* RIGHT */}
+					{/* ================= SLIDER ARROWS ================= */}
 
-					<div className="hero-image">
-						<div className="hero-badge">
-							<FaShieldAlt />
-							Trusted Healthcare Partner
-						</div>
+					<button
+						className="panel-slider-arrow panel-slider-prev"
+						onClick={prevSlide}
+						aria-label="Previous slide"
+					>
+						‹
+					</button>
 
-						<img src={HeroImage} alt="Corporate Diagnostic Partnership" />
+					<button
+						className="panel-slider-arrow panel-slider-next"
+						onClick={nextSlide}
+						aria-label="Next slide"
+					>
+						›
+					</button>
 
-						<div className="hero-card">
-							<h4>100+ Partner Organizations</h4>
+					{/* ================= SLIDER DOTS ================= */}
 
-							<p>Government • Corporate • Hospital • Insurance</p>
-						</div>
+					<div className="panel-slider-dots">
+						{slides.map((_, index) => (
+							<button
+								key={index}
+								className={index === current ? "active" : ""}
+								onClick={() => goToSlide(index)}
+								aria-label={`Go to slide ${index + 1}`}
+							/>
+						))}
 					</div>
 				</div>
 			</div>

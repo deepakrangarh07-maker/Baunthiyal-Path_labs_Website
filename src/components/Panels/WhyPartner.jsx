@@ -1,3 +1,5 @@
+import { useEffect, useRef, useState } from "react";
+
 import "../../styles/Panels/WhyPartner.css";
 
 import {
@@ -34,6 +36,7 @@ const cards = [
 		icon: <FaAward />,
 		title: "NABL Certified",
 		desc: "Trusted quality & international standards.",
+		highlight: true,
 	},
 	{
 		icon: <FaTags />,
@@ -48,11 +51,49 @@ const cards = [
 ];
 
 function WhyPartner() {
+	const sectionRef = useRef(null);
+	const [isVisible, setIsVisible] = useState(false);
+
+	useEffect(() => {
+		const section = sectionRef.current;
+
+		if (!section) return;
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				const entry = entries[0];
+
+				if (entry.isIntersecting) {
+					setIsVisible(true);
+
+					// Animation only needs to trigger once.
+					observer.unobserve(section);
+				}
+			},
+			{
+				threshold: 0.15,
+				rootMargin: "0px 0px -50px 0px",
+			},
+		);
+
+		observer.observe(section);
+
+		return () => observer.disconnect();
+	}, []);
+
 	return (
-		<section className="whyPartner">
+		<section
+			ref={sectionRef}
+			className={`whyPartner ${isVisible ? "is-visible" : ""}`}
+		>
 			<div className="container">
+				{/* =====================================================
+				    SECTION HEADING
+				===================================================== */}
+
 				<div className="section-title">
-					<span>WHY CHOOSE US</span>
+						<span>WHY CHOOSE US</span>
+
 					<h2>Why Partner With Us?</h2>
 
 					<p>
@@ -61,21 +102,35 @@ function WhyPartner() {
 					</p>
 				</div>
 
-				{/* Desktop */}
+				{/* =====================================================
+				    DESKTOP / TABLET
+				===================================================== */}
 
 				<div className="partner-grid">
 					{cards.map((item, index) => (
-						<div className="partner-card" key={index}>
-							<div className="partner-icon">{item.icon}</div>
+						<div
+							className={`partner-card ${
+								item.highlight ? "partner-card-highlight" : ""
+							}`}
+							key={index}
+							style={{
+								"--card-delay": `${index * 0.09}s`,
+							}}
+						>
+							<div className="partner-card-inner">
+								<div className="partner-icon">{item.icon}</div>
 
-							<h3>{item.title}</h3>
+								<h3>{item.title}</h3>
 
-							<p>{item.desc}</p>
+								<p>{item.desc}</p>
+							</div>
 						</div>
 					))}
 				</div>
 
-				{/* Mobile */}
+				{/* =====================================================
+				    MOBILE
+				===================================================== */}
 
 				<div className="partner-mobile">
 					<Swiper
@@ -88,15 +143,25 @@ function WhyPartner() {
 							delay: 2500,
 							disableOnInteraction: false,
 						}}
+						className="partner-swiper"
 					>
 						{cards.map((item, index) => (
 							<SwiperSlide key={index}>
-								<div className="partner-card">
-									<div className="partner-icon">{item.icon}</div>
+								<div
+									className={`partner-card ${
+										item.highlight ? "partner-card-highlight" : ""
+									}`}
+									style={{
+										"--card-delay": `${index * 0.09}s`,
+									}}
+								>
+									<div className="partner-card-inner">
+										<div className="partner-icon">{item.icon}</div>
 
-									<h3>{item.title}</h3>
+										<h3>{item.title}</h3>
 
-									<p>{item.desc}</p>
+										<p>{item.desc}</p>
+									</div>
 								</div>
 							</SwiperSlide>
 						))}
