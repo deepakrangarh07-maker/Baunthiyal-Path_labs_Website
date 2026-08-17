@@ -1,6 +1,7 @@
 /* =========================================================
-   NAVBAR
-   Premium Diagnostic / Medical UI
+   BAUNTHIYAL PATH LABS
+   PREMIUM RESPONSIVE NAVBAR
+   Z-INDEX SAFE VERSION
 ========================================================= */
 
 :root {
@@ -21,7 +22,20 @@
 
 	--nav-radius: 12px;
 
-	--nav-transition: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+	--nav-transition:
+		0.28s cubic-bezier(0.4, 0, 0.2, 1);
+
+	/* =====================================================
+	   Z-INDEX HIERARCHY
+	===================================================== */
+
+	--z-navbar: 8000;
+
+	--z-navbar-overlay: 99990;
+
+	--z-navbar-drawer: 100000;
+
+	--z-navbar-controls: 100010;
 }
 
 
@@ -31,6 +45,7 @@
 
 .navbar {
 	width: 100%;
+
 	height: 68px;
 
 	display: flex;
@@ -41,7 +56,8 @@
 	border-bottom: 1px solid var(--nav-border);
 
 	position: relative;
-	z-index: 10;
+
+	z-index: var(--z-navbar);
 
 	box-sizing: border-box;
 
@@ -51,10 +67,17 @@
 	transition:
 		background var(--nav-transition),
 		box-shadow var(--nav-transition);
+
+	/*
+		Prevents random stacking-context interactions.
+	*/
+	isolation: isolate;
 }
 
 
-/* subtle top highlight */
+/* =========================================================
+   TOP HIGHLIGHT
+========================================================= */
 
 .navbar::before {
 	content: "";
@@ -75,6 +98,8 @@
 	);
 
 	opacity: 0.55;
+
+	pointer-events: none;
 }
 
 
@@ -84,6 +109,7 @@
 
 .navbar-panel {
 	width: 100%;
+
 	max-width: 1500px;
 
 	margin: 0 auto;
@@ -92,6 +118,7 @@
 
 	display: flex;
 	align-items: center;
+
 	justify-content: space-between;
 
 	gap: 22px;
@@ -106,7 +133,9 @@
 
 .navbar-trusted {
 	display: inline-flex;
+
 	align-items: center;
+
 	gap: 8px;
 
 	padding: 8px 12px;
@@ -124,6 +153,7 @@
 	color: #39708f;
 
 	font-size: 11px;
+
 	font-weight: 700;
 
 	white-space: nowrap;
@@ -147,7 +177,9 @@
 }
 
 
-/* green status dot */
+/* =========================================================
+   TRUSTED DOT
+========================================================= */
 
 .trusted-dot {
 	width: 7px;
@@ -161,19 +193,24 @@
 
 	position: relative;
 
-	box-shadow: 0 0 0 3px rgba(32, 181, 107, 0.10);
+	box-shadow:
+		0 0 0 3px rgba(32, 181, 107, 0.10);
 
-	animation: trustedPulse 2.5s ease-in-out infinite;
+	animation:
+		trustedPulse 2.5s ease-in-out infinite;
 }
 
 @keyframes trustedPulse {
+
 	0%,
 	100% {
-		box-shadow: 0 0 0 3px rgba(32, 181, 107, 0.10);
+		box-shadow:
+			0 0 0 3px rgba(32, 181, 107, 0.10);
 	}
 
 	50% {
-		box-shadow: 0 0 0 6px rgba(32, 181, 107, 0.04);
+		box-shadow:
+			0 0 0 6px rgba(32, 181, 107, 0.04);
 	}
 }
 
@@ -184,7 +221,9 @@
 
 .navbar-links {
 	display: flex;
+
 	align-items: center;
+
 	justify-content: center;
 
 	gap: 4px;
@@ -192,6 +231,7 @@
 	list-style: none;
 
 	margin: 0;
+
 	padding: 0;
 
 	flex: 1;
@@ -215,6 +255,7 @@
 	position: relative;
 
 	display: flex;
+
 	align-items: center;
 
 	padding: 23px 14px;
@@ -224,6 +265,7 @@
 	color: var(--nav-text);
 
 	font-size: 15px;
+
 	font-weight: 700;
 
 	white-space: nowrap;
@@ -272,18 +314,17 @@
 	transform-origin: center;
 
 	transition:
-		transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		transform 0.3s cubic-bezier(
+			0.4,
+			0,
+			0.2,
+			1
+		);
 }
-
-
-/* hover */
 
 .navbar-links li:hover .nav-line {
 	transform: scaleX(1);
 }
-
-
-/* active */
 
 .navbar-links li.active a {
 	color: var(--nav-primary);
@@ -325,7 +366,9 @@
 
 .navbar-actions {
 	display: flex;
+
 	align-items: center;
+
 	gap: 8px;
 
 	flex-shrink: 0;
@@ -333,18 +376,20 @@
 
 
 /* =========================================================
-   CALL / WHATSAPP ACTION
+   NAV ACTION
 ========================================================= */
 
 .nav-action {
 	position: relative;
 
 	display: flex;
+
 	align-items: center;
 
 	gap: 8px;
 
 	min-width: 102px;
+
 	height: 46px;
 
 	padding: 5px 11px;
@@ -412,6 +457,7 @@
 	flex-shrink: 0;
 
 	display: flex;
+
 	align-items: center;
 	justify-content: center;
 
@@ -425,7 +471,9 @@
 }
 
 .nav-action:hover .nav-action-icon {
-	transform: scale(1.08) rotate(-3deg);
+	transform:
+		scale(1.08)
+		rotate(-3deg);
 }
 
 
@@ -435,11 +483,13 @@
 
 .nav-action-text {
 	display: flex;
+
 	flex-direction: column;
 
 	gap: 1px;
 
 	position: relative;
+
 	z-index: 2;
 }
 
@@ -474,7 +524,11 @@
 
 .call-action .nav-action-icon {
 	background: #edf7ff;
+
 	color: var(--nav-primary);
+
+	animation:
+		phoneRing 4s ease-in-out infinite;
 }
 
 .call-action:hover {
@@ -488,14 +542,8 @@
 		0 10px 24px rgba(30, 136, 199, 0.14);
 }
 
-
-/* phone animation */
-
-.call-action .nav-action-icon {
-	animation: phoneRing 4s ease-in-out infinite;
-}
-
 @keyframes phoneRing {
+
 	0%,
 	88%,
 	100% {
@@ -530,6 +578,7 @@
 
 .whatsapp-action .nav-action-icon {
 	background: var(--nav-green-light);
+
 	color: var(--nav-green);
 }
 
@@ -564,10 +613,12 @@
 
 	border-radius: 11px;
 
-	animation: whatsappPulse 2.6s ease-out infinite;
+	animation:
+		whatsappPulse 2.6s ease-out infinite;
 }
 
 @keyframes whatsappPulse {
+
 	0% {
 		transform: scale(0.85);
 		opacity: 0.8;
@@ -596,6 +647,7 @@
 	height: 46px;
 
 	display: flex;
+
 	align-items: center;
 	justify-content: center;
 
@@ -649,6 +701,7 @@
 	padding: 0 5px;
 
 	display: flex;
+
 	align-items: center;
 	justify-content: center;
 
@@ -663,12 +716,14 @@
 	border-radius: 50%;
 
 	font-size: 10px;
+
 	font-weight: 800;
 
 	animation: cartPop 0.35s ease-out;
 }
 
 @keyframes cartPop {
+
 	0% {
 		transform: scale(0.5);
 		opacity: 0;
@@ -695,7 +750,7 @@
 
 
 /* =========================================================
-   MOBILE OVERLAY
+   OVERLAY
 ========================================================= */
 
 .navbar-overlay {
@@ -704,7 +759,7 @@
 
 
 /* =========================================================
-   MOBILE DRAWER
+   DRAWER HEADER
 ========================================================= */
 
 .mobile-drawer-header {
@@ -720,11 +775,13 @@
 
 	.navbar-panel {
 		padding: 0 24px;
+
 		gap: 12px;
 	}
 
 	.navbar-trusted {
 		font-size: 10px;
+
 		padding: 7px 9px;
 	}
 
@@ -734,6 +791,7 @@
 
 	.navbar-links li a {
 		padding-left: 9px;
+
 		padding-right: 9px;
 
 		font-size: 13px;
@@ -741,6 +799,7 @@
 
 	.nav-line {
 		left: 9px;
+
 		right: 9px;
 	}
 
@@ -774,13 +833,17 @@
 
 	.navbar-links li a {
 		font-size: 13px;
+
 		padding-left: 8px;
+
 		padding-right: 8px;
 	}
 
 	.nav-action {
 		min-width: auto;
+
 		width: 44px;
+
 		height: 44px;
 
 		justify-content: center;
@@ -794,11 +857,13 @@
 
 	.nav-action-icon {
 		width: 31px;
+
 		height: 31px;
 	}
 
 	.navbar-cart {
 		width: 44px;
+
 		height: 44px;
 	}
 }
@@ -819,7 +884,14 @@
 
 		box-shadow:
 			0 4px 18px rgba(20, 65, 95, 0.07);
+
+		/*
+			Navbar itself is above normal content.
+			Drawer will have a much higher layer.
+		*/
+		z-index: var(--z-navbar);
 	}
+
 
 	/* =========================================
 	   MOBILE HEADER
@@ -829,13 +901,21 @@
 		width: 100%;
 
 		display: flex;
+
 		align-items: center;
+
 		justify-content: space-between;
+
+		position: relative;
+
+		z-index: var(--z-navbar-controls);
 	}
 
 	.navbar-mobile-trusted {
 		display: inline-flex;
+
 		align-items: center;
+
 		gap: 8px;
 
 		padding: 7px 11px;
@@ -849,6 +929,7 @@
 		color: #3d718d;
 
 		font-size: 10px;
+
 		font-weight: 700;
 	}
 
@@ -857,6 +938,7 @@
 		height: 40px;
 
 		display: flex;
+
 		align-items: center;
 		justify-content: center;
 
@@ -872,6 +954,10 @@
 
 		cursor: pointer;
 
+		position: relative;
+
+		z-index: var(--z-navbar-controls);
+
 		transition:
 			background var(--nav-transition),
 			color var(--nav-transition),
@@ -880,6 +966,7 @@
 
 	.navbar-menu-button:hover {
 		background: var(--nav-primary);
+
 		color: #ffffff;
 
 		transform: scale(1.04);
@@ -897,24 +984,39 @@
 
 		inset: 0;
 
+		width: 100vw;
+
+		height: 100vh;
+
 		background: rgba(8, 38, 62, 0.48);
 
 		backdrop-filter: blur(3px);
+
 		-webkit-backdrop-filter: blur(3px);
 
 		opacity: 0;
+
 		visibility: hidden;
+
+		pointer-events: none;
 
 		transition:
 			opacity 0.3s ease,
 			visibility 0.3s ease;
 
-		z-index: 2;
+		/*
+			Overlay sits above everything normal,
+			but BELOW drawer.
+		*/
+		z-index: var(--z-navbar-overlay);
 	}
 
 	.navbar-overlay.show {
 		opacity: 1;
+
 		visibility: visible;
+
+		pointer-events: auto;
 	}
 
 
@@ -926,10 +1028,14 @@
 		position: fixed;
 
 		top: 0;
+
 		right: 0;
 
 		width: min(88%, 360px);
-		height: 100vh;
+
+		height: 100dvh;
+
+		min-height: 100vh;
 
 		padding: 0;
 
@@ -938,6 +1044,7 @@
 		display: flex;
 
 		flex-direction: column;
+
 		align-items: stretch;
 
 		justify-content: flex-start;
@@ -950,12 +1057,32 @@
 		transform: translateX(105%);
 
 		transition:
-			transform 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+			transform 0.38s cubic-bezier(
+				0.4,
+				0,
+				0.2,
+				1
+			);
 
-		z-index: 2;
+		/*
+			THIS IS THE MAIN FIX.
+
+			The drawer must be higher than:
+			- topbar
+			- navbar
+			- search suggestions
+			- bottom navigation
+			- page content
+		*/
+		z-index: var(--z-navbar-drawer);
 
 		overflow-y: auto;
+
 		overflow-x: hidden;
+
+		-webkit-overflow-scrolling: touch;
+
+		isolation: isolate;
 	}
 
 	.navbar-panel.open {
@@ -971,6 +1098,7 @@
 		display: flex;
 
 		align-items: center;
+
 		justify-content: space-between;
 
 		padding: 17px 18px;
@@ -983,16 +1111,25 @@
 			);
 
 		border-bottom: 1px solid #e5eef4;
+
+		position: relative;
+
+		z-index: 2;
+
+		flex-shrink: 0;
 	}
 
 	.mobile-trusted {
 		display: inline-flex;
+
 		align-items: center;
+
 		gap: 8px;
 
 		color: #3c718d;
 
 		font-size: 11px;
+
 		font-weight: 700;
 	}
 
@@ -1001,6 +1138,7 @@
 		height: 38px;
 
 		display: flex;
+
 		align-items: center;
 		justify-content: center;
 
@@ -1015,6 +1153,10 @@
 		font-size: 17px;
 
 		cursor: pointer;
+
+		position: relative;
+
+		z-index: 3;
 
 		transition:
 			background var(--nav-transition),
@@ -1048,6 +1190,7 @@
 		width: 100%;
 
 		flex-direction: column;
+
 		align-items: stretch;
 
 		gap: 0;
@@ -1055,6 +1198,12 @@
 		padding: 10px 16px;
 
 		box-sizing: border-box;
+
+		flex: 0 0 auto;
+
+		position: relative;
+
+		z-index: 1;
 	}
 
 	.navbar-links li {
@@ -1089,11 +1238,12 @@
 	}
 
 	.navbar-links li.active a {
-		background: linear-gradient(
-			90deg,
-			#edf8fd,
-			#f8fcfe
-		);
+		background:
+			linear-gradient(
+				90deg,
+				#edf8fd,
+				#f8fcfe
+			);
 
 		color: var(--nav-primary);
 	}
@@ -1123,6 +1273,14 @@
 		box-sizing: border-box;
 
 		border-top: 1px solid #edf1f4;
+
+		position: relative;
+
+		z-index: 2;
+
+		flex-shrink: 0;
+
+		background: #ffffff;
 	}
 
 	.nav-action {
@@ -1143,6 +1301,7 @@
 
 	.nav-action-icon {
 		width: 32px;
+
 		height: 32px;
 	}
 
@@ -1150,6 +1309,7 @@
 		grid-column: 1 / -1;
 
 		width: 100%;
+
 		height: 48px;
 
 		justify-content: center;
@@ -1167,11 +1327,13 @@
 		content: "View Cart";
 
 		font-size: 13px;
+
 		font-weight: 700;
 	}
 
 	.cart-count {
 		right: calc(50% - 58px);
+
 		top: 5px;
 	}
 }
@@ -1191,11 +1353,17 @@
 
 	.navbar-menu-button {
 		width: 38px;
+
 		height: 38px;
 	}
 
 	.navbar-panel {
 		width: 92%;
+
+		/*
+			Still higher than every other component.
+		*/
+		z-index: var(--z-navbar-drawer);
 	}
 
 	.navbar-links li a {
@@ -1211,7 +1379,20 @@
 
 
 /* =========================================================
-   ACCESSIBILITY / REDUCED MOTION
+   ACCESSIBILITY
+========================================================= */
+
+.navbar-menu-button:focus-visible,
+.mobile-close:focus-visible,
+.navbar-links li a:focus-visible {
+	outline: 3px solid rgba(30, 136, 199, 0.22);
+
+	outline-offset: 2px;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
 ========================================================= */
 
 @media (prefers-reduced-motion: reduce) {
@@ -1220,6 +1401,7 @@
 	.navbar *::before,
 	.navbar *::after {
 		animation: none !important;
+
 		transition: none !important;
 	}
 }

@@ -1,5 +1,6 @@
 /* =========================================================
    BAUNTHIYAL PATH LABS — PROFESSIONAL TOPBAR
+   Z-INDEX SAFE VERSION
 ========================================================= */
 
 :root {
@@ -26,6 +27,19 @@
 	--radius-sm: 10px;
 	--radius-md: 12px;
 	--radius-lg: 14px;
+
+	/* =====================================================
+	   GLOBAL LAYER SYSTEM
+	===================================================== */
+
+	--z-page: 1;
+	--z-navbar: 8000;
+	--z-topbar: 9000;
+
+	--z-search: 99980;
+
+	--z-mobile-overlay: 99990;
+	--z-mobile-drawer: 100000;
 }
 
 
@@ -35,6 +49,7 @@
 
 .topbar {
 	width: 100%;
+
 	background: var(--surface);
 
 	border-bottom: 1px solid var(--border-light);
@@ -44,7 +59,14 @@
 	padding: 10px clamp(20px, 4vw, 60px);
 
 	position: relative;
-	z-index: 1001;
+
+	/*
+		IMPORTANT:
+		Topbar must stay above navbar/page content.
+	*/
+	z-index: var(--z-topbar);
+
+	isolation: isolate;
 }
 
 
@@ -61,6 +83,8 @@
 	gap: 18px;
 
 	min-height: 54px;
+
+	position: relative;
 }
 
 
@@ -132,6 +156,10 @@
 	gap: 8px;
 
 	flex-shrink: 0;
+
+	position: relative;
+
+	z-index: 2;
 }
 
 
@@ -171,7 +199,9 @@
 }
 
 
-/* subtle shine */
+/* =========================================================
+   CONTACT SHINE
+========================================================= */
 
 .contact-action::before {
 	content: "";
@@ -222,6 +252,7 @@
 	font-size: 15px;
 
 	position: relative;
+
 	z-index: 1;
 
 	transition:
@@ -245,6 +276,7 @@
 	gap: 2px;
 
 	position: relative;
+
 	z-index: 1;
 }
 
@@ -303,7 +335,9 @@
 }
 
 
-/* Phone animation */
+/* =========================================================
+   PHONE ANIMATION
+========================================================= */
 
 @keyframes phonePulse {
 	0%,
@@ -433,6 +467,11 @@
 	margin-left: auto;
 
 	position: relative;
+
+	/*
+		Search wrapper itself gets a high layer.
+	*/
+	z-index: var(--z-search);
 }
 
 
@@ -568,6 +607,8 @@
 
 	cursor: pointer;
 
+	z-index: 2;
+
 	transition:
 		background 0.2s ease,
 		color 0.2s ease,
@@ -613,10 +654,25 @@
 
 	overflow: hidden;
 
-	z-index: 99999;
+	/*
+		VERY HIGH:
+		Ensures suggestions appear above navbar,
+		hero, cards and other content.
+	*/
+	z-index: var(--z-search);
 
-	animation: searchDropdown 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+	animation: searchDropdown 0.2s cubic-bezier(
+		0.2,
+		0.8,
+		0.2,
+		1
+	);
 }
+
+
+/* =========================================================
+   SEARCH DROPDOWN ANIMATION
+========================================================= */
 
 @keyframes searchDropdown {
 	from {
@@ -691,6 +747,10 @@
 	cursor: pointer;
 
 	font-family: inherit;
+
+	position: relative;
+
+	z-index: 1;
 
 	transition:
 		background 0.2s ease,
@@ -987,6 +1047,11 @@
 
 	.topbar {
 		padding: 10px 16px;
+
+		/*
+			Keep topbar above normal page content.
+		*/
+		z-index: var(--z-topbar);
 	}
 
 	.topbar-left {
@@ -1012,9 +1077,9 @@
 	}
 
 
-	/* -----------------------------------------
+	/* =========================================
 	   CONTACT ACTIONS
-	----------------------------------------- */
+	========================================= */
 
 	.topbar-actions {
 		order: 5;
@@ -1054,9 +1119,9 @@
 	}
 
 
-	/* -----------------------------------------
+	/* =========================================
 	   SEARCH
-	----------------------------------------- */
+	========================================= */
 
 	.search-bar-wrapper {
 		order: 10;
@@ -1066,6 +1131,8 @@
 		min-width: 0;
 
 		margin-top: 2px;
+
+		z-index: var(--z-search);
 	}
 
 	.search-bar {
@@ -1084,6 +1151,8 @@
 		top: calc(100% + 7px);
 
 		border-radius: 14px;
+
+		z-index: var(--z-search);
 	}
 }
 
@@ -1161,6 +1230,8 @@
 		padding: 6px;
 
 		border-radius: 13px;
+
+		z-index: var(--z-search);
 	}
 
 	.search-suggestion {
@@ -1210,6 +1281,7 @@
 
 	.contact-action {
 		gap: 5px;
+
 		padding: 4px 6px;
 	}
 }
