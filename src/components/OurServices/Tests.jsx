@@ -57,6 +57,14 @@ import { useSearchParams } from "react-router-dom";
 		STATES
 		===================================================== */
 		const [searchParams] = useSearchParams();
+		// useEffect(() => {
+		// 	const searchParam = searchParams.get("search");
+
+		// 	if (searchParam) {
+		// 		setSearchTerm(searchParam);
+		// 		setCurrentPage(1);
+		// 	}
+		// }, [searchParams]);
 
 		const departments = useMemo(() => {
 				const uniqueDepartments = [
@@ -86,21 +94,26 @@ import { useSearchParams } from "react-router-dom";
 
 		useEffect(() => {
 			const departmentParam = searchParams.get("departments");
+			const searchParam = searchParams.get("search");
 
-			if (!departmentParam) {
-				return;
+			// Search
+			setSearchTerm(searchParam || "");
+
+			// Departments
+			if (departmentParam) {
+				const requestedDepartments = departmentParam
+					.split(",")
+					.map((department) => makeDepartmentId(department))
+					.filter(Boolean);
+
+				const validDepartments = departments
+					.filter((department) => requestedDepartments.includes(department.id))
+					.map((department) => department.id);
+
+				setSelectedDepartments(validDepartments);
+			} else {
+				setSelectedDepartments([]);
 			}
-
-			const requestedDepartments = departmentParam
-				.split(",")
-				.map((department) => makeDepartmentId(department))
-				.filter(Boolean);
-
-			const validDepartments = departments
-				.filter((department) => requestedDepartments.includes(department.id))
-				.map((department) => department.id);
-
-			setSelectedDepartments(validDepartments);
 
 			setCurrentPage(1);
 		}, [searchParams, departments]);

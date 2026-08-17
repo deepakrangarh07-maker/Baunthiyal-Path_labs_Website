@@ -19,29 +19,36 @@ import OnlineBooking from "./pages/OnlineBooking";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/TermsConditions";
 import StatutoryCompliance from "./pages/StatutoryCompliance";
+import Trail from "./pages/Trail";
 
 function App() {
 	return (
-		<Routes>
-			<Route path="/" element={<MainLayout />}>
-				<Route index element={<Home />} />
+		<>
+			<Routes>
+				<Route path="/" element={<MainLayout />}>
+					<Route index element={<Home />} />
 
-				<Route path="about" element={<About />} />
-				<Route path="for_patients" element={<For_Patients />} />
-				<Route path="gallery" element={<Gallery />} />
-				<Route path="health_package" element={<Health_Package />} />
-				<Route path="our_services" element={<Our_Services />} />
-				<Route path="/our-services/tests" element={<Tests />} />
-				<Route path="panels" element={<Panels />} />
-				<Route path="careers" element={<Careers />} />
-				<Route path="contact" element={<Contact />} />
-				<Route path="cart" element={<Cart />} />
-				<Route path="online-booking" element={<OnlineBooking />} />
-				<Route path="/privacy-policy" element={<PrivacyPolicy />} />
-				<Route path="/terms-conditions" element={<Terms />} />
-				<Route path="/statutory-compliance" element={<StatutoryCompliance />} />
-			</Route>
-		</Routes>
+					<Route path="about" element={<About />} />
+					<Route path="for_patients" element={<For_Patients />} />
+					<Route path="gallery" element={<Gallery />} />
+					<Route path="health_package" element={<Health_Package />} />
+					<Route path="our_services" element={<Our_Services />} />
+					<Route path="/our-services/tests" element={<Tests />} />
+					<Route path="panels" element={<Panels />} />
+					<Route path="careers" element={<Careers />} />
+					<Route path="contact" element={<Contact />} />
+					<Route path="cart" element={<Cart />} />
+					<Route path="online-booking" element={<OnlineBooking />} />
+					<Route path="/privacy-policy" element={<PrivacyPolicy />} />
+					<Route path="/terms-conditions" element={<Terms />} />
+					<Route
+						path="/statutory-compliance"
+						element={<StatutoryCompliance />}
+					/>
+				</Route>
+			</Routes>
+			{/* <Trail /> */}
+		</>
 	);
 }
 
