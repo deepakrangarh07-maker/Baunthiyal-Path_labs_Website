@@ -1,227 +1,261 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import Logo from "../../assets/Logo_baunthiyal.svg";
-import "./Navbar.css";
-import { useCart } from "../../context/CartContext"
+import { Link, useLocation } from "react-router-dom";
+
 import {
-	FaFacebookF,
-	FaInstagram,
-	FaLinkedinIn,
-	FaYoutube,
-	FaXTwitter,
-	FaChevronDown,
-	FaXmark,
+	FaBars,
 	FaCartShopping,
+	FaPhone,
+	FaWhatsapp,
+	FaXmark,
 } from "react-icons/fa6";
-import { services } from "../../Services";
-import { Patients_Services } from "../../Patients_Services";
+
+import "./Navbar.css";
+
+import { useCart } from "../../context/CartContext";
 
 function Navbar() {
 	const { cartCount } = useCart();
+
+	const location = useLocation();
+
 	const [isOpen, setIsOpen] = useState(false);
-	const [openDropdown, setOpenDropdown] = useState(null);
+
 	const navRef = useRef(null);
 
-	// Close on outside click (desktop dropdowns / accidental taps)
+	const navigation = [
+		{
+			name: "Home",
+			path: "/",
+		},
+		{
+			name: "About Us",
+			path: "/about",
+		},
+		{
+			name: "Health Packages",
+			path: "/health_package",
+		},
+		{
+			name: "Our Services",
+			path: "/our_services",
+		},
+		{
+			name: "Panels",
+			path: "/panels",
+		},
+		{
+			name: "Gallery",
+			path: "/gallery",
+		},
+		{
+			name: "Careers",
+			path: "/careers",
+		},
+		{
+			name: "Contact",
+			path: "/contact",
+		},
+	];
+
+	/* ===============================
+	   ACTIVE LINK
+	================================ */
+
+	const isActive = (path) => {
+		if (path === "/") {
+			return location.pathname === "/";
+		}
+
+		return location.pathname.startsWith(path);
+	};
+
+	/* ===============================
+	   CLOSE MENU
+	================================ */
+
+	const closeMenu = () => {
+		setIsOpen(false);
+	};
+
+	/* ===============================
+	   OUTSIDE CLICK
+	================================ */
+
 	useEffect(() => {
-		function handleClickOutside(e) {
-			if (navRef.current && !navRef.current.contains(e.target)) {
-				setOpenDropdown(null);
+		const handleClickOutside = (event) => {
+			if (isOpen && navRef.current && !navRef.current.contains(event.target)) {
+				setIsOpen(false);
 			}
-		}
+		};
+
 		document.addEventListener("mousedown", handleClickOutside);
-		return () => document.removeEventListener("mousedown", handleClickOutside);
-	}, []);
 
-	// Close drawer on Escape
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside);
+		};
+	}, [isOpen]);
+
+	/* ===============================
+	   ESCAPE
+	================================ */
+
 	useEffect(() => {
-		function handleEsc(e) {
-			if (e.key === "Escape") closeAll();
-		}
-		document.addEventListener("keydown", handleEsc);
-		return () => document.removeEventListener("keydown", handleEsc);
+		const handleEscape = (event) => {
+			if (event.key === "Escape") {
+				setIsOpen(false);
+			}
+		};
+
+		document.addEventListener("keydown", handleEscape);
+
+		return () => {
+			document.removeEventListener("keydown", handleEscape);
+		};
 	}, []);
 
-	// Let the Footer's "Menu" tab open this drawer from anywhere on the page
-	useEffect(() => {
-		function handleOpenMobileNav() {
-			setIsOpen(true);
-		}
-		window.addEventListener("open-mobile-nav", handleOpenMobileNav);
-		return () =>
-			window.removeEventListener("open-mobile-nav", handleOpenMobileNav);
-	}, []);
+	/* ===============================
+	   BODY SCROLL
+	================================ */
 
-	// Lock page scroll while the drawer is open
 	useEffect(() => {
 		document.body.style.overflow = isOpen ? "hidden" : "";
+
 		return () => {
 			document.body.style.overflow = "";
 		};
 	}, [isOpen]);
 
-	function toggleDropdown(key) {
-		setOpenDropdown((prev) => (prev === key ? null : key));
-	}
-
-	function closeAll() {
-		setIsOpen(false);
-		setOpenDropdown(null);
-	}
-
 	return (
 		<nav className="navbar" ref={navRef}>
-			<div className="navbar-top">
-				<button>
-					<span></span>
-					<span></span>
-					<span></span>
+			{/* =========================
+			    MOBILE MENU BUTTON
+			========================= */}
+
+			<div className="navbar-mobile-top">
+				<div className="navbar-mobile-trusted">
+					<span className="trusted-dot"></span>
+					Trusted Diagnostics
+				</div>
+
+				<button
+					type="button"
+					className="navbar-menu-button"
+					onClick={() => setIsOpen(true)}
+					aria-label="Open navigation menu"
+				>
+					<FaBars />
 				</button>
 			</div>
 
-			{/* Dark backdrop — mobile only, click to close */}
+			{/* =========================
+			    OVERLAY
+			========================= */}
+
 			<div
-				className={`nav-overlay ${isOpen ? "show" : ""}`}
-				onClick={closeAll}
-				aria-hidden="true"
+				className={`navbar-overlay ${isOpen ? "show" : ""}`}
+				onClick={closeMenu}
 			/>
 
-			<div id="navbar-panel" className={`navbar-panel ${isOpen ? "open" : ""}`}>
-				{/* Drawer header — visible only on mobile */}
-				<div className="drawer-header">
-					<img src={Logo} alt="Baunthiyal Path Labs" className="drawer-logo" />
+			{/* =========================
+			    NAV PANEL
+			========================= */}
+
+			<div className={`navbar-panel ${isOpen ? "open" : ""}`}>
+				{/* =====================
+				    MOBILE HEADER
+				===================== */}
+
+				<div className="mobile-drawer-header">
+					<div className="mobile-trusted">
+						<span className="trusted-dot"></span>
+						Trusted Diagnostics
+					</div>
+
 					<button
 						type="button"
-						className="drawer-close"
-						onClick={closeAll}
-						aria-label="Close menu"
+						className="mobile-close"
+						onClick={closeMenu}
+						aria-label="Close navigation menu"
 					>
 						<FaXmark />
 					</button>
 				</div>
 
+				{/* =====================
+				    DESKTOP TRUST BADGE
+				===================== */}
+
+				<div className="navbar-trusted">
+					<span className="trusted-dot"></span>
+
+					<span>Trusted Diagnostics</span>
+				</div>
+
+				{/* =====================
+				    NAVIGATION
+				===================== */}
+
 				<ul className="navbar-links">
-					<li>
-						<Link to="/" onClick={closeAll}>
-							Home
-						</Link>
-					</li>
-					<li>
-						<Link to="/about" onClick={closeAll}>
-							About Us
-						</Link>
-					</li>
-					<li>
-						<Link to="/health_package" onClick={closeAll}>
-							Health Packages
-						</Link>
-					</li>
+					{navigation.map((item) => (
+						<li key={item.path} className={isActive(item.path) ? "active" : ""}>
+							<Link to={item.path} onClick={closeMenu}>
+								<span>{item.name}</span>
 
-					<li
-						className={`dropdown ${openDropdown === "services" ? "open" : ""}`}
-					>
-						<div className="dropdown-head">
-							<Link to="/our_services" onClick={closeAll}>
-								Our Services
+								<span className="nav-line"></span>
 							</Link>
-							{/* <button
-								type="button"
-								className="dropdown-toggle"
-								onClick={() => toggleDropdown("services")}
-								aria-expanded={openDropdown === "services"}
-								aria-label="Toggle Our Services submenu"
-							>
-								<FaChevronDown />
-							</button> */}
-						</div>
-						{/* <ul className="dropdown-menu">
-							{services.map((service) => (
-								<li key={service.path}>
-									<Link to={service.path} onClick={closeAll}>
-										{service.name}
-									</Link>
-								</li>
-							))}
-						</ul> */}
-					</li>
-
-					<li>
-						<Link to="/panels" onClick={closeAll}>
-							Panels
-						</Link>
-					</li>
-
-					{/* <li className={`dropdown ${openDropdown === "patients" ? "open" : ""}`}>
-						<div className="dropdown-head">
-							<Link to="/for_patients" onClick={closeAll}>For_Patients</Link>
-							<button
-								type="button"
-								className="dropdown-toggle"
-								onClick={() => toggleDropdown("patients")}
-								aria-expanded={openDropdown === "patients"}
-								aria-label="Toggle For Patients submenu"
-							>
-								<FaChevronDown />
-							</button>
-						</div>
-						<ul className="dropdown-menu">
-							{Patients_Services.map((patients) => (
-								<li key={patients.path}>
-									<Link to={patients.path} onClick={closeAll}>
-										{patients.name}
-									</Link>
-								</li>
-							))}
-						</ul>
-					</li> */}
-
-					<li>
-						<Link to="/gallery" onClick={closeAll}>
-							Gallery
-						</Link>
-					</li>
-					<li>
-						<Link to="/careers" onClick={closeAll}>
-							Careers
-						</Link>
-					</li>
-					<li>
-						<Link to="/contact" onClick={closeAll}>
-							Contact Us
-						</Link>
-					</li>
+						</li>
+					))}
 				</ul>
+
+				{/* =====================
+				    ACTIONS
+				===================== */}
+
 				<div className="navbar-actions">
-					<Link to="/cart" className="navbar-cart" onClick={closeAll}>
+					{/* CALL */}
+
+					<a href="tel:+919557069086" className="nav-action call-action">
+						<span className="nav-action-icon">
+							<FaPhone />
+						</span>
+
+						<span className="nav-action-text">
+							<small>CALL US</small>
+							<strong>24 × 7</strong>
+						</span>
+					</a>
+
+					{/* WHATSAPP */}
+
+					<a
+						href="https://wa.me/919557069086"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="nav-action whatsapp-action"
+					>
+						<span className="nav-action-icon">
+							<FaWhatsapp />
+						</span>
+
+						<span className="nav-action-text">
+							<small>WHATSAPP</small>
+							<strong>Chat Now</strong>
+						</span>
+					</a>
+
+					{/* CART */}
+
+					<Link
+						to="/cart"
+						className="navbar-cart"
+						onClick={closeMenu}
+						aria-label="Shopping cart"
+					>
 						<FaCartShopping />
 
-						<span>Cart</span>
-
 						{cartCount > 0 && <span className="cart-count">{cartCount}</span>}
 					</Link>
 				</div>
-
-				<div className="social-icons">
-					<a href="https://www.facebook.com/baunthiyallabs">
-						<FaFacebookF />
-					</a>
-					
-					
-					<a href="https://www.youtube.com/@baunthiyalpathlabs">
-						<FaYoutube />
-					</a>
-					<a
-						href="https://www.instagram.com/baunthiyallabs"
-					>
-						<FaInstagram />
-					</a>
-				</div>
-				{/* <div className="cart">
-					<Link to="/cart" className="navbar-cart">
-						<FaShoppingCart />
-						{cartCount > 0 && <span className="cart-count">{cartCount}</span>}
-					</Link>
-				</div> */}
 			</div>
 		</nav>
 	);

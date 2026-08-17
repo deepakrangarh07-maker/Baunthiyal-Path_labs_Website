@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { FaArrowRight, FaFlask, FaSearch, FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +9,21 @@ function SearchBar() {
 
 	const [searchTerm, setSearchTerm] = useState("");
 	const [showSuggestions, setShowSuggestions] = useState(false);
+	const searchRef = useRef(null);
+
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (searchRef.current && !searchRef.current.contains(event.target)) {
+				setShowSuggestions(false);
+			}
+		};
+
+		document.addEventListener("mousedown", handleClickOutside);
+
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside);
+		};
+	}, []);
 
 	const suggestions = useMemo(() => {
 		const search = searchTerm.trim().toLowerCase();
@@ -73,7 +88,7 @@ function SearchBar() {
 	};
 
 	return (
-		<div className="search-bar-wrapper">
+		<div className="search-bar-wrapper" ref={searchRef}>
 			<div className="search-bar">
 				<FaSearch className="search-icon" />
 
