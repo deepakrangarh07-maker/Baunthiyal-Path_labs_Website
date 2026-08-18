@@ -1,152 +1,271 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+
 import NABL from "../../assets/nabl.png";
 import NABH from "../../assets/nabh.png";
 import ISO from "../../assets/ISO_9001-2015.svg";
+
 import { useCart } from "../../context/CartContext";
+
 import {
 	FaFacebookF,
 	FaInstagram,
-	FaLinkedinIn,
 	FaYoutube,
-	FaXTwitter,
 	FaWhatsapp,
 	FaPhone,
-	FaFileLines,
 	FaBars,
+	FaCartShopping,
+	FaArrowRight,
 } from "react-icons/fa6";
+
 import "./Footer.css";
 
-const PHONE_NUMBER = "+91 9557069086"; // replace with real number
-const WHATSAPP_NUMBER = "9557069086"; // replace with real number
+const PHONE_NUMBER = "+919557069086";
+const WHATSAPP_NUMBER = "919557069086";
 
 function Footer() {
 	const [showCallback, setShowCallback] = useState(false);
 	const { cartCount } = useCart();
 
-	// Scrolls up and asks Navbar to open its mobile panel
-	function openMobileMenu() {
+	const openMobileMenu = () => {
 		window.dispatchEvent(new CustomEvent("open-mobile-nav"));
-	}
+	};
 
 	return (
 		<>
 			<footer className="footer">
-				{/* CTA strip (replaces the old trust strip) */}
+				{/* =====================================================
+				    CTA STRIP
+				===================================================== */}
+
 				<div className="trust-strip">
 					<div className="trust-container">
-						<div className="cta-text">
-							<h3>Not sure which test to book?</h3>
-							<p>
-								Talk to our team — we'll guide you to the right diagnostic
-								service in minutes.
-							</p>
+						<div className="cta-content">
+							<div className="cta-icon">
+								<FaPhone />
+							</div>
+
+							<div className="cta-text">
+								<span>NEED HELP?</span>
+
+								<h3>Not sure which test to book?</h3>
+
+								<p>
+									Talk to our healthcare team and we'll help you choose the
+									right diagnostic service.
+								</p>
+							</div>
 						</div>
 
 						<a href={`tel:${PHONE_NUMBER}`} className="call-now-btn">
-							<FaPhone /> Call Now
+							<FaPhone />
+							<span>Call Now</span>
+							<FaArrowRight />
 						</a>
 					</div>
 				</div>
 
-				<div className="footer-top">
-					{/* Left */}
-					<div className="footer-logo">
-						<h2 className="brand-name">
-							Baunthiyal Path Labs &amp; Imaging Centre Pvt. Ltd.
-						</h2>
+				{/* =====================================================
+				    MAIN FOOTER
+				===================================================== */}
 
-						<div className="footer-certificates">
-							<img src={NABL} alt="NABL" />
-							<img src={NABH} alt="NABH" />
-							<img src={ISO} alt="ISO 9001" />
+				<div className="footer-main">
+					<div className="footer-top">
+						{/* =================================================
+						    BRAND
+						================================================= */}
+
+						<div className="footer-brand">
+							<div className="brand-heading">
+								<span className="brand-line"></span>
+
+								<h2>
+									Baunthiyal Path Labs &amp;
+									<br />
+									Imaging Centre Pvt. Ltd.
+								</h2>
+							</div>
+
+							<div className="footer-certificates">
+								<div className="certificate">
+									<img src={NABL} alt="NABL Certified" />
+								</div>
+
+								<div className="certificate">
+									<img src={NABH} alt="NABH Accredited" />
+								</div>
+
+								<div className="certificate">
+									<img src={ISO} alt="ISO 9001 Certified" />
+								</div>
+							</div>
+
+							<p className="brand-description">
+								With a presence in 50+ Collection Centres, Baunthiyal Path Labs
+								offers quick, affordable and hassle-free home sample collection
+								backed by NABL accredited laboratories.
+							</p>
+
+							<div className="brand-trust">
+								<span>
+									<span className="trust-dot"></span>
+									Trusted Diagnostics
+								</span>
+
+								<span>
+									<span className="trust-dot"></span>
+									Quality Assured
+								</span>
+							</div>
 						</div>
 
-						<p>
-							With a presence in 50+ Collection Centres, Baunthiyal Path Labs
-							offers quick, affordable and hassle-free home sample collection
-							backed by NABL accredited labs.
-						</p>
-					</div>
+						{/* =================================================
+						    LINKS
+						================================================= */}
 
-					{/* Middle */}
-					<div className="footer-links">
-						<h3>Important Links</h3>
+						<div className="footer-links">
+							<h3>Important Links</h3>
 
-						<div className="link-grid">
-							<ul>
-								<li>
-									<Link to="/">Home</Link>
-								</li>
-								<li>
-									<Link to="/about">About Us</Link>
-								</li>
-								<li>
-									<Link to="/Our_Services">Services</Link>
-								</li>
-								<li>
-									<Link to="/health_package">Health Packages</Link>
-								</li>
-							</ul>
+							<div className="footer-heading-line"></div>
 
-							<ul>
-								<li>
-									<Link to="/careers">Career</Link>
-								</li>
-								<li>
-									<Link to="/contact">Contact</Link>
-								</li>
+							<div className="link-grid">
+								<ul>
+									<li>
+										<Link to="/">Home</Link>
+									</li>
 
-								<li>
-									<Link to="/privacy-policy">Privacy Policy</Link>
-								</li>
-								<li>
-									<Link to="/terms-conditions">Terms</Link>
-								</li>
-							</ul>
-						</div>
-					</div>
+									<li>
+										<Link to="/about">About Us</Link>
+									</li>
 
-					{/* Right */}
-					<div className="footer-social">
-						<h3>Follow Us</h3>
+									<li>
+										<Link to="/Our_Services">Services</Link>
+									</li>
 
-						<div className="social-icons">
-							<a href="https://www.facebook.com/baunthiyallabs">
-								<FaFacebookF />
-							</a>
+									<li>
+										<Link to="/health_package">Health Packages</Link>
+									</li>
+								</ul>
 
-							<a href="https://www.youtube.com/@baunthiyalpathlabs">
-								<FaYoutube />
-							</a>
-							<a href="https://www.instagram.com/baunthiyallabs">
-								<FaInstagram />
-							</a>
+								<ul>
+									<li>
+										<Link to="/careers">Career</Link>
+									</li>
+
+									<li>
+										<Link to="/contact">Contact</Link>
+									</li>
+
+									<li>
+										<Link to="/privacy-policy">Privacy Policy</Link>
+									</li>
+
+									<li>
+										<Link to="/terms-conditions">Terms</Link>
+									</li>
+								</ul>
+							</div>
 						</div>
 
-						<div className="store-btns">
-							<img src="/google-play.png" alt="" />
-							<img src="/app-store.png" alt="" />
+						{/* =================================================
+						    SOCIAL
+						================================================= */}
+
+						<div className="footer-social">
+							<h3>Follow Us</h3>
+
+							<div className="footer-heading-line"></div>
+
+							<p>
+								Stay connected with Baunthiyal Path Labs for healthcare updates
+								and services.
+							</p>
+
+							<div className="social-icons">
+								<a
+									href="https://www.facebook.com/baunthiyallabs"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="Facebook"
+								>
+									<FaFacebookF />
+								</a>
+
+								<a
+									href="https://www.youtube.com/@baunthiyalpathlabs"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="YouTube"
+								>
+									<FaYoutube />
+								</a>
+
+								<a
+									href="https://www.instagram.com/baunthiyallabs"
+									target="_blank"
+									rel="noreferrer"
+									aria-label="Instagram"
+								>
+									<FaInstagram />
+								</a>
+							</div>
+
+							<div className="footer-contact">
+								<a href={`tel:${PHONE_NUMBER}`}>
+									<FaPhone />
+
+									<div>
+										<span>Call Us</span>
+										<strong>+91 95570 69086</strong>
+									</div>
+								</a>
+
+								<a
+									href={`https://wa.me/${WHATSAPP_NUMBER}`}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FaWhatsapp />
+
+									<div>
+										<span>WhatsApp</span>
+										<strong>Chat With Us</strong>
+									</div>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				{/* Bottom */}
-				<div className="term">
-					<span>2026 © baunthiyallabs.com</span>
-					<Link to="/terms-conditions">Terms &amp; Conditions</Link>
-					<Link to="/privacy-policy">Privacy Policy</Link>
-					<Link to="/statutory-compliance">Statutory Compliance</Link>
+				{/* =====================================================
+				    COPYRIGHT
+				===================================================== */}
+
+				<div className="footer-bottom">
+					<div className="footer-bottom-inner">
+						<span>© 2026 Baunthiyal Path Labs &amp; Imaging Centre</span>
+
+						<div className="bottom-links">
+							<Link to="/terms-conditions">Terms &amp; Conditions</Link>
+
+							<Link to="/privacy-policy">Privacy Policy</Link>
+
+							<Link to="/statutory-compliance">Statutory Compliance</Link>
+						</div>
+					</div>
 				</div>
 			</footer>
 
-			{/* Floating buttons — desktop only, tabbar replaces these on mobile */}
+			{/* =====================================================
+			    DESKTOP FLOATING BUTTONS
+			===================================================== */}
 
 			<a
 				href={`https://wa.me/${WHATSAPP_NUMBER}`}
 				className="whatsapp-btn desktop-only"
 				target="_blank"
 				rel="noreferrer"
+				aria-label="WhatsApp"
 			>
 				<FaWhatsapp />
 			</a>
@@ -155,14 +274,23 @@ function Footer() {
 				type="button"
 				className="callback-btn desktop-only"
 				onClick={() => setShowCallback(!showCallback)}
+				aria-label="Call"
 			>
 				<FaPhone />
 			</button>
 
+			{/* =====================================================
+			    CALLBACK POPUP
+			===================================================== */}
+
 			{showCallback && (
 				<div className="callback-popup">
 					<div className="callback-header">
-						<h3>Request a Callback</h3>
+						<div>
+							<span>CONTACT US</span>
+							<h3>Request a Callback</h3>
+						</div>
+
 						<button
 							className="close-btn"
 							onClick={() => setShowCallback(false)}
@@ -171,33 +299,59 @@ function Footer() {
 						</button>
 					</div>
 
-					<p>Our health advisor will call you shortly.</p>
+					<p>Our healthcare advisor will contact you shortly.</p>
+
 					<input type="text" placeholder="Your Name" />
-					<input type="tel" placeholder="Enter your 10 digit mobile number" />
-					<button className="submit-btn">Get Callback</button>
+
+					<input type="tel" placeholder="Enter your mobile number" />
+
+					<button className="submit-btn">
+						Get Callback
+						<FaArrowRight />
+					</button>
 				</div>
 			)}
 
-			{/* Mobile sticky tab bar */}
+			{/* =====================================================
+			    MOBILE BOTTOM NAVIGATION
+
+			    CALL | WHATSAPP | CART | MENU
+			===================================================== */}
+
 			<nav className="mobile-tabbar">
 				<a href={`tel:${PHONE_NUMBER}`} className="tab-item">
-					<FaPhone />
+					<div className="tab-icon">
+						<FaPhone />
+					</div>
+
 					<span>Call</span>
 				</a>
 
 				<a
 					href={`https://wa.me/${WHATSAPP_NUMBER}`}
-					className="tab-item"
+					className="tab-item whatsapp-tab"
 					target="_blank"
 					rel="noreferrer"
 				>
-					<FaWhatsapp />
-					<span>Chat</span>
+					<div className="tab-icon">
+						<FaWhatsapp />
+					</div>
+
+					<span>WhatsApp</span>
 				</a>
 
-				<Link to="/reports" className="tab-item">
-					<FaFileLines />
-					<span>Reports</span>
+				<Link to="/cart" className="tab-item cart-tab">
+					<div className="tab-icon">
+						<FaCartShopping />
+
+						{cartCount > 0 && (
+							<span className="cart-badge">
+								{cartCount > 99 ? "99+" : cartCount}
+							</span>
+						)}
+					</div>
+
+					<span>Cart</span>
 				</Link>
 
 				<button
@@ -205,7 +359,10 @@ function Footer() {
 					className="tab-item tab-btn"
 					onClick={openMobileMenu}
 				>
-					<FaBars />
+					<div className="tab-icon">
+						<FaBars />
+					</div>
+
 					<span>Menu</span>
 				</button>
 			</nav>

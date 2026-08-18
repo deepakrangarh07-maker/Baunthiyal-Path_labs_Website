@@ -4,7 +4,13 @@ import Logo from "../../assets/Logo_baunthiyal.svg";
 import NABL from "../../assets/nabl.png";
 import NABH from "../../assets/nabh.png";
 import ISO from "../../assets/ISO_9001-2015.svg";
-
+import {
+	FaBars,
+	FaCartShopping,
+	FaPhone,
+	FaWhatsapp,
+	FaXmark,
+} from "react-icons/fa6";
 function Topbar() {
 	return (
 		<header className="topbar">
@@ -23,7 +29,9 @@ function Topbar() {
 						className="contact-action call-action"
 						aria-label="Call Baunthiyal Path Labs"
 					>
-						<span className="contact-icon">☎</span>
+						<span className="contact-icon">
+							<FaPhone />
+						</span>
 
 						<span className="contact-content">
 							<small>Call Us</small>
@@ -39,7 +47,7 @@ function Topbar() {
 						aria-label="Chat with Baunthiyal Path Labs on WhatsApp"
 					>
 						<span className="contact-icon">
-							<span className="whatsapp-symbol">◉</span>
+							<span className="whatsapp-symbol"><FaWhatsapp/></span>
 						</span>
 
 						<span className="contact-content">

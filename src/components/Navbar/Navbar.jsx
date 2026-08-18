@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import {
@@ -15,12 +15,9 @@ import { useCart } from "../../context/CartContext";
 
 function Navbar() {
 	const { cartCount } = useCart();
-
 	const location = useLocation();
 
 	const [isOpen, setIsOpen] = useState(false);
-
-	const navRef = useRef(null);
 
 	const navigation = [
 		{
@@ -57,9 +54,9 @@ function Navbar() {
 		},
 	];
 
-	/* ===============================
+	/* =====================================================
 	   ACTIVE LINK
-	================================ */
+	===================================================== */
 
 	const isActive = (path) => {
 		if (path === "/") {
@@ -69,40 +66,22 @@ function Navbar() {
 		return location.pathname.startsWith(path);
 	};
 
-	/* ===============================
+	/* =====================================================
 	   CLOSE MENU
-	================================ */
+	===================================================== */
 
 	const closeMenu = () => {
 		setIsOpen(false);
 	};
 
-	/* ===============================
-	   OUTSIDE CLICK
-	================================ */
-
-	useEffect(() => {
-		const handleClickOutside = (event) => {
-			if (isOpen && navRef.current && !navRef.current.contains(event.target)) {
-				setIsOpen(false);
-			}
-		};
-
-		document.addEventListener("mousedown", handleClickOutside);
-
-		return () => {
-			document.removeEventListener("mousedown", handleClickOutside);
-		};
-	}, [isOpen]);
-
-	/* ===============================
-	   ESCAPE
-	================================ */
+	/* =====================================================
+	   ESCAPE KEY
+	===================================================== */
 
 	useEffect(() => {
 		const handleEscape = (event) => {
 			if (event.key === "Escape") {
-				setIsOpen(false);
+				closeMenu();
 			}
 		};
 
@@ -113,62 +92,149 @@ function Navbar() {
 		};
 	}, []);
 
-	/* ===============================
-	   BODY SCROLL
-	================================ */
+	/* =====================================================
+	   BODY SCROLL LOCK
+	===================================================== */
 
 	useEffect(() => {
-		document.body.style.overflow = isOpen ? "hidden" : "";
+		if (isOpen) {
+			document.body.classList.add("mobile-menu-open");
+		} else {
+			document.body.classList.remove("mobile-menu-open");
+		}
 
 		return () => {
-			document.body.style.overflow = "";
+			document.body.classList.remove("mobile-menu-open");
 		};
 	}, [isOpen]);
 
+	/* =====================================================
+	   CLOSE WHEN ROUTE CHANGES
+	===================================================== */
+
+	useEffect(() => {
+		setIsOpen(false);
+	}, [location.pathname]);
+
 	return (
-		<nav className="navbar" ref={navRef}>
-			{/* =========================
-			    MOBILE MENU BUTTON
-			========================= */}
+		<>
+			{/* =================================================
+			    DESKTOP / MOBILE NAVBAR
+			================================================= */}
 
-			<div className="navbar-mobile-top">
-				<div className="navbar-mobile-trusted">
-					<span className="trusted-dot"></span>
-					Trusted Diagnostics
+			<nav className="navbar">
+				<div className="navbar-panel">
+					{/* DESKTOP TRUSTED */}
+
+					<div className="navbar-trusted">
+						<span className="trusted-dot"></span>
+
+						<span>Trusted Diagnostics</span>
+					</div>
+
+					{/* DESKTOP LINKS */}
+
+					<ul className="navbar-links desktop-navbar-links">
+						{navigation.map((item) => (
+							<li
+								key={item.path}
+								className={isActive(item.path) ? "active" : ""}
+							>
+								<Link to={item.path}>
+									<span>{item.name}</span>
+
+									<span className="nav-line"></span>
+								</Link>
+							</li>
+						))}
+					</ul>
+
+					{/* DESKTOP ACTIONS */}
+
+					<div className="navbar-actions desktop-navbar-actions">
+						<a href="tel:+919557069086" className="nav-action call-action">
+							<span className="nav-action-icon">
+								<FaPhone />
+							</span>
+
+							<span className="nav-action-text">
+								<small>CALL US</small>
+								<strong>24 × 7</strong>
+							</span>
+						</a>
+
+						<a
+							href="https://wa.me/919557069086"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="nav-action whatsapp-action"
+						>
+							<span className="nav-action-icon">
+								<FaWhatsapp />
+							</span>
+
+							<span className="nav-action-text">
+								<small>WHATSAPP</small>
+								<strong>Chat Now</strong>
+							</span>
+						</a>
+
+						<Link to="/cart" className="navbar-cart" aria-label="Shopping cart">
+							<FaCartShopping />
+
+							{cartCount > 0 && <span className="cart-count">{cartCount}</span>}
+						</Link>
+					</div>
+
+					{/* =================================================
+					    MOBILE HEADER
+					================================================= */}
+
+					<div className="navbar-mobile-top">
+						<div className="navbar-mobile-trusted">
+							<span className="trusted-dot"></span>
+
+							<span>Trusted Diagnostics</span>
+						</div>
+
+						<button
+							type="button"
+							className="navbar-menu-button"
+							onClick={() => setIsOpen(true)}
+							aria-label="Open navigation menu"
+							aria-expanded={isOpen}
+						>
+							<FaBars />
+						</button>
+					</div>
 				</div>
+			</nav>
 
-				<button
-					type="button"
-					className="navbar-menu-button"
-					onClick={() => setIsOpen(true)}
-					aria-label="Open navigation menu"
-				>
-					<FaBars />
-				</button>
-			</div>
-
-			{/* =========================
-			    OVERLAY
-			========================= */}
+			{/* =====================================================
+			    MOBILE OVERLAY
+			===================================================== */}
 
 			<div
 				className={`navbar-overlay ${isOpen ? "show" : ""}`}
 				onClick={closeMenu}
+				aria-hidden={!isOpen}
 			/>
 
-			{/* =========================
-			    NAV PANEL
-			========================= */}
+			{/* =====================================================
+			    MOBILE DRAWER
+			===================================================== */}
 
-			<div className={`navbar-panel ${isOpen ? "open" : ""}`}>
-				{/* =====================
-				    MOBILE HEADER
-				===================== */}
+			<aside
+				className={`mobile-navbar-drawer ${isOpen ? "open" : ""}`}
+				aria-hidden={!isOpen}
+			>
+				{/* DRAWER HEADER */}
 
 				<div className="mobile-drawer-header">
 					<div className="mobile-trusted">
 						<span className="trusted-dot"></span>
-						Trusted Diagnostics
+
+						<span>Trusted Diagnostics</span>
 					</div>
 
 					<button
@@ -181,40 +247,26 @@ function Navbar() {
 					</button>
 				</div>
 
-				{/* =====================
-				    DESKTOP TRUST BADGE
-				===================== */}
+				{/* DRAWER LINKS */}
 
-				<div className="navbar-trusted">
-					<span className="trusted-dot"></span>
-
-					<span>Trusted Diagnostics</span>
-				</div>
-
-				{/* =====================
-				    NAVIGATION
-				===================== */}
-
-				<ul className="navbar-links">
+				<ul className="navbar-links mobile-navbar-links">
 					{navigation.map((item) => (
 						<li key={item.path} className={isActive(item.path) ? "active" : ""}>
 							<Link to={item.path} onClick={closeMenu}>
 								<span>{item.name}</span>
-
-								<span className="nav-line"></span>
 							</Link>
 						</li>
 					))}
 				</ul>
 
-				{/* =====================
-				    ACTIONS
-				===================== */}
+				{/* DRAWER ACTIONS */}
 
-				<div className="navbar-actions">
-					{/* CALL */}
-
-					<a href="tel:+919557069086" className="nav-action call-action">
+				<div className="navbar-actions mobile-navbar-actions">
+					<a
+						href="tel:+919557069086"
+						className="nav-action call-action"
+						onClick={closeMenu}
+					>
 						<span className="nav-action-icon">
 							<FaPhone />
 						</span>
@@ -225,13 +277,12 @@ function Navbar() {
 						</span>
 					</a>
 
-					{/* WHATSAPP */}
-
 					<a
 						href="https://wa.me/919557069086"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="nav-action whatsapp-action"
+						onClick={closeMenu}
 					>
 						<span className="nav-action-icon">
 							<FaWhatsapp />
@@ -243,8 +294,6 @@ function Navbar() {
 						</span>
 					</a>
 
-					{/* CART */}
-
 					<Link
 						to="/cart"
 						className="navbar-cart"
@@ -253,11 +302,13 @@ function Navbar() {
 					>
 						<FaCartShopping />
 
+						<span>View Cart</span>
+
 						{cartCount > 0 && <span className="cart-count">{cartCount}</span>}
 					</Link>
 				</div>
-			</div>
-		</nav>
+			</aside>
+		</>
 	);
 }
 
