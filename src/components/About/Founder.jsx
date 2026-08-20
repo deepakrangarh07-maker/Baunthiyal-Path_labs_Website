@@ -1,6 +1,6 @@
 import "../../styles/About/Founder.css";
 
-import FounderImage from "../../assets/about/doctor2.jpg";
+import GCbaunthiyal from "../../assets/about/DrGCBaunthiyal.png";
 import AbhishekImage from "../../assets/about/Abhishek.jpg";
 
 import {
@@ -34,7 +34,7 @@ const founders = [
 
 		designation: "Founder & Chairman",
 
-		image: FounderImage,
+		image: GCbaunthiyal,
 
 		icon: <FaUserMd />,
 
