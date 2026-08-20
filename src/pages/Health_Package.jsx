@@ -11,12 +11,11 @@ function HealthPackages() {
 	const categories = [
 		"All",
 		"Full Body",
-		"Women",
-		"Senior Citizen",
+		"Anemia & Iron",
 		"Diabetes",
-		"Heart",
-		"Thyroid",
-		"Nutrition",
+		"ANC & Pregnancy",
+		"Heart & Cardiac",
+		"Arthritis",
 	];
 
 	const [activeCategory, setActiveCategory] = useState("All");
