@@ -1,4 +1,4 @@
-import "../styles/About.css"
+
 import HeroSection from "../components/About/HeroSection";
 import WhoWeAre from "../components/About/WhoWeAre";
 import Founder from "../components/About/Founder";

@@ -26,6 +26,7 @@ lerna-debug.log*
 # ==============================
 # Environment variables
 # ==============================
+git.txt
 .env
 .env.*
 !.env.example

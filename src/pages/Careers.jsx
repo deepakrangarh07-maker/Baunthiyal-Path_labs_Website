@@ -13,6 +13,7 @@ import {
 	FaMicroscope,
 	FaPaperPlane,
 	FaTimes,
+	FaSyncAlt,
 } from "react-icons/fa";
 
 import {
@@ -26,11 +27,27 @@ import "../styles/Career.css";
 import careerHero from "../assets/careers/career-hero.png";
 
 function Career() {
+	const [flippedJobs, setFlippedJobs] = useState({});
+	const [flippedInternships, setFlippedInternships] = useState({});
+
 	const [selectedJob, setSelectedJob] = useState(null);
 	const [selectedInternship, setSelectedInternship] = useState(null);
 
-
 	const adminEmail = "deepakrangarh07@gmail.com";
+
+	const toggleJob = (id) => {
+		setFlippedJobs((prev) => ({
+			...prev,
+			[id]: !prev[id],
+		}));
+	};
+
+	const toggleInternship = (id) => {
+		setFlippedInternships((prev) => ({
+			...prev,
+			[id]: !prev[id],
+		}));
+	};
 
 	const applyForJob = (jobTitle) => {
 		const subject = encodeURIComponent(`Job Application - ${jobTitle}`);
@@ -50,15 +67,13 @@ Regards,
 		window.location.href = `mailto:${adminEmail}?subject=${subject}&body=${body}`;
 	};
 
-	const applyForInternship = (internshipTitle) => {
-		const subject = encodeURIComponent(
-			`Internship Application - ${internshipTitle}`,
-		);
+	const applyForInternship = (title) => {
+		const subject = encodeURIComponent(`Internship Application - ${title}`);
 
 		const body = encodeURIComponent(
 			`Dear Baunthiyal Path Labs Team,
 
-I would like to apply for the ${internshipTitle}.
+I would like to apply for the ${title}.
 
 Please find my resume attached to this email.
 
@@ -73,14 +88,16 @@ Regards,
 	return (
 		<main className="careers-page">
 			{/* =====================================================
-          HERO
-      ===================================================== */}
+			    HERO PANEL
+			===================================================== */}
 
 			<section
 				className="career-hero"
-				style={{ backgroundImage: `url(${careerHero})` }}
+				style={{
+					backgroundImage: `url(${careerHero})`,
+				}}
 			>
-				<div className="career-hero-overlay"></div>
+				<div className="career-hero-overlay" />
 
 				<div className="career-hero-container">
 					<div className="career-hero-content">
@@ -89,100 +106,56 @@ Regards,
 						<h1>
 							Build Your
 							<br />
-							Career.
-							<br />
-							<span>Make a Difference.</span>
+							<span>Career.</span>
 						</h1>
 
 						<p>
-							Join Baunthiyal Path Labs and become part of a team committed to
-							accuracy, innovation and better healthcare.
+							Join Baunthiyal Path Labs and grow your career in modern
+							diagnostic healthcare.
 						</p>
 
 						<a href="#current-openings" className="career-hero-btn">
-							<FaBriefcase />
-							Explore Opportunities
+							Explore Jobs
 							<FaArrowRight />
 						</a>
 					</div>
+
+					<div className="career-hero-side">
+						<div className="hero-stat-card hero-stat-one">
+							<FaBriefcase />
+							<div>
+								<strong>Career</strong>
+								<span>Opportunities</span>
+							</div>
+						</div>
+
+						<div className="hero-stat-card hero-stat-two">
+							<FaGraduationCap />
+							<div>
+								<strong>Internship</strong>
+								<span>Learn & Grow</span>
+							</div>
+						</div>
+
+						<div className="hero-stat-card hero-stat-three">
+							<FaFlask />
+							<div>
+								<strong>Modern</strong>
+								<span>Laboratory</span>
+							</div>
+						</div>
+
+						<div className="hero-dots">
+							<span />
+							<span className="active" />
+						</div>
+					</div>
 				</div>
 			</section>
 
 			{/* =====================================================
-          CURRENT OPENINGS
-      ===================================================== */}
-
-			<section className="current-openings" id="current-openings">
-				<div className="career-section-heading">
-					<span className="section-label">OPPORTUNITIES</span>
-
-					<h2>Current Openings</h2>
-
-					<p>
-						Explore available positions and join our growing diagnostic
-						healthcare team.
-					</p>
-				</div>
-
-				{currentOpenings.length > 0 ? (
-					<div className="openings-list">
-						{currentOpenings.map((job) => (
-							<article className="opening-card" key={job.id}>
-								<div className="opening-main">
-									<div className="opening-icon">
-										<FaBriefcase />
-									</div>
-
-									<div className="opening-content">
-										<span className="opening-department">{job.department}</span>
-
-										<h3>{job.jobTitle}</h3>
-
-										<div className="opening-meta">
-											<span>
-												<FaMapMarkerAlt />
-												{job.location}
-											</span>
-
-											<span>
-												<FaClock />
-												{job.employmentType}
-											</span>
-
-											<span>
-												<FaGraduationCap />
-												{job.qualification}
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div className="opening-actions">
-									<button
-										className="view-job-btn"
-										onClick={() => setSelectedJob(job)}
-									>
-										View Details
-										<FaArrowRight />
-									</button>
-								</div>
-							</article>
-						))}
-					</div>
-				) : (
-					<div className="no-openings">
-						<FaBriefcase />
-
-						<h3>No openings available right now</h3>
-
-						<p>Please check back later for new career opportunities.</p>
-					</div>
-				)}
-			</section>
-
-			{/* =====================================================
-          INTRO
-      ===================================================== */}
+			    INTRO
+			===================================================== */}
 
 			<section className="career-intro">
 				<span className="section-label">GROW WITH US</span>
@@ -199,8 +172,8 @@ Regards,
 			</section>
 
 			{/* =====================================================
-          BENEFITS
-      ===================================================== */}
+			    BENEFITS
+			===================================================== */}
 
 			<section className="career-benefits">
 				<div className="career-benefits-grid">
@@ -219,8 +192,136 @@ Regards,
 			</section>
 
 			{/* =====================================================
-          INTERNSHIPS
-      ===================================================== */}
+			    JOBS
+			===================================================== */}
+
+			<section className="current-openings" id="current-openings">
+				<div className="career-section-heading">
+					<span className="section-label">OPPORTUNITIES</span>
+
+					<h2>Current Openings</h2>
+
+					<p>
+						Explore available career opportunities with our diagnostic
+						healthcare team.
+					</p>
+				</div>
+
+				<div className="career-card-grid">
+					{currentOpenings.map((job) => {
+						const isFlipped = flippedJobs[job.id];
+
+						return (
+							<article
+								key={job.id}
+								className={`career-flip-card ${isFlipped ? "is-flipped" : ""}`}
+								onClick={() => toggleJob(job.id)}
+							>
+								<div className="career-flip-inner">
+									{/* =========================
+									    JOB FRONT
+									========================= */}
+
+									<div className="career-card-face career-front">
+										<div className="card-heading">
+											<div className="card-icon">
+												<FaBriefcase />
+											</div>
+
+											<span>{job.department}</span>
+										</div>
+
+										<h3>{job.jobTitle}</h3>
+
+										<div className="card-meta">
+											<span>
+												<FaMapMarkerAlt />
+												{job.location}
+											</span>
+
+											<span>
+												<FaClock />
+												{job.employmentType}
+											</span>
+
+											<span>
+												<FaGraduationCap />
+												{job.experience}
+											</span>
+										</div>
+
+										<div className="card-bottom">
+											<strong>
+												{job.openings} Opening
+												{job.openings > 1 ? "s" : ""}
+											</strong>
+
+											<span className="tap-text">
+												Tap card
+												<FaSyncAlt />
+											</span>
+										</div>
+									</div>
+
+									{/* =========================
+									    JOB BACK
+									========================= */}
+
+									<div className="career-card-face career-back">
+										<span className="back-title">JOB DETAILS</span>
+
+										<h3>{job.jobTitle}</h3>
+
+										<p className="back-description">{job.description}</p>
+
+										<div className="back-info">
+											<div>
+												<strong>Qualification</strong>
+
+												<span>{job.qualification}</span>
+											</div>
+
+											<div>
+												<strong>Experience</strong>
+
+												<span>{job.experience}</span>
+											</div>
+										</div>
+
+										<div className="skill-list">
+											{job.skills.map((skill, index) => (
+												<span key={index}>{skill}</span>
+											))}
+										</div>
+
+										<div
+											className="back-actions"
+											onClick={(e) => e.stopPropagation()}
+										>
+											<button
+												type="button"
+												onClick={() => applyForJob(job.jobTitle)}
+											>
+												Apply Now
+												<FaPaperPlane />
+											</button>
+
+											<span>
+												<FaSyncAlt />
+												Tap to flip
+											</span>
+										</div>
+									</div>
+								</div>
+							</article>
+						);
+					})}
+				</div>
+			</section>
+
+			{/* =====================================================
+			    INTERNSHIPS
+			===================================================== */}
 
 			<section className="internship-section">
 				<div className="career-section-heading">
@@ -234,46 +335,107 @@ Regards,
 					</p>
 				</div>
 
-				<div className="internship-slider">
-					{internships.map((internship) => (
-						<article className="internship-card" key={internship.id}>
-							<div className="internship-icon">
-								{internship.department === "Pathology" ? (
-									<FaFlask />
-								) : internship.department === "Microbiology" ? (
-									<FaMicroscope />
-								) : (
-									<FaMicroscope />
-								)}
-							</div>
+				<div className="career-card-grid">
+					{internships.map((internship) => {
+						const isFlipped = flippedInternships[internship.id];
 
-							<span className="internship-badge">{internship.type}</span>
-
-							<h3>{internship.title}</h3>
-
-							<p>{internship.description}</p>
-
-							<div className="internship-info">
-								<span>
-									<FaClock />
-									{internship.duration}
-								</span>
-
-								<span>
-									<FaGraduationCap />
-									{internship.qualification}
-								</span>
-							</div>
-
-							<button
-								className="internship-btn"
-								onClick={() => setSelectedInternship(internship)}
+						return (
+							<article
+								key={internship.id}
+								className={`career-flip-card ${isFlipped ? "is-flipped" : ""}`}
+								onClick={() => toggleInternship(internship.id)}
 							>
-								View Internship
-								<FaArrowRight />
-							</button>
-						</article>
-					))}
+								<div className="career-flip-inner">
+									{/* FRONT */}
+
+									<div className="career-card-face career-front">
+										<div className="card-heading">
+											<div className="card-icon">
+												{internship.department === "Pathology" ? (
+													<FaFlask />
+												) : (
+													<FaMicroscope />
+												)}
+											</div>
+
+											<span>{internship.type}</span>
+										</div>
+
+										<h3>{internship.title}</h3>
+
+										<p className="front-description">
+											{internship.description}
+										</p>
+
+										<div className="card-meta">
+											<span>
+												<FaClock />
+												{internship.duration}
+											</span>
+
+											<span>
+												<FaGraduationCap />
+												{internship.qualification}
+											</span>
+										</div>
+
+										<div className="card-bottom">
+											<strong>{internship.department}</strong>
+
+											<span className="tap-text">
+												Tap card
+												<FaSyncAlt />
+											</span>
+										</div>
+									</div>
+
+									{/* BACK */}
+
+									<div className="career-card-face career-back">
+										<span className="back-title">INTERNSHIP DETAILS</span>
+
+										<h3>{internship.title}</h3>
+
+										<p className="back-description">{internship.description}</p>
+
+										<div className="back-info">
+											<div>
+												<strong>Duration</strong>
+
+												<span>{internship.duration}</span>
+											</div>
+
+											<div>
+												<strong>Qualification</strong>
+
+												<span>{internship.qualification}</span>
+											</div>
+										</div>
+
+										<div className="internship-paid">Paid Internship</div>
+
+										<div
+											className="back-actions"
+											onClick={(e) => e.stopPropagation()}
+										>
+											<button
+												type="button"
+												onClick={() => applyForInternship(internship.title)}
+											>
+												Apply Now
+												<FaPaperPlane />
+											</button>
+
+											<span>
+												<FaSyncAlt />
+												Tap to flip
+											</span>
+										</div>
+									</div>
+								</div>
+							</article>
+						);
+					})}
 				</div>
 
 				<p className="internship-note">
@@ -282,8 +444,8 @@ Regards,
 			</section>
 
 			{/* =====================================================
-          EMAIL CTA
-      ===================================================== */}
+			    CTA
+			===================================================== */}
 
 			<section className="career-cta">
 				<div className="career-cta-content">
@@ -297,8 +459,8 @@ Regards,
 						<h2>Send Your Resume</h2>
 
 						<p>
-							Don't see a suitable opening? Send your resume to our
-							administration team for future opportunities.
+							Don't see a suitable opening? Send your resume for future
+							opportunities.
 						</p>
 					</div>
 
@@ -310,18 +472,15 @@ Regards,
 			</section>
 
 			{/* =====================================================
-          JOB MODAL
-      ===================================================== */}
+			    FULL JOB DETAILS MODAL
+			===================================================== */}
 
 			{selectedJob && (
 				<div
 					className="career-modal-overlay"
 					onClick={() => setSelectedJob(null)}
 				>
-					<div
-						className="career-modal"
-						onClick={(event) => event.stopPropagation()}
-					>
+					<div className="career-modal" onClick={(e) => e.stopPropagation()}>
 						<button
 							className="modal-close"
 							onClick={() => setSelectedJob(null)}
@@ -375,37 +534,27 @@ Regards,
 							</div>
 						</div>
 
-						<div className="modal-footer">
-							<span>
-								{selectedJob.openings} opening
-								{selectedJob.openings > 1 ? "s" : ""}
-							</span>
-
-							<button
-								className="modal-apply-btn"
-								onClick={() => applyForJob(selectedJob.jobTitle)}
-							>
-								Apply by Email
-								<FaPaperPlane />
-							</button>
-						</div>
+						<button
+							className="modal-apply-btn"
+							onClick={() => applyForJob(selectedJob.jobTitle)}
+						>
+							Apply by Email
+							<FaPaperPlane />
+						</button>
 					</div>
 				</div>
 			)}
 
 			{/* =====================================================
-          INTERNSHIP MODAL
-      ===================================================== */}
+			    INTERNSHIP MODAL
+			===================================================== */}
 
 			{selectedInternship && (
 				<div
 					className="career-modal-overlay"
 					onClick={() => setSelectedInternship(null)}
 				>
-					<div
-						className="career-modal"
-						onClick={(event) => event.stopPropagation()}
-					>
+					<div className="career-modal" onClick={(e) => e.stopPropagation()}>
 						<button
 							className="modal-close"
 							onClick={() => setSelectedInternship(null)}
@@ -417,43 +566,25 @@ Regards,
 
 						<h2>{selectedInternship.title}</h2>
 
-						<div className="modal-meta">
-							<span>
-								<FaClock />
-								{selectedInternship.duration}
-							</span>
-
-							<span>
-								<FaGraduationCap />
-								{selectedInternship.qualification}
-							</span>
-						</div>
-
 						<div className="modal-section">
 							<h3>Internship Details</h3>
 
 							<p>{selectedInternship.description}</p>
 						</div>
 
-						<div className="internship-payment-note">
-							<FaCheckCircle />
+						<div className="modal-section">
+							<h3>Qualification</h3>
 
-							<div>
-								<strong>Paid Internship</strong>
-
-								<p>Internship charges are payable by the student.</p>
-							</div>
+							<p>{selectedInternship.qualification}</p>
 						</div>
 
-						<div className="modal-footer">
-							<button
-								className="modal-apply-btn"
-								onClick={() => applyForInternship(selectedInternship.title)}
-							>
-								Apply by Email
-								<FaPaperPlane />
-							</button>
-						</div>
+						<button
+							className="modal-apply-btn"
+							onClick={() => applyForInternship(selectedInternship.title)}
+						>
+							Apply by Email
+							<FaPaperPlane />
+						</button>
 					</div>
 				</div>
 			)}

@@ -11,7 +11,7 @@
 import Yogendra from "../assets/about/DrYogendraSingh.jpg";
 import Shavi from "../assets/about/DrShaviNagpal.jpeg";
 import Arjun from "../assets/about/arjun.png";
-import Yashika from "../assets/about/DrMajYashikaBhatia.jpeg";
+import Yashika from "../assets/about/yashikaBhatai.png";
 import Sujay from "../assets/about/DrSujayKumarDas.jpeg";
 
 /* =========================================================

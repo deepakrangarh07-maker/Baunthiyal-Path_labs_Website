@@ -1,23 +1,35 @@
 /* =========================================================
-   PACKAGE MODAL OVERLAY
+   PACKAGE DETAILS MODAL
+   COMPACT • MODERN • RESPONSIVE
 ========================================================= */
 
 .package-modal-overlay {
 	position: fixed;
 	inset: 0;
+
 	z-index: 9999;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	padding: 20px;
+	padding: 12px;
 
-	background: rgba(10, 35, 55, 0.68);
-	backdrop-filter: blur(6px);
+	background: rgba(10, 35, 55, 0.62);
 
-	animation: modalOverlayIn 0.3s ease;
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+
+	animation:
+		modalOverlayIn
+		0.22s
+		ease both;
 }
+
+
+/* =========================================================
+   OVERLAY ANIMATION
+========================================================= */
 
 @keyframes modalOverlayIn {
 	from {
@@ -29,6 +41,7 @@
 	}
 }
 
+
 /* =========================================================
    MODAL
 ========================================================= */
@@ -36,45 +49,59 @@
 .package-modal {
 	position: relative;
 
-	width: min(820px, 100%);
-	max-height: 90vh;
+	width: min(760px, 100%);
+
+	max-height: 88vh;
 
 	overflow-y: auto;
 
-	padding: 30px;
+	padding: 21px;
 
 	background: #ffffff;
 
-	border-radius: 20px;
+	border: 1px solid #dfebf4;
+
+	border-radius: 15px;
 
 	box-shadow:
-		0 30px 80px rgba(5, 45, 75, 0.28),
-		0 8px 25px rgba(0, 0, 0, 0.08);
-
-	animation: modalIn 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+		0 25px 70px rgba(5, 45, 75, 0.24),
+		0 8px 25px rgba(0, 0, 0, 0.07);
 
 	scrollbar-width: thin;
 	scrollbar-color: #b9d8e8 transparent;
+
+	animation:
+		modalIn
+		0.3s
+		cubic-bezier(0.22, 1, 0.36, 1)
+		both;
 }
 
 @keyframes modalIn {
 	from {
 		opacity: 0;
-		transform: translateY(30px) scale(0.96);
+
+		transform:
+			translateY(16px)
+			scale(0.975);
 	}
 
 	to {
 		opacity: 1;
-		transform: translateY(0) scale(1);
+
+		transform:
+			translateY(0)
+			scale(1);
 	}
 }
+
 
 /* =========================================================
    SCROLLBAR
 ========================================================= */
 
 .package-modal::-webkit-scrollbar {
-	width: 5px;
+	width: 4px;
 }
 
 .package-modal::-webkit-scrollbar-track {
@@ -83,46 +110,61 @@
 
 .package-modal::-webkit-scrollbar-thumb {
 	background: #b8d7e7;
+
 	border-radius: 10px;
 }
 
+
 /* =========================================================
-   CLOSE
+   CLOSE BUTTON
 ========================================================= */
 
 .package-close {
 	position: absolute;
-	top: 17px;
-	right: 17px;
 
-	width: 38px;
-	height: 38px;
+	top: 10px;
+	right: 10px;
+
+	width: 31px;
+	height: 31px;
 
 	display: flex;
+
 	align-items: center;
 	justify-content: center;
 
 	border: none;
+
 	border-radius: 50%;
 
 	background: #edf7fc;
+
 	color: #087fc2;
 
-	font-size: 15px;
+	font-size: 12px;
 
 	cursor: pointer;
 
 	transition:
-		background 0.25s ease,
-		color 0.25s ease,
-		transform 0.25s ease;
+		background 0.2s ease,
+		color 0.2s ease,
+		transform 0.2s ease,
+		box-shadow 0.2s ease;
 }
 
 .package-close:hover {
 	background: #087fc2;
+
 	color: #ffffff;
-	transform: rotate(90deg);
+
+	transform:
+		rotate(90deg)
+		scale(1.04);
+
+	box-shadow:
+		0 5px 12px rgba(8, 127, 194, 0.18);
 }
+
 
 /* =========================================================
    PACKAGE LABEL
@@ -130,10 +172,12 @@
 
 .package-label {
 	display: inline-flex;
+
 	align-items: center;
 
-	margin-bottom: 8px;
-	padding: 6px 11px;
+	padding: 5px 9px;
+
+	margin-bottom: 6px;
 
 	border-radius: 20px;
 
@@ -141,12 +185,15 @@
 
 	color: #087fc2;
 
-	font-size: 10px;
+	font-size: 8px;
+
 	font-weight: 800;
 
 	letter-spacing: 0.7px;
+
 	text-transform: uppercase;
 }
+
 
 /* =========================================================
    TITLE
@@ -155,68 +202,124 @@
 .package-modal h2 {
 	margin: 0;
 
-	padding-right: 45px;
+	padding-right: 38px;
 
 	color: #123f68;
 
-	font-size: 27px;
-	font-weight: 800;
+	font-size: 23px;
 
-	line-height: 1.2;
+	font-weight: 850;
+
+	line-height: 1.18;
 }
 
 .package-modal > p {
-	margin: 6px 0 18px;
+	margin: 4px 0 13px;
 
 	color: #8095a8;
 
-	font-size: 13px;
+	font-size: 10px;
+
 	font-weight: 600;
+
+	line-height: 1.5;
 }
 
+
 /* =========================================================
-   PRICE
+   PRICE BOX
 ========================================================= */
 
 .package-price-box {
+	position: relative;
+
 	display: flex;
+
 	align-items: center;
 
-	gap: 12px;
+	gap: 9px;
 
-	margin-bottom: 18px;
-	padding: 14px 16px;
+	margin-bottom: 13px;
 
-	border: 1px solid #d8ebf5;
-	border-radius: 11px;
+	padding: 10px 12px;
 
-	background: #f4faff;
+	border:
+		1px solid #d8ebf5;
+
+	border-radius: 9px;
+
+	background:
+		linear-gradient(
+			135deg,
+			#f3f9ff,
+			#f9fcff
+		);
+
+	overflow: hidden;
+}
+
+.package-price-box::after {
+	content: "";
+
+	position: absolute;
+
+	top: 0;
+	left: -120%;
+
+	width: 55%;
+	height: 100%;
+
+	background:
+		linear-gradient(
+			90deg,
+			transparent,
+			rgba(255, 255, 255, 0.65),
+			transparent
+		);
+
+	transform: skewX(-18deg);
+
+	transition:
+		left 0.7s ease;
+}
+
+.package-modal:hover
+.package-price-box::after {
+	left: 135%;
 }
 
 .package-price-box del {
 	color: #94a6b5;
-	font-size: 13px;
+
+	font-size: 11px;
 }
 
 .package-price-box strong {
 	color: #087fc2;
-	font-size: 25px;
-	font-weight: 800;
+
+	font-size: 22px;
+
+	font-weight: 900;
 }
 
 .package-price-box span {
 	margin-left: auto;
 
-	padding: 5px 9px;
+	padding: 4px 7px;
 
 	border-radius: 6px;
 
 	background: #e4f8ed;
+
 	color: #159657;
 
-	font-size: 10px;
-	font-weight: 700;
+	font-size: 8px;
+
+	font-weight: 800;
+
+	white-space: nowrap;
 }
+
 
 /* =========================================================
    TOP INFORMATION
@@ -224,58 +327,88 @@
 
 .package-top-info {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
 
-	gap: 10px;
+	grid-template-columns:
+		repeat(3, minmax(0, 1fr));
 
-	margin-bottom: 20px;
+	gap: 7px;
+
+	margin-bottom: 14px;
 }
 
 .package-top-info > div {
 	display: flex;
+
 	align-items: center;
-	gap: 8px;
 
-	min-height: 42px;
+	gap: 7px;
 
-	padding: 8px 10px;
+	min-height: 38px;
 
-	border: 1px solid #dfedf4;
-	border-radius: 9px;
+	padding: 7px 9px;
+
+	border:
+		1px solid #dfedf4;
+
+	border-radius: 8px;
 
 	color: #54718b;
 
-	font-size: 11px;
-	font-weight: 600;
+	font-size: 9px;
+
+	font-weight: 650;
+
+	transition:
+		transform 0.2s ease,
+		border-color 0.2s ease,
+		background 0.2s ease,
+		box-shadow 0.2s ease;
+}
+
+.package-top-info > div:hover {
+	transform:
+		translateY(-2px);
+
+	border-color: #c5dfef;
+
+	background: #fbfdff;
+
+	box-shadow:
+		0 6px 14px rgba(18, 63, 117, 0.05);
 }
 
 .package-top-info svg {
 	flex-shrink: 0;
 
 	color: #0788ca;
-	font-size: 13px;
+
+	font-size: 11px;
 }
 
+
 /* =========================================================
-   PARAMETERS SECTION
+   PARAMETERS
 ========================================================= */
 
 .parameter-section {
-	margin-top: 4px;
+	margin-top: 2px;
 
-	padding-top: 17px;
+	padding-top: 13px;
 
-	border-top: 1px solid #dfebf2;
+	border-top:
+		1px solid #dfebf2;
 }
 
 .parameter-section h3 {
-	margin: 0 0 12px;
+	margin: 0 0 9px;
 
 	color: #173f66;
 
-	font-size: 16px;
-	font-weight: 800;
+	font-size: 13px;
+
+	font-weight: 850;
 }
+
 
 /* =========================================================
    PARAMETER GRID
@@ -285,13 +418,16 @@
 .parameter-grid {
 	display: grid;
 
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-columns:
+		repeat(3, minmax(0, 1fr));
 
-	column-gap: 28px;
-	row-gap: 5px;
+	column-gap: 20px;
+
+	row-gap: 2px;
 
 	width: 100%;
 }
+
 
 /* =========================================================
    PARAMETER ITEM
@@ -299,26 +435,28 @@
 
 .parameter-item {
 	display: flex;
+
 	align-items: center;
 
-	gap: 7px;
+	gap: 5px;
 
 	min-width: 0;
 
-	padding: 3px 0;
+	padding: 2px 0;
 
 	color: #425d78;
 
-	font-size: 12px;
+	font-size: 9.5px;
+
 	font-weight: 500;
 
-	line-height: 1.4;
+	line-height: 1.35;
 
 	cursor: default;
 
 	transition:
-		color 0.2s ease,
-		transform 0.2s ease;
+		color 0.18s ease,
+		transform 0.18s ease;
 }
 
 .parameter-item svg {
@@ -326,234 +464,406 @@
 
 	color: #078dca;
 
-	font-size: 11px;
+	font-size: 9px;
 }
 
 .parameter-item:hover {
 	color: #087fc2;
 
-	transform: translateX(2px);
+	transform:
+		translateX(2px);
 }
+
 
 /* =========================================================
    BOOK BUTTON
 ========================================================= */
 
 .whatsapp-book-btn {
+	position: relative;
+
 	width: 100%;
 
-	min-height: 47px;
+	min-height: 41px;
 
-	margin-top: 21px;
+	margin-top: 15px;
 
 	display: flex;
+
 	align-items: center;
+
 	justify-content: center;
 
 	border: none;
-	border-radius: 9px;
 
-	background: #087fc2;
+	border-radius: 8px;
+
+	background:
+		linear-gradient(
+			135deg,
+			#087fc2,
+			#066da8
+		);
 
 	color: #ffffff;
 
-	font-size: 13px;
-	font-weight: 750;
+	font-family: inherit;
+
+	font-size: 10px;
+
+	font-weight: 800;
 
 	cursor: pointer;
 
-	box-shadow: 0 7px 18px rgba(8, 127, 194, 0.18);
+	box-shadow:
+		0 7px 18px rgba(8, 127, 194, 0.18);
+
+	overflow: hidden;
 
 	transition:
-		background 0.25s ease,
-		transform 0.25s ease,
-		box-shadow 0.25s ease;
+		transform 0.22s ease,
+		box-shadow 0.22s ease,
+		filter 0.22s ease;
+}
+
+.whatsapp-book-btn::before {
+	content: "";
+
+	position: absolute;
+
+	top: 0;
+	left: -120%;
+
+	width: 60%;
+	height: 100%;
+
+	background:
+		linear-gradient(
+			90deg,
+			transparent,
+			rgba(255, 255, 255, 0.22),
+			transparent
+		);
+
+	transform: skewX(-18deg);
+
+	transition:
+		left 0.65s ease;
 }
 
 .whatsapp-book-btn:hover {
-	background: #066da8;
+	transform:
+		translateY(-2px);
 
-	transform: translateY(-2px);
+	filter: brightness(1.03);
 
-	box-shadow: 0 11px 25px rgba(8, 127, 194, 0.25);
+	box-shadow:
+		0 10px 23px rgba(8, 127, 194, 0.26);
+}
+
+.whatsapp-book-btn:hover::before {
+	left: 140%;
 }
 
 .whatsapp-book-btn:active {
-	transform: translateY(0);
+	transform:
+		translateY(0);
 }
+
 
 /* =========================================================
    TABLET
 ========================================================= */
 
 @media (max-width: 750px) {
+
 	.package-modal {
 		width: min(680px, 100%);
-		padding: 24px;
+
+		padding: 18px;
+	}
+
+	.package-modal h2 {
+		font-size: 21px;
+	}
+
+	.package-price-box strong {
+		font-size: 20px;
+	}
+
+	.package-top-info {
+		grid-template-columns:
+			repeat(2, minmax(0, 1fr));
 	}
 
 	.parameter-grid {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		grid-template-columns:
+			repeat(2, minmax(0, 1fr));
 
-		column-gap: 25px;
+		column-gap: 16px;
 	}
 }
+
 
 /* =========================================================
    MOBILE
 ========================================================= */
 
 @media (max-width: 550px) {
+
 	.package-modal-overlay {
-		padding: 12px;
+		padding: 8px;
+
+		align-items: flex-end;
 	}
 
 	.package-modal {
 		width: 100%;
-		max-height: 92vh;
 
-		padding: 20px;
+		max-height: 91vh;
 
-		border-radius: 16px;
+		padding: 16px;
+
+		border-radius:
+			15px
+			15px
+			0
+			0;
 	}
 
 	.package-close {
-		width: 34px;
-		height: 34px;
+		top: 9px;
+		right: 9px;
 
-		top: 12px;
-		right: 12px;
+		width: 29px;
+		height: 29px;
 
-		font-size: 13px;
+		font-size: 11px;
 	}
 
 	.package-label {
-		font-size: 9px;
-		padding: 5px 8px;
+		padding: 4px 8px;
+
+		font-size: 7px;
+
+		margin-bottom: 5px;
 	}
 
 	.package-modal h2 {
-		font-size: 20px;
+		font-size: 19px;
+
 		padding-right: 35px;
 	}
 
 	.package-modal > p {
-		font-size: 11px;
-		margin-bottom: 14px;
+		margin: 4px 0 11px;
+
+		font-size: 9px;
 	}
+
 
 	/* PRICE */
 
 	.package-price-box {
-		padding: 11px 12px;
-		gap: 8px;
-	}
-
-	.package-price-box del {
-		font-size: 11px;
-	}
-
-	.package-price-box strong {
-		font-size: 21px;
-	}
-
-	.package-price-box span {
-		font-size: 9px;
-		padding: 4px 6px;
-	}
-
-	/* INFO */
-
-	.package-top-info {
-		grid-template-columns: repeat(2, 1fr);
+		padding: 8px 10px;
 
 		gap: 7px;
 
-		margin-bottom: 17px;
+		margin-bottom: 10px;
+	}
+
+	.package-price-box del {
+		font-size: 9px;
+	}
+
+	.package-price-box strong {
+		font-size: 18px;
+	}
+
+	.package-price-box span {
+		font-size: 7px;
+
+		padding: 4px 5px;
+	}
+
+
+	/* TOP INFO */
+
+	.package-top-info {
+		grid-template-columns:
+			repeat(2, minmax(0, 1fr));
+
+		gap: 6px;
+
+		margin-bottom: 12px;
 	}
 
 	.package-top-info > div {
-		min-height: 37px;
+		min-height: 35px;
 
-		padding: 7px 8px;
+		padding: 6px 7px;
 
-		font-size: 10px;
+		gap: 6px;
+
+		font-size: 8px;
+
+		border-radius: 7px;
 	}
 
 	.package-top-info svg {
-		font-size: 11px;
+		font-size: 10px;
 	}
 
-	/* PARAMETERS */
+
+	/* PARAMETER */
 
 	.parameter-section {
-		padding-top: 14px;
+		padding-top: 11px;
 	}
 
 	.parameter-section h3 {
-		font-size: 14px;
-		margin-bottom: 9px;
+		font-size: 12px;
+
+		margin-bottom: 7px;
 	}
 
-	/*
-	   On mobile use 2 columns too.
-	   This keeps 20–25 parameters compact.
-	*/
-
 	.parameter-grid {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		grid-template-columns:
+			repeat(2, minmax(0, 1fr));
 
-		column-gap: 14px;
-		row-gap: 4px;
+		column-gap: 11px;
+
+		row-gap: 1px;
 	}
 
 	.parameter-item {
-		gap: 5px;
+		gap: 4px;
 
-		padding: 2px 0;
+		padding: 1px 0;
 
-		font-size: 10.5px;
+		font-size: 8px;
 
 		line-height: 1.35;
 	}
 
 	.parameter-item svg {
-		font-size: 9px;
+		font-size: 8px;
 	}
+
 
 	/* BOOK */
 
 	.whatsapp-book-btn {
-		min-height: 43px;
+		min-height: 39px;
 
-		margin-top: 17px;
+		margin-top: 13px;
 
-		font-size: 11px;
+		font-size: 9px;
 	}
 }
+
 
 /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
 @media (max-width: 380px) {
+
 	.package-modal {
-		padding: 17px;
+		padding: 14px;
 	}
 
 	.package-modal h2 {
 		font-size: 18px;
 	}
 
+	.package-price-box strong {
+		font-size: 17px;
+	}
+
+	.package-top-info {
+		gap: 5px;
+	}
+
+	.package-top-info > div {
+		font-size: 7.5px;
+	}
+
 	.parameter-grid {
-		column-gap: 10px;
+		column-gap: 8px;
 	}
 
 	.parameter-item {
-		font-size: 9.5px;
+		font-size: 7.5px;
 	}
 
-	.package-price-box strong {
-		font-size: 19px;
+	.whatsapp-book-btn {
+		min-height: 37px;
+
+		font-size: 8px;
+	}
+}
+
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 330px) {
+
+	.package-modal-overlay {
+		padding: 0;
+	}
+
+	.package-modal {
+		max-height: 93vh;
+
+		padding: 12px;
+
+		border-radius:
+			13px
+			13px
+			0
+			0;
+	}
+
+	.package-modal h2 {
+		font-size: 16px;
+	}
+
+	.package-top-info {
+		grid-template-columns: 1fr;
+	}
+
+	.parameter-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.parameter-item {
+		font-size: 8px;
+	}
+
+	.whatsapp-book-btn {
+		min-height: 35px;
+
+		font-size: 8px;
+	}
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+	.package-modal-overlay,
+	.package-modal,
+	.package-modal *,
+	.package-modal *::before,
+	.package-modal *::after {
+		animation: none !important;
+
+		transition: none !important;
 	}
 }

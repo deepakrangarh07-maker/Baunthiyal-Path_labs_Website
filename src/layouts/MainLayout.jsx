@@ -6,11 +6,11 @@ import Footer from "../components/Footer/Footer";
 
 export default function MainLayout(){
 return (
-	<div className="app-container">
+	<span>
 		<Topbar />
 		<Navbar/>
 		<Outlet />
 		<Footer />
-	</div>
+	</span>
 )
 }

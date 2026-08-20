@@ -1,34 +1,44 @@
-/* =====================================================
-   HEALTH PACKAGES
-===================================================== */
+/* =========================================================
+   HEALTH PACKAGES SECTION
+========================================================= */
 
 .health-packages-section {
 	width: 100%;
-	padding: 80px 20px;
-	background: #f6fbff;
+	padding: 55px 18px;
+
+	background:
+		linear-gradient(
+			180deg,
+			#f6fbff 0%,
+			#f9fcff 100%
+		);
 }
 
 .health-packages-container {
-	width: min(1250px, 100%);
-	margin: auto;
+	width: min(1180px, 100%);
+	margin: 0 auto;
 }
 
-/* =====================================================
-   HEADER
-===================================================== */
+
+/* =========================================================
+   SECTION HEADER
+========================================================= */
 
 .health-packages-header {
-	text-align: center;
 	max-width: 700px;
-	margin: 0 auto 35px;
+
+	margin: 0 auto 28px;
+
+	text-align: center;
 }
 
 .health-packages-tag {
 	display: inline-flex;
-	align-items: center;
-	gap: 8px;
 
-	padding: 8px 15px;
+	align-items: center;
+	justify-content: center;
+
+	padding: 6px 12px;
 
 	border-radius: 30px;
 
@@ -36,19 +46,26 @@
 
 	color: #087bc1;
 
-	font-size: 12px;
+	font-size: 10px;
+
 	font-weight: 800;
+
 	letter-spacing: 0.8px;
+
+	text-transform: uppercase;
 }
 
 .health-packages-header h2 {
-	margin: 15px 0 10px;
-
-	font-size: clamp(30px, 4vw, 44px);
-	line-height: 1.1;
+	margin: 10px 0 7px;
 
 	color: #073b67;
-	font-weight: 800;
+
+	font-size:
+		clamp(27px, 4vw, 40px);
+
+	line-height: 1.1;
+
+	font-weight: 850;
 }
 
 .health-packages-header h2 span {
@@ -56,123 +73,184 @@
 }
 
 .health-packages-header p {
-	margin: 0;
+	max-width: 600px;
+
+	margin: 0 auto;
 
 	color: #71859a;
 
-	font-size: 15px;
-	line-height: 1.7;
+	font-size: 12px;
+
+	line-height: 1.6;
 }
 
-/* =====================================================
+
+/* =========================================================
    CATEGORY FILTER
-===================================================== */
+========================================================= */
 
 .health-category-filter {
 	display: flex;
-	justify-content: center;
+
 	align-items: center;
-	gap: 10px;
+	justify-content: center;
 
 	flex-wrap: wrap;
 
-	margin-bottom: 40px;
+	gap: 7px;
+
+	margin-bottom: 28px;
 }
 
 .health-category-filter button {
+	padding: 8px 13px;
+
 	border: 1px solid #dceaf3;
 
-	background: #ffffff;
+	border-radius: 25px;
+
+	background: #fff;
 
 	color: #45637a;
 
-	padding: 10px 17px;
+	font-size: 10px;
 
-	border-radius: 30px;
-
-	font-size: 13px;
 	font-weight: 700;
 
 	cursor: pointer;
 
 	transition:
-		transform 0.3s ease,
-		background 0.3s ease,
-		color 0.3s ease,
-		box-shadow 0.3s ease;
+		transform 0.25s ease,
+		background 0.25s ease,
+		color 0.25s ease,
+		box-shadow 0.25s ease,
+		border-color 0.25s ease;
 }
 
 .health-category-filter button:hover {
 	transform: translateY(-2px);
 
-	box-shadow: 0 8px 20px rgba(0, 105, 170, 0.1);
+	border-color: #bcd9ed;
+
+	box-shadow:
+		0 6px 15px rgba(0, 105, 170, 0.08);
 }
 
 .health-category-filter button.active {
 	background: #087fc2;
+
 	border-color: #087fc2;
 
-	color: white;
+	color: #fff;
 
-	box-shadow: 0 8px 20px rgba(8, 127, 194, 0.2);
+	box-shadow:
+		0 7px 17px rgba(8, 127, 194, 0.18);
 }
 
-/* =====================================================
+
+/* =========================================================
    GRID
-===================================================== */
+========================================================= */
 
 .health-packages-grid {
 	display: grid;
 
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns:
+		repeat(3, minmax(0, 1fr));
 
-	gap: 24px;
+	gap: 16px;
 }
 
-/* =====================================================
-   CARD
-===================================================== */
+
+/* =========================================================
+   PACKAGE CARD
+========================================================= */
 
 .health-package-card {
 	position: relative;
 
-	background: #ffffff;
+	display: flex;
 
-	border: 1px solid #e1edf5;
+	flex-direction: column;
 
-	border-radius: 18px;
+	min-height: 390px;
 
-	padding: 22px;
+	padding: 18px;
+
+	border: 1px solid #e0ebf4;
+
+	border-radius: 16px;
+
+	background: #fff;
+
+	box-shadow:
+		0 7px 22px rgba(22, 83, 120, 0.06);
 
 	overflow: hidden;
 
-	box-shadow:
-		0 8px 30px rgba(22, 83, 120, 0.06);
+	cursor: pointer;
+
+	opacity: 0;
+
+	transform:
+		translateY(18px)
+		scale(0.98);
+
+	animation:
+		packageCardIn 0.55s ease forwards;
 
 	transition:
-		transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-		box-shadow 0.4s ease,
-		border-color 0.4s ease;
-
-	animation: packageCardEnter 0.6s ease both;
+		transform 0.3s ease,
+		box-shadow 0.3s ease,
+		border-color 0.3s ease;
 }
 
 .health-package-card:hover {
-	transform: translateY(-7px);
+	transform: translateY(-5px);
 
-	border-color: #b8def1;
+	border-color: #b9dced;
 
 	box-shadow:
-		0 20px 45px rgba(15, 93, 137, 0.13);
+		0 17px 35px rgba(15, 93, 137, 0.12);
 }
 
-/* =====================================================
-   ICON
-===================================================== */
+
+/* stagger */
+
+.health-package-card:nth-child(1) {
+	animation-delay: 0.05s;
+}
+
+.health-package-card:nth-child(2) {
+	animation-delay: 0.1s;
+}
+
+.health-package-card:nth-child(3) {
+	animation-delay: 0.15s;
+}
+
+.health-package-card:nth-child(4) {
+	animation-delay: 0.2s;
+}
+
+.health-package-card:nth-child(5) {
+	animation-delay: 0.25s;
+}
+
+.health-package-card:nth-child(6) {
+	animation-delay: 0.3s;
+}
+
+
+/* =========================================================
+   CARD TOP
+========================================================= */
 
 .package-icon {
-	width: 52px;
-	height: 52px;
+	width: 56px;
+	height: 56px;
+
+	margin-bottom: 14px;
 
 	display: flex;
 	align-items: center;
@@ -180,33 +258,56 @@
 
 	border-radius: 15px;
 
-	background: #eaf7ff;
+	background:
+		linear-gradient(
+			145deg,
+			#eaf7ff,
+			#dff2ff
+		);
 
 	color: #087fc2;
 
-	font-size: 22px;
-
-	margin-bottom: 18px;
+	font-size: 23px;
 
 	transition:
 		transform 0.35s ease,
-		background 0.35s ease;
+		background 0.35s ease,
+		box-shadow 0.35s ease;
 }
 
-.health-package-card:hover .package-icon {
-	transform: scale(1.08) rotate(-3deg);
+.health-package-card:hover
+.package-icon {
+	transform:
+		translateY(-2px)
+		scale(1.06)
+		rotate(-3deg);
 
-	background: #dff3ff;
+	background:
+		linear-gradient(
+			145deg,
+			#dff3ff,
+			#d5efff
+		);
+
+	box-shadow:
+		0 9px 20px rgba(8, 127, 194, 0.10);
 }
 
-/* =====================================================
+
+/* =========================================================
    CATEGORY
-===================================================== */
+========================================================= */
 
 .package-category {
-	display: inline-block;
+	display: inline-flex;
 
-	padding: 6px 11px;
+	align-items: center;
+
+	align-self: flex-start;
+
+	padding: 6px 10px;
+
+	margin-bottom: 9px;
 
 	border-radius: 20px;
 
@@ -214,69 +315,94 @@
 
 	color: #087fc2;
 
-	font-size: 10px;
+	font-size: 9px;
 
 	font-weight: 800;
 
+	letter-spacing: 0.5px;
+
 	text-transform: uppercase;
-
-	letter-spacing: 0.6px;
-
-	margin-bottom: 10px;
 }
 
-/* =====================================================
+
+/* =========================================================
    TITLE
-===================================================== */
+========================================================= */
 
 .health-package-card h3 {
 	margin: 0;
 
-	min-height: 48px;
+	min-height: 42px;
 
 	color: #073b67;
 
-	font-size: 18px;
+	font-size: 17px;
 
-	line-height: 1.35;
+	line-height: 1.25;
 
-	font-weight: 800;
+	font-weight: 850;
 }
 
 .package-short-name {
 	display: block;
 
-	margin-top: 6px;
+	margin-top: 5px;
 
 	color: #8294a5;
 
-	font-size: 13px;
+	font-size: 10px;
 }
 
-/* =====================================================
+
+/* =========================================================
+   HOME COLLECTION
+========================================================= */
+
+.package-home-text {
+	margin-top: 14px;
+
+	color: #7d90a4;
+
+	font-size: 12px;
+
+	line-height: 1.4;
+}
+
+
+/* =========================================================
    DIVIDER
-===================================================== */
+========================================================= */
 
 .package-divider {
+	width: 100%;
+
 	height: 1px;
 
-	background: #e8eff4;
+	margin: 14px 0;
 
-	margin: 18px 0;
+	background:
+		linear-gradient(
+			90deg,
+			transparent,
+			#dfe9f0,
+			transparent
+		);
 }
 
-/* =====================================================
+
+/* =========================================================
    META
-===================================================== */
+========================================================= */
 
 .package-meta {
 	display: grid;
 
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns:
+		repeat(2, minmax(0, 1fr));
 
-	gap: 10px;
+	gap: 8px;
 
-	margin-bottom: 18px;
+	margin-bottom: 14px;
 }
 
 .package-meta span {
@@ -284,85 +410,97 @@
 
 	align-items: center;
 
-	gap: 7px;
+	gap: 6px;
 
-	color: #698095;
+	color: #6c8195;
 
-	font-size: 12px;
+	font-size: 10px;
 
 	line-height: 1.4;
 }
 
 .package-meta svg {
-	color: #0786c9;
-
 	flex-shrink: 0;
+
+	color: #087fc2;
+
+	font-size: 11px;
 }
 
-/* =====================================================
+
+/* =========================================================
    PRICE
-===================================================== */
+========================================================= */
 
 .package-price-area {
 	display: flex;
 
-	align-items: flex-end;
-
+	align-items: center;
 	justify-content: space-between;
 
-	gap: 10px;
+	gap: 8px;
 
-	margin-bottom: 18px;
+	margin-bottom: 14px;
 }
 
-.package-price-area div {
+.package-price-area > div {
 	display: flex;
 
-	align-items: center;
+	align-items: baseline;
 
-	gap: 8px;
+	flex-wrap: wrap;
+
+	gap: 6px;
 }
 
 .package-price-area del {
 	color: #9aaab8;
 
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .package-price-area strong {
 	color: #087fc2;
 
-	font-size: 24px;
+	font-size: 25px;
 
 	font-weight: 900;
+
+	line-height: 1;
 }
 
 .package-saving {
-	padding: 5px 8px;
+	flex-shrink: 0;
 
-	border-radius: 6px;
+	padding: 6px 8px;
+
+	border-radius: 7px;
 
 	background: #e7f8ee;
 
 	color: #14944f;
 
-	font-size: 10px;
+	font-size: 9px;
 
 	font-weight: 800;
 
 	white-space: nowrap;
 }
 
-/* =====================================================
-   BUTTONS
-===================================================== */
+
+/* =========================================================
+   CARD BUTTONS
+========================================================= */
 
 .package-card-buttons {
 	display: grid;
 
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns:
+		repeat(2, minmax(0, 1fr));
 
-	gap: 9px;
+	gap: 7px;
+
+	margin-top: auto;
 }
 
 .package-details-btn,
@@ -372,28 +510,32 @@
 	align-items: center;
 	justify-content: center;
 
-	gap: 7px;
+	gap: 6px;
 
-	min-height: 42px;
+	min-height: 39px;
 
-	border-radius: 9px;
+	padding: 0 10px;
 
-	font-size: 12px;
+	border-radius: 8px;
+
+	font-family: inherit;
+
+	font-size: 10px;
 
 	font-weight: 800;
 
 	cursor: pointer;
 
 	transition:
-		transform 0.3s ease,
-		box-shadow 0.3s ease,
-		background 0.3s ease;
+		transform 0.25s ease,
+		box-shadow 0.25s ease,
+		background 0.25s ease;
 }
 
 .package-details-btn {
-	background: white;
-
 	border: 1px solid #087fc2;
+
+	background: #fff;
 
 	color: #087fc2;
 }
@@ -403,94 +545,201 @@
 
 	background: #087fc2;
 
-	color: white;
+	color: #fff;
+
+	box-shadow:
+		0 6px 15px rgba(8, 127, 194, 0.14);
 }
 
 .package-details-btn:hover,
 .package-book-btn:hover {
 	transform: translateY(-2px);
 
-	box-shadow: 0 8px 18px rgba(8, 127, 194, 0.18);
+	box-shadow:
+		0 8px 17px rgba(8, 127, 194, 0.16);
+}
+
+.package-book-btn:hover {
+	background: #076fa9;
 }
 
 .package-details-btn svg {
-	transition: transform 0.3s ease;
+	transition:
+		transform 0.25s ease;
 }
 
 .package-details-btn:hover svg {
 	transform: translateX(4px);
 }
 
-/* =====================================================
-   HOME COLLECTION
-===================================================== */
+
+/* =========================================================
+   HOME COLLECTION AVAILABLE
+========================================================= */
 
 .package-home {
 	display: flex;
 
 	align-items: center;
+
 	justify-content: center;
 
 	gap: 6px;
 
-	margin-top: 15px;
+	margin-top: 12px;
 
-	color: #15945a;
+	color: #14945a;
 
-	font-size: 11px;
+	font-size: 10px;
 
-	font-weight: 700;
+	font-weight: 750;
 }
 
 .package-home svg {
-	font-size: 12px;
+	color: #14945a;
+
+	font-size: 11px;
 }
 
-/* =====================================================
-   ANIMATION
-===================================================== */
 
-@keyframes packageCardEnter {
+/* =========================================================
+   CARD GLOW
+========================================================= */
+
+.health-package-card::before {
+	content: "";
+
+	position: absolute;
+
+	width: 120px;
+	height: 120px;
+
+	right: -55px;
+	bottom: -65px;
+
+	border-radius: 50%;
+
+	background:
+		radial-gradient(
+			circle,
+			rgba(38, 190, 236, 0.13),
+			transparent 70%
+		);
+
+	opacity: 0;
+
+	transition:
+		opacity 0.35s ease,
+		transform 0.35s ease;
+
+	pointer-events: none;
+}
+
+.health-package-card:hover::before {
+	opacity: 1;
+
+	transform: scale(1.15);
+}
+
+
+/* =========================================================
+   CARD HINT
+========================================================= */
+
+.package-card-hint {
+	display: block;
+
+	margin-top: 7px;
+
+	text-align: center;
+
+	color: #91a2b2;
+
+	font-size: 8px;
+
+	opacity: 0;
+
+	transform:
+		translateY(4px);
+
+	transition:
+		opacity 0.25s ease,
+		transform 0.25s ease;
+}
+
+.health-package-card:hover
+.package-card-hint {
+	opacity: 1;
+
+	transform:
+		translateY(0);
+}
+
+
+/* =========================================================
+   ANIMATION
+========================================================= */
+
+@keyframes packageCardIn {
 	from {
 		opacity: 0;
-		transform: translateY(25px) scale(0.97);
+
+		transform:
+			translateY(18px)
+			scale(0.97);
 	}
 
 	to {
 		opacity: 1;
-		transform: translateY(0) scale(1);
+
+		transform:
+			translateY(0)
+			scale(1);
 	}
 }
 
-/* =====================================================
+
+/* =========================================================
    TABLET
-===================================================== */
+========================================================= */
 
 @media (max-width: 1000px) {
+
+	.health-packages-section {
+		padding: 45px 16px;
+	}
+
 	.health-packages-grid {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns:
+			repeat(2, minmax(0, 1fr));
+	}
+
+	.health-package-card {
+		min-height: 380px;
 	}
 }
 
-/* =====================================================
+
+/* =========================================================
    MOBILE
-===================================================== */
+========================================================= */
 
 @media (max-width: 650px) {
+
 	.health-packages-section {
-		padding: 55px 15px;
+		padding: 40px 13px;
 	}
 
 	.health-packages-header {
-		margin-bottom: 25px;
+		margin-bottom: 22px;
 	}
 
 	.health-packages-header h2 {
-		font-size: 30px;
+		font-size: 28px;
 	}
 
 	.health-packages-header p {
-		font-size: 13px;
+		font-size: 11px;
 	}
 
 	.health-category-filter {
@@ -500,7 +749,9 @@
 
 		overflow-x: auto;
 
-		padding-bottom: 8px;
+		padding-bottom: 5px;
+
+		margin-bottom: 20px;
 
 		scrollbar-width: none;
 	}
@@ -512,147 +763,202 @@
 	.health-category-filter button {
 		flex-shrink: 0;
 
-		padding: 9px 14px;
+		padding: 7px 11px;
+
+		font-size: 9px;
 	}
 
 	.health-packages-grid {
 		grid-template-columns: 1fr;
 
-		gap: 18px;
+		gap: 11px;
 	}
 
 	.health-package-card {
-		padding: 19px;
+		min-height: 365px;
 
-		border-radius: 16px;
+		padding: 16px;
+
+		border-radius: 14px;
+	}
+
+	.package-icon {
+		width: 50px;
+		height: 50px;
+
+		margin-bottom: 12px;
+
+		border-radius: 13px;
+
+		font-size: 21px;
+	}
+
+	.package-category {
+		padding: 5px 9px;
+
+		margin-bottom: 8px;
+
+		font-size: 8px;
 	}
 
 	.health-package-card h3 {
-		font-size: 17px;
+		font-size: 16px;
+
+		min-height: auto;
+	}
+
+	.package-short-name {
+		font-size: 9px;
+	}
+
+	.package-home-text {
+		margin-top: 12px;
+
+		font-size: 11px;
+	}
+
+	.package-divider {
+		margin: 12px 0;
 	}
 
 	.package-meta {
-		grid-template-columns: 1fr 1fr;
+		gap: 7px;
+
+		margin-bottom: 12px;
 	}
 
-	.package-price-area strong {
-		font-size: 22px;
-	}
-}
-
-/* =====================================================
-   SMALL MOBILE
-===================================================== */
-
-@media (max-width: 380px) {
-	.package-card-buttons {
-		grid-template-columns: 1fr;
-	}
-
-	.package-meta {
-		grid-template-columns: 1fr;
+	.package-meta span {
+		font-size: 9px;
 	}
 
 	.package-price-area {
-		align-items: flex-start;
-
-		flex-direction: column;
+		margin-bottom: 12px;
 	}
-}
 
-/* =====================================================
-   PACKAGE CARD
-===================================================== */
+	.package-price-area del {
+		font-size: 10px;
+	}
 
-.health-package-card {
-	position: relative;
+	.package-price-area strong {
+		font-size: 23px;
+	}
 
-	cursor: pointer;
+	.package-saving {
+		padding: 5px 7px;
 
-	transition:
-		transform 0.25s ease,
-		box-shadow 0.25s ease,
-		border-color 0.25s ease;
-}
+		font-size: 8px;
+	}
 
-/* Hover */
+	.package-details-btn,
+	.package-book-btn {
+		min-height: 38px;
 
-.health-package-card:hover {
-	transform: translateY(-5px);
+		font-size: 9px;
+	}
 
-	box-shadow:
-		0 18px 40px rgba(0, 90, 150, 0.12);
+	.package-home {
+		margin-top: 9px;
 
-	border-color: #b8ddf2;
-}
-
-/* Keyboard accessibility */
-
-.health-package-card:focus-visible {
-	outline: 3px solid rgba(0, 137, 200, 0.25);
-	outline-offset: 3px;
-}
-
-
-/* =====================================================
-   BUTTONS
-===================================================== */
-
-.package-details-btn,
-.package-book-btn {
-	position: relative;
-	z-index: 2;
-}
-
-
-/* =====================================================
-   CARD HINT
-===================================================== */
-
-.package-card-hint {
-	display: block;
-
-	margin-top: 10px;
-
-	text-align: center;
-
-	font-size: 11px;
-
-	font-weight: 500;
-
-	color: #8aa0b5;
-
-	opacity: 0;
-
-	transform: translateY(3px);
-
-	transition:
-		opacity 0.2s ease,
-		transform 0.2s ease;
-}
-
-.health-package-card:hover .package-card-hint {
-	opacity: 1;
-	transform: translateY(0);
-}
-
-
-/* =====================================================
-   MOBILE
-===================================================== */
-
-@media (max-width: 650px) {
-
-	.health-package-card {
-		cursor: pointer;
+		font-size: 9px;
 	}
 
 	.package-card-hint {
 		opacity: 1;
+
 		transform: none;
 
-		font-size: 10px;
+		font-size: 7px;
+	}
+}
 
-		margin-top: 8px;
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 390px) {
+
+	.health-packages-section {
+		padding: 32px 10px;
+	}
+
+	.health-package-card {
+		padding: 14px;
+
+		min-height: 350px;
+	}
+
+	.package-icon {
+		width: 46px;
+		height: 46px;
+
+		font-size: 19px;
+	}
+
+	.health-package-card h3 {
+		font-size: 15px;
+	}
+
+	.package-meta span {
+		font-size: 8px;
+	}
+
+	.package-price-area strong {
+		font-size: 21px;
+	}
+
+	.package-card-buttons {
+		gap: 6px;
+	}
+
+	.package-details-btn,
+	.package-book-btn {
+		min-height: 36px;
+
+		font-size: 8px;
+	}
+}
+
+
+/* =========================================================
+   VERY SMALL SCREEN
+========================================================= */
+
+@media (max-width: 340px) {
+
+	.health-package-card {
+		min-height: 340px;
+
+		padding: 13px;
+	}
+
+	.package-price-area {
+		flex-direction: column;
+
+		align-items: flex-start;
+
+		gap: 7px;
+	}
+
+	.package-saving {
+		align-self: flex-start;
+	}
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+	.health-package-card,
+	.package-icon,
+	.package-details-btn,
+	.package-book-btn,
+	.package-card-hint {
+		animation: none !important;
+
+		transition: none !important;
 	}
 }
