@@ -11,6 +11,7 @@ import {
 
 import "./Navbar.css";
 
+
 import { useCart } from "../../context/CartContext";
 
 function Navbar() {
@@ -79,16 +80,14 @@ function Navbar() {
 	===================================================== */
 
 	useEffect(() => {
-		const handleEscape = (event) => {
-			if (event.key === "Escape") {
-				closeMenu();
-			}
+		const handleOpenMobileNav = () => {
+			setIsOpen(true);
 		};
 
-		document.addEventListener("keydown", handleEscape);
+		window.addEventListener("open-mobile-nav", handleOpenMobileNav);
 
 		return () => {
-			document.removeEventListener("keydown", handleEscape);
+			window.removeEventListener("open-mobile-nav", handleOpenMobileNav);
 		};
 	}, []);
 
