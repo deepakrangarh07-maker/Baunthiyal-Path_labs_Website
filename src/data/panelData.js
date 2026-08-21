@@ -64,9 +64,7 @@ export const panelData = [
 		icon: FaBuilding,
 		list: [
 			"CGHS Empanelment",
-			"Pathology Services",
-			"Ultrasound Services",
-			"Trusted Diagnostic Care",
+			"CAPF Empanelment",
 		],
 	},
 
@@ -89,7 +87,7 @@ export const panelData = [
 		desc: "Reliable diagnostic support for hospitals.",
 		icon: FaHospital,
 		list: [
-			"Pathology Services",
+			"Dwarika Clinics",
 			"Ultrasound Services",
 			"Sample Collection",
 			"Fast Reporting",
